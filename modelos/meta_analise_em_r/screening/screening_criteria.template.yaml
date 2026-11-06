@@ -1,0 +1,56 @@
+contract_version: 2
+project_id: meta_analise_modelo
+name: Criterios Canonicos de Triagem Triplo-Cego Nivel Rayyan (Template)
+framework: PRISMA 2020 / PRISMA-NMA / Cochrane Handbook v6.4
+screening_architecture:
+  reviewer_1:
+    role: Revisor Clinico Independente (PICO e Aplicabilidade Clinica)
+    focus: Populacao clinica alvo, intervencoes ativas e comparadores clinicos
+  reviewer_2:
+    role: Revisor Metodologico Independente (Desenho de Estudo e Risco de Vies)
+    focus: Classificacao do desenho (RCT vs. PSM vs. Cohort) e filtros metodologicos (modelos animais, revisoes, protocolos, series de braco unico)
+  reviewer_3:
+    role: Arbitro Senior de Consenso / Desempate (Investigador Principal)
+    focus: Adjudicacao formal de discrepancias entre Revisor 1 e 2 com justificativa auditavel
+
+inclusion_criteria:
+  population:
+    code: INC_P_POPULATION
+    description: Definir populacao clinica humana segundo criterios de elegibilidade do protocolo.yaml.
+  interventions:
+    code: INC_I_INTERVENTIONS
+    description: Definir intervencoes ativas de interesse.
+  comparators:
+    code: INC_C_COMPARATORS
+    description: Definir bracos comparadores (controle padrao, placebo ou comparador ativo).
+  outcomes:
+    code: INC_O_OUTCOMES
+    description: Desfechos primarios e secundarios com dados 2x2 ou continuos extraiveis.
+  study_designs:
+    tier_1:
+      code: TIER_1_RCT
+      name: Ensaio Clinico Randomizado Controlado (RCT)
+    tier_2:
+      code: TIER_2_PSM_COHORT
+      name: Coorte Comparativa com Pareamento por Escore de Propensao (PSM)
+    tier_3:
+      code: TIER_3_COMPARATIVE_COHORT
+      name: Coorte Comparativa com Controle Concomitante
+
+exclusion_criteria:
+  taxonomy:
+    - code: EXCL_ANIMAL_PRECLINICAL
+      label: Modelo Animal / Pré-Clínico
+      description: Estudos puramente laboratoriais em animais ou in vitro sem pacientes humanos.
+    - code: EXCL_NARRATIVE_REVIEW
+      label: Revisão / Editorial / Comentário
+      description: Revisões narrativas, sistemáticas, meta-análises secundárias, editoriais ou resumos.
+    - code: EXCL_STUDY_PROTOCOL
+      label: Protocolo de Estudo Sem Desfechos
+      description: Artigos de desenho ou protocolo de ensaio sem dados clínicos publicados.
+    - code: EXCL_SINGLE_ARM
+      label: Braço Único Sem Comparador
+      description: Séries de casos, relatos isolados ou estudos piloto sem grupo comparador.
+    - code: EXCL_NON_COMPARATIVE_OBSERVATIONAL
+      label: Observacional Não Comparativo / Biomarcador / Inquérito
+      description: Inquéritos (surveys), perfis laboratoriais ou epidemiologia descritiva sem intervenção comparativa.

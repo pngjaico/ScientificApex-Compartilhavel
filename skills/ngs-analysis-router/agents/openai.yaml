@@ -1,0 +1,4 @@
+interface:
+  display_name: "NGS Analysis Router"
+  short_description: "Roteia FASTQ/BAM/VCF e omicas."
+  default_prompt: "Use $ngs-analysis-router to route sequencing inputs to the right Article Machine and NGS plugin workflow."

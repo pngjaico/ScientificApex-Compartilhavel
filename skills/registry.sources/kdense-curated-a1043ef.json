@@ -1,0 +1,1641 @@
+{
+  "schema_version": 2,
+  "provider": "K-Dense AI",
+  "origin": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "observed_origin_main": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "license": "MIT",
+  "license_file": "LICENSE.md",
+  "license_sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+  "skills": {
+    "research-lookup": {
+      "copied": [
+        "references/api-contracts.md"
+      ],
+      "overwritten": [
+        "README.md",
+        "SKILL.md",
+        "scripts/manuscript_packet.py",
+        "scripts/research_lookup.py"
+      ],
+      "excluded": [],
+      "quarantined": [],
+      "files": {
+        "README.md": {
+          "upstream_sha256": "d333b160cd89ef3260ce67d9310dd74eddf8eaf389a08ccf747515189b787e22",
+          "previous_local_sha256": "1ad4cebdce8b12afff8a082705804130c2c8ca5db07ce65b5a9eed1106ed2d6e",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/research-lookup/README.md",
+          "backup_sha256": "1ad4cebdce8b12afff8a082705804130c2c8ca5db07ce65b5a9eed1106ed2d6e"
+        },
+        "SKILL.md": {
+          "upstream_sha256": "61119512c1558198fd4a10d6b53b36dd0bdc985a3acc02a27f7920a4e1b1a116",
+          "previous_local_sha256": "2d57ddba36a7e00ce70dd1e23d2532d9f907a8e0b23be2becf2b67cce88b3d7b",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/research-lookup/SKILL.md",
+          "backup_sha256": "2d57ddba36a7e00ce70dd1e23d2532d9f907a8e0b23be2becf2b67cce88b3d7b"
+        },
+        "references/api-contracts.md": {
+          "upstream_sha256": "a42e6a72c45ef94ea52fb7d9598e052b22fea7f84e4956c06584338e985a79c5"
+        },
+        "scripts/manuscript_packet.py": {
+          "upstream_sha256": "90b95ef75d47026c3c8fa35c47c9e15f4df6d515944d2241b65e1fed7de5ce42",
+          "previous_local_sha256": "bb9d9d33878fe2ca41ce92b629e76123439ad6d27488e662d4f3e1de394401ed",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/research-lookup/scripts/manuscript_packet.py",
+          "backup_sha256": "bb9d9d33878fe2ca41ce92b629e76123439ad6d27488e662d4f3e1de394401ed"
+        },
+        "scripts/research_lookup.py": {
+          "upstream_sha256": "68816a427ee7021bb1c45d85915b0a64e5432ae32a89a2c9af5b6dc0cfa08c6a",
+          "previous_local_sha256": "a3bb903cba4ad0679af9a214c49d81e54f9c38a08b0176a086f3508aba950c76",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/research-lookup/scripts/research_lookup.py",
+          "backup_sha256": "a3bb903cba4ad0679af9a214c49d81e54f9c38a08b0176a086f3508aba950c76"
+        }
+      },
+      "removed": [],
+      "retained_local": [
+        {
+          "path": "examples.py",
+          "sha256": "cce0a4a33b02d8e0bfe59ca0122822f07cf364a970ba98d30068546ce1eb12f3",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "lookup.py",
+          "sha256": "596a1bb370e76aace8580a3bacc383e5692963398cb99172c1c78cc2107423e2",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "research_lookup.py",
+          "sha256": "efb2298ef8718d2b8aa5d4f523b75f667860c167bbc4c0ab88f9ca06c4abb782",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "scripts/generate_schematic.py",
+          "sha256": "a970c5330966745aa935dc30e29cc641719152699a667b6b43f2ff27eb52af5a",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "scripts/generate_schematic_ai.py",
+          "sha256": "0c6e36d7bfbd2fb4b33ca04cf23d52146d492cb3ee16cfcfb2c4eba179233d11",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        }
+      ]
+    },
+    "database-lookup": {
+      "copied": [
+        "references/database_selection_guide.md",
+        "references/myvariant.md",
+        "references/regulomedb.md"
+      ],
+      "overwritten": [
+        "SKILL.md",
+        "references/addgene.md",
+        "references/alphafold.md",
+        "references/alphavantage.md",
+        "references/bea.md",
+        "references/bindingdb.md",
+        "references/biogrid.md",
+        "references/bls.md",
+        "references/brenda.md",
+        "references/cbioportal.md",
+        "references/census.md",
+        "references/chebi.md",
+        "references/chembl.md",
+        "references/clinicaltrials.md",
+        "references/clinpgx.md",
+        "references/clinvar.md",
+        "references/cod.md",
+        "references/cosmic.md",
+        "references/dailymed.md",
+        "references/datacommons.md",
+        "references/dbsnp.md",
+        "references/disgenet.md",
+        "references/drugbank.md",
+        "references/ecb.md",
+        "references/emdb.md",
+        "references/ena.md",
+        "references/encode.md",
+        "references/ensembl.md",
+        "references/epa.md",
+        "references/eurostat.md",
+        "references/fda.md",
+        "references/federal-reserve.md",
+        "references/fred.md",
+        "references/gene-ontology.md",
+        "references/geo.md",
+        "references/gnomad.md",
+        "references/gtex.md",
+        "references/gwas-catalog.md",
+        "references/hca.md",
+        "references/hpo.md",
+        "references/human-protein-atlas.md",
+        "references/interpro.md",
+        "references/jaspar.md",
+        "references/kegg.md",
+        "references/lincs-l1000.md",
+        "references/materials-project.md",
+        "references/metabolomics-workbench.md",
+        "references/monarch.md",
+        "references/mousemine.md",
+        "references/nasa-exoplanet-archive.md",
+        "references/nasa.md",
+        "references/ncbi-gene.md",
+        "references/ncbi-protein.md",
+        "references/ncbi-taxonomy.md",
+        "references/nist.md",
+        "references/noaa.md",
+        "references/omim.md",
+        "references/opentargets.md",
+        "references/openweathermap.md",
+        "references/pdb.md",
+        "references/pride.md",
+        "references/pubchem.md",
+        "references/quickgo.md",
+        "references/reactome.md",
+        "references/retrieval-contract.md",
+        "references/rummageo.md",
+        "references/sdss.md",
+        "references/sec-edgar.md",
+        "references/simbad.md",
+        "references/sra.md",
+        "references/string.md",
+        "references/tcga-gdc.md",
+        "references/treasury.md",
+        "references/ucsc-genome.md",
+        "references/uniprot.md",
+        "references/usgs.md",
+        "references/uspto.md",
+        "references/who.md",
+        "references/worldbank.md",
+        "references/zinc.md"
+      ],
+      "excluded": [],
+      "quarantined": [],
+      "files": {
+        "SKILL.md": {
+          "upstream_sha256": "a643e8621b1eaa38c89a17f678a33aefc732dca13da42e530993f06c6cd7bb4e",
+          "previous_local_sha256": "e445a9094413d942b3111652f19de8a78806af2ce7553ddec1d0bb61801986df",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/SKILL.md",
+          "backup_sha256": "e445a9094413d942b3111652f19de8a78806af2ce7553ddec1d0bb61801986df"
+        },
+        "references/addgene.md": {
+          "upstream_sha256": "806deda97c963a7711b7a1fdb678cebd01a2c450545dd75f6270217add745165",
+          "previous_local_sha256": "cfe078d499be821087a0c45b9c8a64429a8d0cac93031b7ddc2b86cbf69eb672",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/addgene.md",
+          "backup_sha256": "cfe078d499be821087a0c45b9c8a64429a8d0cac93031b7ddc2b86cbf69eb672"
+        },
+        "references/alphafold.md": {
+          "upstream_sha256": "2d50537279c3b22b76c4f5f501ac447490002892fd6702b96f0dd4d1ddb09553",
+          "previous_local_sha256": "3d5e3565423324d3e1425bdc81791d9395edfa4ad5d375df4c5e89b3829f81c1",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/alphafold.md",
+          "backup_sha256": "3d5e3565423324d3e1425bdc81791d9395edfa4ad5d375df4c5e89b3829f81c1"
+        },
+        "references/alphavantage.md": {
+          "upstream_sha256": "1889d0e445231ace9773e91859cc8d156e0c24a90e591dd34bf8ca3347f55c63",
+          "previous_local_sha256": "7cc3442d8625d095aea97e9129e31691f425308371cecd66276c5aa4e649844b",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/alphavantage.md",
+          "backup_sha256": "7cc3442d8625d095aea97e9129e31691f425308371cecd66276c5aa4e649844b"
+        },
+        "references/bea.md": {
+          "upstream_sha256": "f20d5bd7ed04c4a2762da7aa9cb907c0237ccdae55c6fcec3c040473dacf6c8c",
+          "previous_local_sha256": "7612825caf6bfbae530bfb464cccf70f3ef86b8edeb236cfacdc041cdfed08e1",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/bea.md",
+          "backup_sha256": "7612825caf6bfbae530bfb464cccf70f3ef86b8edeb236cfacdc041cdfed08e1"
+        },
+        "references/bindingdb.md": {
+          "upstream_sha256": "f8a086f878a772d3b6fc5460863c35bd26a38921085b60519a460b9c09291d6d",
+          "previous_local_sha256": "1b927536d2d7ac6c1dfa5a374cdf92815556f2e2c74f1dd6767528162187700f",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/bindingdb.md",
+          "backup_sha256": "1b927536d2d7ac6c1dfa5a374cdf92815556f2e2c74f1dd6767528162187700f"
+        },
+        "references/biogrid.md": {
+          "upstream_sha256": "2cd2d3435f015225357d7620700b16dc92759db3a5dce5f48e12e8e12a630135",
+          "previous_local_sha256": "dbcb9d55c06619f71854c924331ce4fe5695a64318b70a308b0bddc9414db4e9",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/biogrid.md",
+          "backup_sha256": "dbcb9d55c06619f71854c924331ce4fe5695a64318b70a308b0bddc9414db4e9"
+        },
+        "references/bls.md": {
+          "upstream_sha256": "c78ef3900087cd9cff74ceaf07c244a261091d99168d7f1dbb72526be1101853",
+          "previous_local_sha256": "e26170b2f7735c2b31aa1f1322be58d07a64ba7272f7774634c823aa309f877f",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/bls.md",
+          "backup_sha256": "e26170b2f7735c2b31aa1f1322be58d07a64ba7272f7774634c823aa309f877f"
+        },
+        "references/brenda.md": {
+          "upstream_sha256": "458f3256d4009ab5b5af017e67dc900870dc67a535d3406a2bb1ac1559013866",
+          "previous_local_sha256": "48a2e350cfe147341b8834a3730db11aaa8421d68807fe9aa741546586fbe745",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/brenda.md",
+          "backup_sha256": "48a2e350cfe147341b8834a3730db11aaa8421d68807fe9aa741546586fbe745"
+        },
+        "references/cbioportal.md": {
+          "upstream_sha256": "d2013e4c3d3ae1a93d989621bfc992312f4838e27d650dea549a8e0e16682006",
+          "previous_local_sha256": "51afc762c8062a46f4af36c00643eb023ba51982a75e0371b87f893865dbb73c",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/cbioportal.md",
+          "backup_sha256": "51afc762c8062a46f4af36c00643eb023ba51982a75e0371b87f893865dbb73c"
+        },
+        "references/census.md": {
+          "upstream_sha256": "ec5ab60e94dd3ff4594f8c13e02193662460329a793c2db1ef027fd7dec0cccd",
+          "previous_local_sha256": "fbeed1de58eb4ab5fe25e2ad3c7e959c7ad728f48e6435fb59f222353fb8b409",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/census.md",
+          "backup_sha256": "fbeed1de58eb4ab5fe25e2ad3c7e959c7ad728f48e6435fb59f222353fb8b409"
+        },
+        "references/chebi.md": {
+          "upstream_sha256": "c0906dfe94f5962027b25f46acf75c134af7fc5a22ad97a17f6288fcef15631e",
+          "previous_local_sha256": "98bae452a1c61dad3c575c63af81b4e8976439a4bce54931ef2b46191c8a48a2",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/chebi.md",
+          "backup_sha256": "98bae452a1c61dad3c575c63af81b4e8976439a4bce54931ef2b46191c8a48a2"
+        },
+        "references/chembl.md": {
+          "upstream_sha256": "e15bd1ea46f6166f6de7d51819e68f3510b0496c6e61fe7bff40b3d34df88682",
+          "previous_local_sha256": "41417a835893fd7d47bb986f11d5f757180e85d1a73f25452c7b6f5e43a4992d",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/chembl.md",
+          "backup_sha256": "41417a835893fd7d47bb986f11d5f757180e85d1a73f25452c7b6f5e43a4992d"
+        },
+        "references/clinicaltrials.md": {
+          "upstream_sha256": "4c467fa6e3450898de38c85b8f5877d6d6e5034fc664aeb4db40e570313e067f",
+          "previous_local_sha256": "037b4e765946cf9744e6276818fa4e7fb92f4fb6803a6c51c5e9623852ba1857",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/clinicaltrials.md",
+          "backup_sha256": "037b4e765946cf9744e6276818fa4e7fb92f4fb6803a6c51c5e9623852ba1857"
+        },
+        "references/clinpgx.md": {
+          "upstream_sha256": "1dd1415dfd713d6f3a4c7338a30b00bf2721f2f42406cd0827f54531a2b82ee1",
+          "previous_local_sha256": "2155e43bb3253ce2e01dc62c725872018a65fee7ce421b594ebbd00a7a02551f",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/clinpgx.md",
+          "backup_sha256": "2155e43bb3253ce2e01dc62c725872018a65fee7ce421b594ebbd00a7a02551f"
+        },
+        "references/clinvar.md": {
+          "upstream_sha256": "a1582e43c37f0f06591d6716f1b9f4bcf0705d930620abcdbbf53c919fcf7af8",
+          "previous_local_sha256": "8b836499ba775a5d4d03070909e421c6d13eb892bf821f867078602828c6b706",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/clinvar.md",
+          "backup_sha256": "8b836499ba775a5d4d03070909e421c6d13eb892bf821f867078602828c6b706"
+        },
+        "references/cod.md": {
+          "upstream_sha256": "016e994a27a4db46aa7525fe790611328911908ef76b27252e44e93391f21411",
+          "previous_local_sha256": "c04b7a5cec22e342eba1ec520e43e73735b4e8fa9703b57581f55bcfd968557d",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/cod.md",
+          "backup_sha256": "c04b7a5cec22e342eba1ec520e43e73735b4e8fa9703b57581f55bcfd968557d"
+        },
+        "references/cosmic.md": {
+          "upstream_sha256": "3ba667ac779018ccec4fb820ee587671213ddb6043f0d9f113e832b529b3a0c4",
+          "previous_local_sha256": "36366c08a4d6ec76aa56ed79d82d5cd840b5c5b09c314ab7d330d1287c178312",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/cosmic.md",
+          "backup_sha256": "36366c08a4d6ec76aa56ed79d82d5cd840b5c5b09c314ab7d330d1287c178312"
+        },
+        "references/dailymed.md": {
+          "upstream_sha256": "3793456d8e7d471353df43b8077625e807ca04875947464478387b630349ae70",
+          "previous_local_sha256": "96b5d8455a083c599ceeffdedc6b320e298ab9d14a384eea3ca264d398149b10",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/dailymed.md",
+          "backup_sha256": "96b5d8455a083c599ceeffdedc6b320e298ab9d14a384eea3ca264d398149b10"
+        },
+        "references/database_selection_guide.md": {
+          "upstream_sha256": "6c4fdca605ff0fa1d3a008e70eec30a4d3c688dd02982f88bc870bf6d3d0bbd1"
+        },
+        "references/datacommons.md": {
+          "upstream_sha256": "9b37454d695052b20924a6c950631c84153d39ee0ab6c7dea1f815e153591e5a",
+          "previous_local_sha256": "81c86cfa04a38e5c8146050bbb531cea6a59b05f4ae4104aeb2f8a8f87892aa6",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/datacommons.md",
+          "backup_sha256": "81c86cfa04a38e5c8146050bbb531cea6a59b05f4ae4104aeb2f8a8f87892aa6"
+        },
+        "references/dbsnp.md": {
+          "upstream_sha256": "614d631ffe4e427de285bc6c239128e7e404d1ebf52700424954292602337060",
+          "previous_local_sha256": "cb0cc4da3e50bc4f8e68c502627fb5e1c39f57cf8576e298ad0df4f082bc4b85",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/dbsnp.md",
+          "backup_sha256": "cb0cc4da3e50bc4f8e68c502627fb5e1c39f57cf8576e298ad0df4f082bc4b85"
+        },
+        "references/disgenet.md": {
+          "upstream_sha256": "4e7f49ef5c6d155fe046a6f8deb957ab4c559c2377bbfa7652d95974f22ffad9",
+          "previous_local_sha256": "3fbd8d46b99c03a7b86be0837b6333c6063a6b5c940b5e97765946c9016b0ace",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/disgenet.md",
+          "backup_sha256": "3fbd8d46b99c03a7b86be0837b6333c6063a6b5c940b5e97765946c9016b0ace"
+        },
+        "references/drugbank.md": {
+          "upstream_sha256": "48a65426f101e9321b0bd49659831a8ac2b4eaa7806fc6382f703ab08c036c6f",
+          "previous_local_sha256": "8c8e7c886a81b6a179123c3e00e63877a6c96a05a3e78c4c7a5713f622486acc",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/drugbank.md",
+          "backup_sha256": "8c8e7c886a81b6a179123c3e00e63877a6c96a05a3e78c4c7a5713f622486acc"
+        },
+        "references/ecb.md": {
+          "upstream_sha256": "c5b98e73c74ed48ec256e8711bfc97fbecf18713b15bb2287eeb6afe696ba2b3",
+          "previous_local_sha256": "7af5d2413696ab41392fc00ef135c28c303d6b22f2c26c33bed6fce902082939",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/ecb.md",
+          "backup_sha256": "7af5d2413696ab41392fc00ef135c28c303d6b22f2c26c33bed6fce902082939"
+        },
+        "references/emdb.md": {
+          "upstream_sha256": "38c8985cf364a8885c246b612e62b383c308177da9ad415b4ae515a00a697aa4",
+          "previous_local_sha256": "77ae096fd0a696a1bb1f4bee2cfbd362639e1b5529c7211991b5703202f47f91",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/emdb.md",
+          "backup_sha256": "77ae096fd0a696a1bb1f4bee2cfbd362639e1b5529c7211991b5703202f47f91"
+        },
+        "references/ena.md": {
+          "upstream_sha256": "32dd3bdcf61310a7eb42915d788a95127013938b7ee462b3184317c8462c3abc",
+          "previous_local_sha256": "b40e9eedb62cce877a0ef76a03eccb5a325e69b703bd1f628b5780785031a9d5",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/ena.md",
+          "backup_sha256": "b40e9eedb62cce877a0ef76a03eccb5a325e69b703bd1f628b5780785031a9d5"
+        },
+        "references/encode.md": {
+          "upstream_sha256": "4c021eaa255b8ab5dc6799b5b3871b9c45633f34f440b6edaaefcb4021ec53a3",
+          "previous_local_sha256": "baf3a5021a5e31b352d10e3fc76f922b66686c72406be14d429a20a8df4f9102",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/encode.md",
+          "backup_sha256": "baf3a5021a5e31b352d10e3fc76f922b66686c72406be14d429a20a8df4f9102"
+        },
+        "references/ensembl.md": {
+          "upstream_sha256": "ee942d04727aca6c8e2febf0ce01e517a9c43ea76275d3cda27ec6a776dc10f4",
+          "previous_local_sha256": "6ca8c6b0d01518448cc44e549d7fd56b983247c4f490ffdef3de505e56d2a400",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/ensembl.md",
+          "backup_sha256": "6ca8c6b0d01518448cc44e549d7fd56b983247c4f490ffdef3de505e56d2a400"
+        },
+        "references/epa.md": {
+          "upstream_sha256": "99065a28ea3561370540def54a918edaf93893192e2e748ace5608c0ab588029",
+          "previous_local_sha256": "a83eaddf5f25f083cf4dde204dfbe731fce7ae8ce5057e805948a5cdb6a6e1a5",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/epa.md",
+          "backup_sha256": "a83eaddf5f25f083cf4dde204dfbe731fce7ae8ce5057e805948a5cdb6a6e1a5"
+        },
+        "references/eurostat.md": {
+          "upstream_sha256": "f995b6f9e13d4f6ed3d9ba193cc6a0a57701fac136aa0e68283c08e3e7a2ec0e",
+          "previous_local_sha256": "37e5c82a5e55d9e81ceaf72c7b226d9b5bbffe8d43f648185491d81821a73ad9",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/eurostat.md",
+          "backup_sha256": "37e5c82a5e55d9e81ceaf72c7b226d9b5bbffe8d43f648185491d81821a73ad9"
+        },
+        "references/fda.md": {
+          "upstream_sha256": "fa11fc92e63775639f384c5c3cc22e0faaf384658866a0f1255f30d136552f11",
+          "previous_local_sha256": "ca825f27eb0fecbc4a53f4ba7e1830213f39a58d1c0d9b1761bbd1366d052e0c",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/fda.md",
+          "backup_sha256": "ca825f27eb0fecbc4a53f4ba7e1830213f39a58d1c0d9b1761bbd1366d052e0c"
+        },
+        "references/federal-reserve.md": {
+          "upstream_sha256": "0cbb6970d209ac0018af451426619dfd7f17e01d95d15fc6342eab2a81e5f416",
+          "previous_local_sha256": "f6ac0f37818281f8a9e8f3036083ba8f1bfef7496908c8d281331ee263a2c4fd",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/federal-reserve.md",
+          "backup_sha256": "f6ac0f37818281f8a9e8f3036083ba8f1bfef7496908c8d281331ee263a2c4fd"
+        },
+        "references/fred.md": {
+          "upstream_sha256": "3329331d92f02ffa91ccc1b38f0d4f48c0db463780899dfefb768ce1f548747f",
+          "previous_local_sha256": "7cbf2d1c54ab0059dfe29b47a85d17a59190da0d2adb3e58681a43d919d4bde8",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/fred.md",
+          "backup_sha256": "7cbf2d1c54ab0059dfe29b47a85d17a59190da0d2adb3e58681a43d919d4bde8"
+        },
+        "references/gene-ontology.md": {
+          "upstream_sha256": "0a08128df7f150bf5bdcc41abb4efff73ae97dc5f499b3571d20262b920e86d7",
+          "previous_local_sha256": "f560039688ba28ea69133e22c917ebfa3454730b6cc79017bb93f9d5cbd26dd4",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/gene-ontology.md",
+          "backup_sha256": "f560039688ba28ea69133e22c917ebfa3454730b6cc79017bb93f9d5cbd26dd4"
+        },
+        "references/geo.md": {
+          "upstream_sha256": "ccff58695caf8c6fa1bdd3577317344eeb3828e56c29e047882ce5dc4aea2958",
+          "previous_local_sha256": "2cc0233db9cb3da5a2a37029883630105d2e5aced6ac387b2de8608b1657f876",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/geo.md",
+          "backup_sha256": "2cc0233db9cb3da5a2a37029883630105d2e5aced6ac387b2de8608b1657f876"
+        },
+        "references/gnomad.md": {
+          "upstream_sha256": "7369e9d9aa4631803e009bf0867f658d0dbba835aca2e29ff5526a60a40defdb",
+          "previous_local_sha256": "7f41e674e2abc8daf5fbe8c214adcda3915d13714bd9bda29ff166ff2e61bd49",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/gnomad.md",
+          "backup_sha256": "7f41e674e2abc8daf5fbe8c214adcda3915d13714bd9bda29ff166ff2e61bd49"
+        },
+        "references/gtex.md": {
+          "upstream_sha256": "14031bc302a215e705034f616a639110540c4c5bf8ea90db112cb234cbfbb7f4",
+          "previous_local_sha256": "818768c4d9edfb57f0ab47da133c03278b77d63c28492bffa18df60485cc03ac",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/gtex.md",
+          "backup_sha256": "818768c4d9edfb57f0ab47da133c03278b77d63c28492bffa18df60485cc03ac"
+        },
+        "references/gwas-catalog.md": {
+          "upstream_sha256": "57c19609649dfced602087ad7221ff7edf47d338188071ddeb1225fcf7c8b029",
+          "previous_local_sha256": "3b6dc5887596a579bc7aea638cc00c5bdd5212873e093db02b8ed3c5223adf6e",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/gwas-catalog.md",
+          "backup_sha256": "3b6dc5887596a579bc7aea638cc00c5bdd5212873e093db02b8ed3c5223adf6e"
+        },
+        "references/hca.md": {
+          "upstream_sha256": "666c71f1612a2d193ad63cad298860a0d64f0bcd42aae80bfa2aad99ac7c48d7",
+          "previous_local_sha256": "adf9b375f0b33d7e144b33e68925654b4bd7fdd7e3264b3a6f72c5c065d3ded1",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/hca.md",
+          "backup_sha256": "adf9b375f0b33d7e144b33e68925654b4bd7fdd7e3264b3a6f72c5c065d3ded1"
+        },
+        "references/hpo.md": {
+          "upstream_sha256": "de91ac4784eae8b57ed1cc04a2980a9fb056d10d9f904b455c09c7bf7b1850d0",
+          "previous_local_sha256": "7651401dfc3e7ef84ca5d025d263cddbe2e8a9935fda02c24eb83f59cebac80a",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/hpo.md",
+          "backup_sha256": "7651401dfc3e7ef84ca5d025d263cddbe2e8a9935fda02c24eb83f59cebac80a"
+        },
+        "references/human-protein-atlas.md": {
+          "upstream_sha256": "cfebe6f0457b646c13ab03372b19146df8be415de70952230ef1ea37f9369669",
+          "previous_local_sha256": "6e91404a0dee461b186ba0777f9c79583cc594ef8fc75b65bd5226204007c945",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/human-protein-atlas.md",
+          "backup_sha256": "6e91404a0dee461b186ba0777f9c79583cc594ef8fc75b65bd5226204007c945"
+        },
+        "references/interpro.md": {
+          "upstream_sha256": "9ba441016cf1eded68d418db95ed8fb3bd2a72b3405a1f6d2f296b2eed9223a7",
+          "previous_local_sha256": "d3508b163d85a6644938f212c354d1fbcc34caab33fd4df542e166edf5b13648",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/interpro.md",
+          "backup_sha256": "d3508b163d85a6644938f212c354d1fbcc34caab33fd4df542e166edf5b13648"
+        },
+        "references/jaspar.md": {
+          "upstream_sha256": "8fa273d5097d8131b083876318a79bcdb45a218406aee9b775b8db05e4f3fba2",
+          "previous_local_sha256": "49981d911914f540fbd8bd35c70226c6866791e8940965addf3e2c03a1f09087",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/jaspar.md",
+          "backup_sha256": "49981d911914f540fbd8bd35c70226c6866791e8940965addf3e2c03a1f09087"
+        },
+        "references/kegg.md": {
+          "upstream_sha256": "01f3d417ef651fc2ca5d4b6c274b761b8e2a51fd6e6bf2c79b35c7a67c01ef23",
+          "previous_local_sha256": "b92664914712be1861a35b1ba30606833f5f7416eb782152ef7e7d3b1d5f467b",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/kegg.md",
+          "backup_sha256": "b92664914712be1861a35b1ba30606833f5f7416eb782152ef7e7d3b1d5f467b"
+        },
+        "references/lincs-l1000.md": {
+          "upstream_sha256": "5923101edfeda15b2d0b6da48b59389c44eafe0d047ca2497072f8db8fb7626e",
+          "previous_local_sha256": "841a4828a1e2f6db09e815704831a62b748f6961581a3381eb53e3a0313a8eba",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/lincs-l1000.md",
+          "backup_sha256": "841a4828a1e2f6db09e815704831a62b748f6961581a3381eb53e3a0313a8eba"
+        },
+        "references/materials-project.md": {
+          "upstream_sha256": "a9e187fa9c79ae5fa50b7686ed928674c56b54dff37520f43cda6b34eb4b1475",
+          "previous_local_sha256": "9c40346e56a187195f06514557f578293563cd7aee6b1160f59fd85c0ca47c4a",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/materials-project.md",
+          "backup_sha256": "9c40346e56a187195f06514557f578293563cd7aee6b1160f59fd85c0ca47c4a"
+        },
+        "references/metabolomics-workbench.md": {
+          "upstream_sha256": "a0f02227ae5960069495f7577d3242857d1be3b7d014abd6593e12e4b87d832c",
+          "previous_local_sha256": "4321d83e4df2e0d4351a946fc32e0b5f51d02592ab2d6cd4c82add9c4eb8cbf4",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/metabolomics-workbench.md",
+          "backup_sha256": "4321d83e4df2e0d4351a946fc32e0b5f51d02592ab2d6cd4c82add9c4eb8cbf4"
+        },
+        "references/monarch.md": {
+          "upstream_sha256": "69e576eb29988ea31eb754fba00e0a7a37c8417db9b518a590d71212742c5061",
+          "previous_local_sha256": "ea1dcd7b35bfc2baf7452418b7f309bbabfd4f2b29e25ad6ef252019922877db",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/monarch.md",
+          "backup_sha256": "ea1dcd7b35bfc2baf7452418b7f309bbabfd4f2b29e25ad6ef252019922877db"
+        },
+        "references/mousemine.md": {
+          "upstream_sha256": "36dc3e810899f2c6a52d8a01e93d01900b21a7ea5a15cb7b174c05caead44d16",
+          "previous_local_sha256": "9f61c6e8cd13f77ccdff8fdf19a7c448e551e35cbbe8688471e79ee0a1f91aba",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/mousemine.md",
+          "backup_sha256": "9f61c6e8cd13f77ccdff8fdf19a7c448e551e35cbbe8688471e79ee0a1f91aba"
+        },
+        "references/myvariant.md": {
+          "upstream_sha256": "5375048bc9e19e608effd0c8627cd7817c3f915fc7c0b14f86e5d5cccc8bf592"
+        },
+        "references/nasa-exoplanet-archive.md": {
+          "upstream_sha256": "659945386557a513f5c0ea0eb12fe86a9877e9662db400f874cb7e0d6fcd5a28",
+          "previous_local_sha256": "d7e0dc7f1725e57b5d82dc4591ee0245ca9ca35c2c3a1f5cf77b288fc6234df3",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/nasa-exoplanet-archive.md",
+          "backup_sha256": "d7e0dc7f1725e57b5d82dc4591ee0245ca9ca35c2c3a1f5cf77b288fc6234df3"
+        },
+        "references/nasa.md": {
+          "upstream_sha256": "bb64631ac1935d610f26402e2948964f15c7d87089d55fc3466dac7cc670605e",
+          "previous_local_sha256": "455a99fbc2e440abdb4e9ef9918b5e1fd3069ffd9cb6c564dafe8acc2fc8cffd",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/nasa.md",
+          "backup_sha256": "455a99fbc2e440abdb4e9ef9918b5e1fd3069ffd9cb6c564dafe8acc2fc8cffd"
+        },
+        "references/ncbi-gene.md": {
+          "upstream_sha256": "8f5708887f1c0718399fbeb788ce5d739b08a257f42244173cbd0348bd9b1ea2",
+          "previous_local_sha256": "9684e4fe371bea097e1a0265020637679f41352af22cd0eb7d89ac014680cc81",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/ncbi-gene.md",
+          "backup_sha256": "9684e4fe371bea097e1a0265020637679f41352af22cd0eb7d89ac014680cc81"
+        },
+        "references/ncbi-protein.md": {
+          "upstream_sha256": "db3a2e2c9b5c78501a9df235b024be32d886194d5264cd7378adec5f7f1a4dcb",
+          "previous_local_sha256": "8be684b83ab767a04fbb6956cf279f0bb783716e92cf74cb6d2e73c8892a9cab",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/ncbi-protein.md",
+          "backup_sha256": "8be684b83ab767a04fbb6956cf279f0bb783716e92cf74cb6d2e73c8892a9cab"
+        },
+        "references/ncbi-taxonomy.md": {
+          "upstream_sha256": "733d44ec6996a76ecc548f3019c3fb746aa9d8c6c25b3e0191c0660f93e17f78",
+          "previous_local_sha256": "911bd19fde9c580e003a57282b569369451f77f78fcccf5171e6851f36d218aa",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/ncbi-taxonomy.md",
+          "backup_sha256": "911bd19fde9c580e003a57282b569369451f77f78fcccf5171e6851f36d218aa"
+        },
+        "references/nist.md": {
+          "upstream_sha256": "a8c6089aa3adde5f3231ed0707ae200346da1ade038338526eadead0bc979c3f",
+          "previous_local_sha256": "9466d85b767ab2fade5ac9678f8e8eee5b15fabfdd06e2080ab323ce7e611d85",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/nist.md",
+          "backup_sha256": "9466d85b767ab2fade5ac9678f8e8eee5b15fabfdd06e2080ab323ce7e611d85"
+        },
+        "references/noaa.md": {
+          "upstream_sha256": "317dd5fa5ea03af3b649623cd1cf71f1b2def74d49e32a33d62c37928e7014e4",
+          "previous_local_sha256": "7ca8e5f5b9986206bf4fb88e3cbbdcf240474483f232834a7bcd1f2dbef468e6",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/noaa.md",
+          "backup_sha256": "7ca8e5f5b9986206bf4fb88e3cbbdcf240474483f232834a7bcd1f2dbef468e6"
+        },
+        "references/omim.md": {
+          "upstream_sha256": "e993a2c4f420b8b0efccc3b78502596c43eee55504f992c430110c87d998a00e",
+          "previous_local_sha256": "777fccd9f389326216842acc62d5cf63b1a7ba7d5abb23ca8a35aa6217df3eaa",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/omim.md",
+          "backup_sha256": "777fccd9f389326216842acc62d5cf63b1a7ba7d5abb23ca8a35aa6217df3eaa"
+        },
+        "references/opentargets.md": {
+          "upstream_sha256": "c7b1dcf21fb6b938d0ce8daf8fa474e87e46d5ae0ad54efd0e1606694f229782",
+          "previous_local_sha256": "70ab0abd742a25cfbdf57c26343a7928f98d4c4f464d81b2e0af666594de4a52",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/opentargets.md",
+          "backup_sha256": "70ab0abd742a25cfbdf57c26343a7928f98d4c4f464d81b2e0af666594de4a52"
+        },
+        "references/openweathermap.md": {
+          "upstream_sha256": "f6c2fa81f89f4543a3a884bf6052fa1c5938426ce8c326a4e828b526dc42695b",
+          "previous_local_sha256": "4dc68783f7ecd63396cf76b3955a9008476d556ef7336b3f4021340536018337",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/openweathermap.md",
+          "backup_sha256": "4dc68783f7ecd63396cf76b3955a9008476d556ef7336b3f4021340536018337"
+        },
+        "references/pdb.md": {
+          "upstream_sha256": "f65de09e7e73e815a92bbc4ce8c04bf3c86792728b212bd807ddff71f8d0fc1d",
+          "previous_local_sha256": "99b7310b7fff19dae7a1ca8f361bc4b8c9a9af12283cc633630520346e491989",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/pdb.md",
+          "backup_sha256": "99b7310b7fff19dae7a1ca8f361bc4b8c9a9af12283cc633630520346e491989"
+        },
+        "references/pride.md": {
+          "upstream_sha256": "b7c20530aace9e88196ef61338bb762c97bf978912bd546421d3cdbaae6f6281",
+          "previous_local_sha256": "578e43871a27cba2d18e9e50ba72a9628c4adc04cbfc4bd05478267ffd442c94",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/pride.md",
+          "backup_sha256": "578e43871a27cba2d18e9e50ba72a9628c4adc04cbfc4bd05478267ffd442c94"
+        },
+        "references/pubchem.md": {
+          "upstream_sha256": "3f30c22ffb74191006d71f91870d5ae47bcd77b0b84172e94553259fb4050b94",
+          "previous_local_sha256": "cdc90e126af7ce5d1763a1c311f32ed4428a63a2b4ddebfbc422223c6f51a612",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/pubchem.md",
+          "backup_sha256": "cdc90e126af7ce5d1763a1c311f32ed4428a63a2b4ddebfbc422223c6f51a612"
+        },
+        "references/quickgo.md": {
+          "upstream_sha256": "4ef9cfc35b9c05447cd2058c891b4e3cb60633ca97f632e16f718e05d2c19fb6",
+          "previous_local_sha256": "014684e46effd1d42f85bc38b7cf444ed63e7a587e53c7d9318c7304a9507679",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/quickgo.md",
+          "backup_sha256": "014684e46effd1d42f85bc38b7cf444ed63e7a587e53c7d9318c7304a9507679"
+        },
+        "references/reactome.md": {
+          "upstream_sha256": "4f1207222d17a4c32158aec379fb80e324ae99eb6ec04ef33393acb40873874e",
+          "previous_local_sha256": "a4f7132af62a4155c3e00741c484b080f19ebec896965b1e5af9d4d8240596f3",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/reactome.md",
+          "backup_sha256": "a4f7132af62a4155c3e00741c484b080f19ebec896965b1e5af9d4d8240596f3"
+        },
+        "references/regulomedb.md": {
+          "upstream_sha256": "eb87610768ec4a55e375f3faf6979323a758467e44b086024538d677fc6afd59"
+        },
+        "references/retrieval-contract.md": {
+          "upstream_sha256": "7591202ac9b71a13b27d3c81ff879e9ec04e180491c3ffbe94a756d9a52bd3d2",
+          "previous_local_sha256": "94cb8d7834c7137ecc8f70fbc89e16ddfb1e87c1d37065389be20cac3ec49f89",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/retrieval-contract.md",
+          "backup_sha256": "94cb8d7834c7137ecc8f70fbc89e16ddfb1e87c1d37065389be20cac3ec49f89"
+        },
+        "references/rummageo.md": {
+          "upstream_sha256": "36d3f4857d377cc86c225509cd4c0a7301a7fae2d8e7e1fc0d71177f6d7d9990",
+          "previous_local_sha256": "30392bdb4b2fa6326419ccd349e64a492d2df938936b6180f3a1b5f6e6fefb69",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/rummageo.md",
+          "backup_sha256": "30392bdb4b2fa6326419ccd349e64a492d2df938936b6180f3a1b5f6e6fefb69"
+        },
+        "references/sdss.md": {
+          "upstream_sha256": "c88b6e8519a30c9d67fae375fad95a4cad6a7d7d8d294f82337af4181b24a9d7",
+          "previous_local_sha256": "ac93c04e15d7960ef74882dc46903c0bd0be02f1a270994aa34a54340ce350ef",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/sdss.md",
+          "backup_sha256": "ac93c04e15d7960ef74882dc46903c0bd0be02f1a270994aa34a54340ce350ef"
+        },
+        "references/sec-edgar.md": {
+          "upstream_sha256": "b84fc8702fb940eedb05d45a1a22c854b9711f76815e2420e277d6675b2656ab",
+          "previous_local_sha256": "f561ad095b1b69f545091b7cadcb2e43d6d9ffce73d4f1ed3fa26bbd9e422d31",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/sec-edgar.md",
+          "backup_sha256": "f561ad095b1b69f545091b7cadcb2e43d6d9ffce73d4f1ed3fa26bbd9e422d31"
+        },
+        "references/simbad.md": {
+          "upstream_sha256": "4689f21ea6dee764a3fe6ad90e36b7926ae9dde3287aaed41f391490a3a83eae",
+          "previous_local_sha256": "b190fe200ec8bda57d656cb4700fb60e0165d646d29240bd301671b34e52d3eb",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/simbad.md",
+          "backup_sha256": "b190fe200ec8bda57d656cb4700fb60e0165d646d29240bd301671b34e52d3eb"
+        },
+        "references/sra.md": {
+          "upstream_sha256": "ba6ec72903a087521161e5dda901b5fab58613093c70a7118838ed415f6d45a0",
+          "previous_local_sha256": "7be34f6f33b015ca32d998e8b70bec252db807ceafa8f9cf0423cd894a8154c6",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/sra.md",
+          "backup_sha256": "7be34f6f33b015ca32d998e8b70bec252db807ceafa8f9cf0423cd894a8154c6"
+        },
+        "references/string.md": {
+          "upstream_sha256": "60e77142a5c40813fc57e79b83025bed159b01c6ce0c96750280b79a448b3600",
+          "previous_local_sha256": "db84f0530fa02cdea5dd68e1e8939c524a6871bab72f342b2d419c088563cd47",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/string.md",
+          "backup_sha256": "db84f0530fa02cdea5dd68e1e8939c524a6871bab72f342b2d419c088563cd47"
+        },
+        "references/tcga-gdc.md": {
+          "upstream_sha256": "ad5e312abb95765948dbd545b391704d65ab493d85d300f1f1aa7641f577dce2",
+          "previous_local_sha256": "411bfdde873a43a5cc0b1156973cf3e73ecbb8a7d6b8b98d42df1355f071852d",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/tcga-gdc.md",
+          "backup_sha256": "411bfdde873a43a5cc0b1156973cf3e73ecbb8a7d6b8b98d42df1355f071852d"
+        },
+        "references/treasury.md": {
+          "upstream_sha256": "17052fab17dd663c8e95aee8d549fea26a2b74dc82319f4eefc427cc7bc84fe4",
+          "previous_local_sha256": "8320deac6da9463abbc8b85d139e53c3b0ec98521ceb8c1b86f762450ef5666b",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/treasury.md",
+          "backup_sha256": "8320deac6da9463abbc8b85d139e53c3b0ec98521ceb8c1b86f762450ef5666b"
+        },
+        "references/ucsc-genome.md": {
+          "upstream_sha256": "ec35eee51baedc39130dc56617d85d6b3bf16aa3d389c301deb12969b7246cb4",
+          "previous_local_sha256": "71ec269c06027512855977e77d8665ba9195a33e9c43ae744dc7092e51bb059d",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/ucsc-genome.md",
+          "backup_sha256": "71ec269c06027512855977e77d8665ba9195a33e9c43ae744dc7092e51bb059d"
+        },
+        "references/uniprot.md": {
+          "upstream_sha256": "8132f14b5244e926792efa59a5d3065d55c7074b859581e7fbd63157cc3eed4c",
+          "previous_local_sha256": "6ce19ad411260896ada448b87edb5fa5e3d3a7c6a80f1d0090603c87d9bb3522",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/uniprot.md",
+          "backup_sha256": "6ce19ad411260896ada448b87edb5fa5e3d3a7c6a80f1d0090603c87d9bb3522"
+        },
+        "references/usgs.md": {
+          "upstream_sha256": "8bca09546b32dad801bf1b321e602deec3a42cbbb3cbd68ff047f4183335c242",
+          "previous_local_sha256": "9ca7f35ead497984c1d05112aa93895d7fcab047fe01fea904cc8a41e53e622d",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/usgs.md",
+          "backup_sha256": "9ca7f35ead497984c1d05112aa93895d7fcab047fe01fea904cc8a41e53e622d"
+        },
+        "references/uspto.md": {
+          "upstream_sha256": "ba5df97aae511e0e451a1b958ddbfa0fb8e33b4f925ff132366d59b4e0d7f2a9",
+          "previous_local_sha256": "0521d9665782b49caffea06aa6e228d7dba046d2e329323c2cde6c30a95c5caf",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/uspto.md",
+          "backup_sha256": "0521d9665782b49caffea06aa6e228d7dba046d2e329323c2cde6c30a95c5caf"
+        },
+        "references/who.md": {
+          "upstream_sha256": "e5db1d894e99a89d5985a8ec5c14c3f70a38c17de5e5b4086872809453238b5d",
+          "previous_local_sha256": "52dd007a07cb6ae6fb6dc63ae6c399f34cacccae87c24ca2d1adc8a0f22a8f3a",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/who.md",
+          "backup_sha256": "52dd007a07cb6ae6fb6dc63ae6c399f34cacccae87c24ca2d1adc8a0f22a8f3a"
+        },
+        "references/worldbank.md": {
+          "upstream_sha256": "7b6d9b85d3bf5792851689f3e1e6407f9d6b7de0b346218099fd590a842e2dd6",
+          "previous_local_sha256": "aa94a3a97ef2d23db4c89b6eb690fcefb06c738b2871e875546309265c5b4d6e",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/worldbank.md",
+          "backup_sha256": "aa94a3a97ef2d23db4c89b6eb690fcefb06c738b2871e875546309265c5b4d6e"
+        },
+        "references/zinc.md": {
+          "upstream_sha256": "635d2450487dc1b31692fa369af5195c951c06448b9ceda6b3b2659e3fb7c68f",
+          "previous_local_sha256": "18a6193bf04eee2612c8bf7c5d4110c6964423c874579371551b4f7b3b7e8651",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/database-lookup/references/zinc.md",
+          "backup_sha256": "18a6193bf04eee2612c8bf7c5d4110c6964423c874579371551b4f7b3b7e8651"
+        }
+      },
+      "removed": [],
+      "retained_local": []
+    },
+    "citation-management": {
+      "copied": [
+        "references/api_contracts.md",
+        "references/best_practices.md",
+        "references/core_workflow.md",
+        "references/example_workflows.md",
+        "references/script_reference.md",
+        "references/search_strategies.md",
+        "scripts/_common.py",
+        "scripts/search_openalex.py"
+      ],
+      "overwritten": [
+        "SKILL.md",
+        "assets/bibtex_template.bib",
+        "assets/citation_checklist.md",
+        "references/bibtex_formatting.md",
+        "references/citation_validation.md",
+        "references/google_scholar_search.md",
+        "references/metadata_extraction.md",
+        "references/pubmed_search.md",
+        "scripts/doi_to_bibtex.py",
+        "scripts/extract_metadata.py",
+        "scripts/format_bibtex.py",
+        "scripts/search_google_scholar.py",
+        "scripts/search_pubmed.py",
+        "scripts/validate_citations.py"
+      ],
+      "excluded": [],
+      "quarantined": [],
+      "files": {
+        "SKILL.md": {
+          "upstream_sha256": "ca1b473108c4b49843538f49ea1219668472a9ddec9624d1da41383a8aab2a05",
+          "previous_local_sha256": "658b315fdceb0f450d7146a0803947c78c80dbad8188ccc60946089111e3cd36",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/citation-management/SKILL.md",
+          "backup_sha256": "658b315fdceb0f450d7146a0803947c78c80dbad8188ccc60946089111e3cd36"
+        },
+        "assets/bibtex_template.bib": {
+          "upstream_sha256": "7e911be0d4e5ede4050d9349af98989e2077c473f8bfb1ae25b381dd5d436f08",
+          "previous_local_sha256": "c85639d0ee81a3a7a4481ce593b8a825973d63278160fc31fb100ba43e678208",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/citation-management/assets/bibtex_template.bib",
+          "backup_sha256": "c85639d0ee81a3a7a4481ce593b8a825973d63278160fc31fb100ba43e678208"
+        },
+        "assets/citation_checklist.md": {
+          "upstream_sha256": "941d4758eea56ec4079dd292bc2796c7bc8bffa4cff438bfb6d76383dd00ded3",
+          "previous_local_sha256": "59acefe519f3a1be648c753093805e054a8479ba7906e3deafe0418dbdbcd407",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/citation-management/assets/citation_checklist.md",
+          "backup_sha256": "59acefe519f3a1be648c753093805e054a8479ba7906e3deafe0418dbdbcd407"
+        },
+        "references/api_contracts.md": {
+          "upstream_sha256": "a0681f50e391413581dabadc8625221d84337afd00ea2b4b31d02a0adcbeafab"
+        },
+        "references/best_practices.md": {
+          "upstream_sha256": "801aef9988a272dc1b2216d4d377c16b9c6123ccc72194eb6dcb824b90a6e945"
+        },
+        "references/bibtex_formatting.md": {
+          "upstream_sha256": "ddcb457b2580c6fdb5d783d05533760bd6a7d545ee4aed063958069dc2440e45",
+          "previous_local_sha256": "23cc171c1370e6cb272c7c8b03be900a31189a84363406d74910421451bad937",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/citation-management/references/bibtex_formatting.md",
+          "backup_sha256": "23cc171c1370e6cb272c7c8b03be900a31189a84363406d74910421451bad937"
+        },
+        "references/citation_validation.md": {
+          "upstream_sha256": "8ab2bbf5132ec5050da1d60b5ffdd73fd808f7f72b658c938bd327a6b587766d",
+          "previous_local_sha256": "4ac828f63137f2ed13b50b9bcae3c48efa9ed8688176b812b1655e9ab729972b",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/citation-management/references/citation_validation.md",
+          "backup_sha256": "4ac828f63137f2ed13b50b9bcae3c48efa9ed8688176b812b1655e9ab729972b"
+        },
+        "references/core_workflow.md": {
+          "upstream_sha256": "531b2d133bfdd270427ee5ca0177fc3136f2767b63205b53ab00169ff9870096"
+        },
+        "references/example_workflows.md": {
+          "upstream_sha256": "1531c0098bc7404d00aae61ed158e01c70a49a41a62d9088bf7bb754d6e81aff"
+        },
+        "references/google_scholar_search.md": {
+          "upstream_sha256": "3b419dc1b06a76b6da127befe3875b7d7fc6cba381d47397f7f0fa3043552d26",
+          "previous_local_sha256": "01fb75f40bfda4c4f3f08ebb5cc07acdca076c2ceab0d173f047ecd3190e1571",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/citation-management/references/google_scholar_search.md",
+          "backup_sha256": "01fb75f40bfda4c4f3f08ebb5cc07acdca076c2ceab0d173f047ecd3190e1571"
+        },
+        "references/metadata_extraction.md": {
+          "upstream_sha256": "3b289a2b8c0a3d9675c97236286951b638d6fc58b80b11b00d94d02a5354bf58",
+          "previous_local_sha256": "ae4a45f922bbad9c412a7ed7d33fb5929ed19f89220f05eff4b1ee60729609e6",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/citation-management/references/metadata_extraction.md",
+          "backup_sha256": "ae4a45f922bbad9c412a7ed7d33fb5929ed19f89220f05eff4b1ee60729609e6"
+        },
+        "references/pubmed_search.md": {
+          "upstream_sha256": "d322f5a71babbf34c85d04d5914e8178b70b40f7b5d12d74d787f8aed496c4f3",
+          "previous_local_sha256": "3f27142696575f7427a422ab775e66a0958eb0df0488513ba500d36c0b536179",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/citation-management/references/pubmed_search.md",
+          "backup_sha256": "3f27142696575f7427a422ab775e66a0958eb0df0488513ba500d36c0b536179"
+        },
+        "references/script_reference.md": {
+          "upstream_sha256": "e774b965ebba6819765ef5e8ebf851a285c6b23d7c0f55991fce373288e0add2"
+        },
+        "references/search_strategies.md": {
+          "upstream_sha256": "f6bacff032afac757749114680e9a65023105f14e7491a4d05a5a736b08ba207"
+        },
+        "scripts/_common.py": {
+          "upstream_sha256": "dde6dae9ae9877db833fee5f275847ad8c5bafc1a8395fc1e430eda7f2604feb"
+        },
+        "scripts/doi_to_bibtex.py": {
+          "upstream_sha256": "36d26871c9361773f53280c6855f0e26946687cfea2a15e4f858ff8bfd5ff1f9",
+          "previous_local_sha256": "c6633087666b7dd5f833c7f2987c791fe940e0b8388ac7e37966a31ef9d6bc10",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/citation-management/scripts/doi_to_bibtex.py",
+          "backup_sha256": "c6633087666b7dd5f833c7f2987c791fe940e0b8388ac7e37966a31ef9d6bc10"
+        },
+        "scripts/extract_metadata.py": {
+          "upstream_sha256": "4e3080be478af674ff28f31c04df2dd0edc08ce6829b01cb86a5a09291c39c74",
+          "previous_local_sha256": "3ce7dd707008f92fb4c3d429942b6fc4a1c8c02e730539b736915d8c2683d055",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/citation-management/scripts/extract_metadata.py",
+          "backup_sha256": "3ce7dd707008f92fb4c3d429942b6fc4a1c8c02e730539b736915d8c2683d055"
+        },
+        "scripts/format_bibtex.py": {
+          "upstream_sha256": "8f6f77d3e0388b04c1927c0e16c79c8a0e0672989541087212b6f4564b0d8a0c",
+          "previous_local_sha256": "854171d7d7d625adf8aa820b3ab556d80d9457dfcfecca35566b79525f306eaf",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/citation-management/scripts/format_bibtex.py",
+          "backup_sha256": "854171d7d7d625adf8aa820b3ab556d80d9457dfcfecca35566b79525f306eaf"
+        },
+        "scripts/search_google_scholar.py": {
+          "upstream_sha256": "ee603256aa574c0cfb0d1cd779bb5e8ea8320d6595a2a5499de9ae884ceda5a9",
+          "previous_local_sha256": "c9b81874712170a40fc8f5a8b86c2923e21e0892a7d412fcc95e3470a04819e2",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/citation-management/scripts/search_google_scholar.py",
+          "backup_sha256": "c9b81874712170a40fc8f5a8b86c2923e21e0892a7d412fcc95e3470a04819e2"
+        },
+        "scripts/search_openalex.py": {
+          "upstream_sha256": "d99e8423a4c78464fa9469d8a8317866c10b74fb291ccd0dbc85cb67dfc333a1"
+        },
+        "scripts/search_pubmed.py": {
+          "upstream_sha256": "2686231841febafd0cd4123cfd055b67d2a489842f8e3a43060c67842616604d",
+          "previous_local_sha256": "5d53c3ccb6823d31eff2635ebd0aff93443784b84ff9321b4c927848b3ed6e3c",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/citation-management/scripts/search_pubmed.py",
+          "backup_sha256": "5d53c3ccb6823d31eff2635ebd0aff93443784b84ff9321b4c927848b3ed6e3c"
+        },
+        "scripts/validate_citations.py": {
+          "upstream_sha256": "a6314a6811ce6fd611b652f5058e507e90751b4374428bb541e72019e7a61a7d",
+          "previous_local_sha256": "342f93ee50270f95d1a6036fa9e606da1473bf44f81deb0f7fb3f0768ee9b320",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/citation-management/scripts/validate_citations.py",
+          "backup_sha256": "342f93ee50270f95d1a6036fa9e606da1473bf44f81deb0f7fb3f0768ee9b320"
+        }
+      },
+      "removed": [],
+      "retained_local": [
+        {
+          "path": "scripts/generate_schematic.py",
+          "sha256": "a970c5330966745aa935dc30e29cc641719152699a667b6b43f2ff27eb52af5a",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "scripts/generate_schematic_ai.py",
+          "sha256": "0c6e36d7bfbd2fb4b33ca04cf23d52146d492cb3ee16cfcfb2c4eba179233d11",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        }
+      ]
+    },
+    "literature-review": {
+      "copied": [
+        "references/core_workflow.md",
+        "references/example_workflow.md",
+        "references/search_and_citation.md"
+      ],
+      "overwritten": [
+        "SKILL.md",
+        "assets/review_template.md",
+        "references/citation_styles.md",
+        "references/database_strategies.md",
+        "scripts/generate_pdf.py",
+        "scripts/search_databases.py",
+        "scripts/verify_citations.py"
+      ],
+      "excluded": [
+        "scripts/generate_schematic.py",
+        "scripts/generate_schematic_ai.py"
+      ],
+      "quarantined": [
+        {
+          "path": "scripts/generate_schematic.py",
+          "reason": "visual-generation asset or script excluded by curation policy",
+          "upstream_sha256": "9990d2b1bb119ec466bfd4b81ac0d63dc49520c77b62375cd0c81788da5ff614"
+        },
+        {
+          "path": "scripts/generate_schematic_ai.py",
+          "reason": "visual-generation asset or script excluded by curation policy",
+          "upstream_sha256": "8286eb342e75f2ebfc7688b9f3fb5512c73b0118a63d95d11fbed69b34a98f79"
+        }
+      ],
+      "files": {
+        "SKILL.md": {
+          "upstream_sha256": "20ce73246d4b60038638b221ab1b6fea43e0eb81dd920dcc3ad4df4a2716730b",
+          "previous_local_sha256": "c82ca201193c82e61c7e8a8dd68e0a71cb883a7d5989cda72a6a575cec23d667",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/literature-review/SKILL.md",
+          "backup_sha256": "c82ca201193c82e61c7e8a8dd68e0a71cb883a7d5989cda72a6a575cec23d667"
+        },
+        "assets/review_template.md": {
+          "upstream_sha256": "669ae07555843eae2a99b463e1c5fe0ace1d7780493f444f6f96949b9bb3c1a7",
+          "previous_local_sha256": "a56bc0e3946179bead3033fe2204882651606bf4b17969b84e944a06be831e3b",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/literature-review/assets/review_template.md",
+          "backup_sha256": "a56bc0e3946179bead3033fe2204882651606bf4b17969b84e944a06be831e3b"
+        },
+        "references/citation_styles.md": {
+          "upstream_sha256": "d662eb056347722162279cc9dae488efd42684ed53334bcf8f46556da9f24cab",
+          "previous_local_sha256": "1f551800bc401b6e86d8dd2a506c40b2deb2598ea0124fd9f02e5f235053ea2b",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/literature-review/references/citation_styles.md",
+          "backup_sha256": "1f551800bc401b6e86d8dd2a506c40b2deb2598ea0124fd9f02e5f235053ea2b"
+        },
+        "references/core_workflow.md": {
+          "upstream_sha256": "6a53f9474b4ca77db5810ba6a322fc41508ae0026fb68cec02f4c1614913ff9b"
+        },
+        "references/database_strategies.md": {
+          "upstream_sha256": "25e6a2f2cafc403c79b96e752a4ffa3bf76ecbe17fab2386170f838a63099c37",
+          "previous_local_sha256": "b7c42e81a695a4f1f4f4f2913c70aaba472a4d278ba7ba4ce17722ecd19fdca5",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/literature-review/references/database_strategies.md",
+          "backup_sha256": "b7c42e81a695a4f1f4f4f2913c70aaba472a4d278ba7ba4ce17722ecd19fdca5"
+        },
+        "references/example_workflow.md": {
+          "upstream_sha256": "de2f5c164a211805065cfa9669491d565a945a1f054a9a540af1985e2ecf40e6"
+        },
+        "references/search_and_citation.md": {
+          "upstream_sha256": "87dee175cdbd94f9d9acca84074358f56cb907fc690761edf301fb7f50d6d262"
+        },
+        "scripts/generate_pdf.py": {
+          "upstream_sha256": "4484fa1f44aaf4e5a905373932ad360dedb73725032e8778bcb0ef85ddcdd543",
+          "previous_local_sha256": "6170fa2b58084f0d1b7f0ff6d5677e812e91586d5117bd16165cdd6f416512e5",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/literature-review/scripts/generate_pdf.py",
+          "backup_sha256": "6170fa2b58084f0d1b7f0ff6d5677e812e91586d5117bd16165cdd6f416512e5"
+        },
+        "scripts/search_databases.py": {
+          "upstream_sha256": "0f7c1f38070e3500e18ec4400555c2ed0af6d58d161f6da0afcf6d8a0e419bb3",
+          "previous_local_sha256": "08d3c71ce7f0248a842222975ef820f00054668b419fd436934d9317f158a590",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/literature-review/scripts/search_databases.py",
+          "backup_sha256": "08d3c71ce7f0248a842222975ef820f00054668b419fd436934d9317f158a590"
+        },
+        "scripts/verify_citations.py": {
+          "upstream_sha256": "9fd2a853c7156477da8d983b83c5d61035bc1175fb2c306a828283fa0ec724dc",
+          "previous_local_sha256": "a5b459e96aaf3d153f6472eb7c6928ec3198265642fdfc2a1604d6fff6bbc598",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/literature-review/scripts/verify_citations.py",
+          "backup_sha256": "a5b459e96aaf3d153f6472eb7c6928ec3198265642fdfc2a1604d6fff6bbc598"
+        }
+      },
+      "removed": [],
+      "retained_local": [
+        {
+          "path": "scripts/generate_schematic.py",
+          "sha256": "a970c5330966745aa935dc30e29cc641719152699a667b6b43f2ff27eb52af5a",
+          "reason": "upstream path quarantined; existing local file retained"
+        },
+        {
+          "path": "scripts/generate_schematic_ai.py",
+          "sha256": "0c6e36d7bfbd2fb4b33ca04cf23d52146d492cb3ee16cfcfb2c4eba179233d11",
+          "reason": "upstream path quarantined; existing local file retained"
+        }
+      ]
+    },
+    "statistical-analysis": {
+      "copied": [],
+      "overwritten": [
+        "SKILL.md",
+        "references/assumptions_and_diagnostics.md",
+        "references/bayesian_statistics.md",
+        "references/effect_sizes_and_power.md",
+        "references/reporting_standards.md",
+        "references/test_selection_guide.md",
+        "scripts/assumption_checks.py"
+      ],
+      "excluded": [],
+      "quarantined": [],
+      "files": {
+        "SKILL.md": {
+          "upstream_sha256": "c5db9b7dd0735ef56354cecc3f23469bdac7395e9416497ed767ce5643a6fdc8",
+          "previous_local_sha256": "3c6d7dbd680d469fac6187c230fc7c57a35187d794547f2b916624ae0a56190a",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/statistical-analysis/SKILL.md",
+          "backup_sha256": "3c6d7dbd680d469fac6187c230fc7c57a35187d794547f2b916624ae0a56190a"
+        },
+        "references/assumptions_and_diagnostics.md": {
+          "upstream_sha256": "c685336ae68b9f5959d552aac844c64991c5ce5429463659584aea0343f3994d",
+          "previous_local_sha256": "94b8073830475a83d83d7e5620351f61574b00e974cc9bdd4cd7912cea448c8f",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/statistical-analysis/references/assumptions_and_diagnostics.md",
+          "backup_sha256": "94b8073830475a83d83d7e5620351f61574b00e974cc9bdd4cd7912cea448c8f"
+        },
+        "references/bayesian_statistics.md": {
+          "upstream_sha256": "14c51daa7723c75482d960b57d3a37846b11c91038dfe7665b6a06d0a97fd5c7",
+          "previous_local_sha256": "eaec3d106a357a0c4d2c07ab81bf1b47e14b375a5de8b915b7446e601891df98",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/statistical-analysis/references/bayesian_statistics.md",
+          "backup_sha256": "eaec3d106a357a0c4d2c07ab81bf1b47e14b375a5de8b915b7446e601891df98"
+        },
+        "references/effect_sizes_and_power.md": {
+          "upstream_sha256": "b93f5044c22b09ebd2edf2668b83efb187d1cc31ed14db765acf6f3f77f10b72",
+          "previous_local_sha256": "1b30a61c38c125f7131fa1e89835f3601c572ab940be08b30f55296bb009ef75",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/statistical-analysis/references/effect_sizes_and_power.md",
+          "backup_sha256": "1b30a61c38c125f7131fa1e89835f3601c572ab940be08b30f55296bb009ef75"
+        },
+        "references/reporting_standards.md": {
+          "upstream_sha256": "a25b4c51530ff64292a10a9096b76347f804e89a73dd8037eb5d9acb26973fb4",
+          "previous_local_sha256": "fb74c74a66ce22113bb0ad2684a8805f6e61695d20800cb979d159194881c201",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/statistical-analysis/references/reporting_standards.md",
+          "backup_sha256": "fb74c74a66ce22113bb0ad2684a8805f6e61695d20800cb979d159194881c201"
+        },
+        "references/test_selection_guide.md": {
+          "upstream_sha256": "17f2898ccc5bae0cc331d1ea7b17cc4f43799e42cfb4d23d767adbcc3a76d066",
+          "previous_local_sha256": "ac1ae26617aec7ca781937d4368b711d769b7fcbc5f85aeea4913c3b2177a750",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/statistical-analysis/references/test_selection_guide.md",
+          "backup_sha256": "ac1ae26617aec7ca781937d4368b711d769b7fcbc5f85aeea4913c3b2177a750"
+        },
+        "scripts/assumption_checks.py": {
+          "upstream_sha256": "e5ad57f02fbacf303e3cf0e4633e36ef232f79535e39716e2bf49d0ee29ebb58",
+          "previous_local_sha256": "52c25bbdbc97d8ddccaae63487c4b78037afd543a31abd8acf50ca29cffbc389",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/statistical-analysis/scripts/assumption_checks.py",
+          "backup_sha256": "52c25bbdbc97d8ddccaae63487c4b78037afd543a31abd8acf50ca29cffbc389"
+        }
+      },
+      "removed": [],
+      "retained_local": []
+    },
+    "peer-review": {
+      "copied": [
+        "assets/citation_references_template.csv",
+        "assets/claim_evidence_matrix_template.csv",
+        "assets/reporting_checklist_template.csv",
+        "assets/reporting_guidelines.json",
+        "assets/review_intake_template.json",
+        "assets/review_scaffold_template.md",
+        "assets/source_ledger.csv",
+        "assets/statistical_reproducibility_template.json",
+        "assets/study_profile_template.json",
+        "references/ethical_review_practice.md",
+        "references/security_validation.md",
+        "references/statistical_reproducibility.md",
+        "references/tool_reference.md",
+        "scripts/_common.py",
+        "scripts/audit_citations.py",
+        "scripts/audit_statistics_reproducibility.py",
+        "scripts/generate_review_scaffold.py",
+        "scripts/lint_review.py",
+        "scripts/select_reporting_guidelines.py",
+        "scripts/validate_claim_evidence.py",
+        "scripts/validate_review_intake.py"
+      ],
+      "overwritten": [
+        "SKILL.md",
+        "references/common_issues.md",
+        "references/reporting_standards.md"
+      ],
+      "excluded": [],
+      "quarantined": [],
+      "files": {
+        "SKILL.md": {
+          "upstream_sha256": "e3fa57d6e993f13a86491b80ac084352d308ec255ba37a15d896776d6477ca1f",
+          "previous_local_sha256": "ebe17f13b6d259934262fad8ee98a3a3423be439669eba18434aba2860e67b61",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/peer-review/SKILL.md",
+          "backup_sha256": "ebe17f13b6d259934262fad8ee98a3a3423be439669eba18434aba2860e67b61"
+        },
+        "assets/citation_references_template.csv": {
+          "upstream_sha256": "08cfa082ff7a3dbdc74e729ac27237aa5824810573da7a0dfd38a172c37e132a"
+        },
+        "assets/claim_evidence_matrix_template.csv": {
+          "upstream_sha256": "eb422b42d9340ca641645d7ad3b5f7be321c2f1477c805a168d371ad22951492"
+        },
+        "assets/reporting_checklist_template.csv": {
+          "upstream_sha256": "5461edd9e6905745385b2f10133f2b7e2299e53d43905bbc53ee502797c6a3dd"
+        },
+        "assets/reporting_guidelines.json": {
+          "upstream_sha256": "c9f76c5d50f6cc65037643630d2e2f46d2b565a3110d0da5cbb2a91270710982"
+        },
+        "assets/review_intake_template.json": {
+          "upstream_sha256": "4ca684d46fe4f2b245e9f9d36553f0fd1d2a8c2c0e9ab4e07d400f5a174e3106"
+        },
+        "assets/review_scaffold_template.md": {
+          "upstream_sha256": "b3f1c1c95acfb506a40ebd7d5add1e2080a047d008dfed0eed609878ad531929"
+        },
+        "assets/source_ledger.csv": {
+          "upstream_sha256": "90e237509b08c728ca30a91763e88aaaca9ff8023fa010808f10dbbd1abc4e68"
+        },
+        "assets/statistical_reproducibility_template.json": {
+          "upstream_sha256": "ba97cf46015c1ad2f2c7a36076079ffa990087579c06f70ba05255d40bb63ec1"
+        },
+        "assets/study_profile_template.json": {
+          "upstream_sha256": "30da87bc0a1f7d3b4109af6f8d4b640247559de568af5cadfb5c9b4493e2fb6a"
+        },
+        "references/common_issues.md": {
+          "upstream_sha256": "0df620bafb79a8094f7ebebd585c97a2096ac1cbfd628431ff7f56256a8a4581",
+          "previous_local_sha256": "566c7b2d42e6bc2f85d2b0ae0f70d5b050a8dd3d322e0026f68dcefc8632e112",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/peer-review/references/common_issues.md",
+          "backup_sha256": "566c7b2d42e6bc2f85d2b0ae0f70d5b050a8dd3d322e0026f68dcefc8632e112"
+        },
+        "references/ethical_review_practice.md": {
+          "upstream_sha256": "21eb176f3b004865451a5984c207bf98885ccadfadb365ebbf6d365a63067e1a"
+        },
+        "references/reporting_standards.md": {
+          "upstream_sha256": "0a5b9b02a55f33ef7ed5dd1015f31e1afff61502aaa58c8216216c83d1adc401",
+          "previous_local_sha256": "419432e051c77f53f6b154d750ec7a6de9f0958a38f37e9a011d40bdbb5bfb20",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/peer-review/references/reporting_standards.md",
+          "backup_sha256": "419432e051c77f53f6b154d750ec7a6de9f0958a38f37e9a011d40bdbb5bfb20"
+        },
+        "references/security_validation.md": {
+          "upstream_sha256": "b7fe4875ebad2e47fa2180a8f7e173a759990fdd8e9fa3d7a074f3811b0ca9c1"
+        },
+        "references/statistical_reproducibility.md": {
+          "upstream_sha256": "7b51190963f6bbcde16a030d4dcce101a24ed8142dd6faffd2dbafee28908ef4"
+        },
+        "references/tool_reference.md": {
+          "upstream_sha256": "875092cd918bb8fb3ffdd501caa4a74390ef9e760f52e94a896c5ecb57a954db"
+        },
+        "scripts/_common.py": {
+          "upstream_sha256": "2dac5218ecc99ce97bbb1df6ddbefe75e8290b758c1fa77e9d74e97dc490624d"
+        },
+        "scripts/audit_citations.py": {
+          "upstream_sha256": "abc68dc168822198dab205f786f446ad063834cf6a7df92348f68e6bf9f77d68"
+        },
+        "scripts/audit_statistics_reproducibility.py": {
+          "upstream_sha256": "3fdee5c84e96742b4fda07fa703212b5ed4076cee81504288d87efe7997ee52b"
+        },
+        "scripts/generate_review_scaffold.py": {
+          "upstream_sha256": "83a34cac4b1c5286f816049c21ac03de26edb6ab5f6380e950dffc3e1ae89a31"
+        },
+        "scripts/lint_review.py": {
+          "upstream_sha256": "333441299bde11ac07e9c64a73967b7f4ed2589562379fbac50c1c0199740126"
+        },
+        "scripts/select_reporting_guidelines.py": {
+          "upstream_sha256": "c900a6e7aa89ad852f64a6de5f8439af8a14c94ae14f2e91cfcdffebd4b25a76"
+        },
+        "scripts/validate_claim_evidence.py": {
+          "upstream_sha256": "b66d51078fdd06bb98e8544ffbc75016269c5ccb927e2d6898924b132307b3b4"
+        },
+        "scripts/validate_review_intake.py": {
+          "upstream_sha256": "0a4307930427ba4d267877a7bc0b880c85902b43a294486bf960152f22a9f376"
+        }
+      },
+      "removed": [],
+      "retained_local": [
+        {
+          "path": "scripts/generate_schematic.py",
+          "sha256": "a970c5330966745aa935dc30e29cc641719152699a667b6b43f2ff27eb52af5a",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "scripts/generate_schematic_ai.py",
+          "sha256": "0c6e36d7bfbd2fb4b33ca04cf23d52146d492cb3ee16cfcfb2c4eba179233d11",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        }
+      ]
+    },
+    "clinical-reports": {
+      "copied": [
+        "assets/adverse_event_aggregate_input_template.csv",
+        "assets/case_report_template.json",
+        "assets/clinical_trial_csr_template.json",
+        "assets/clinical_trial_results_template.json",
+        "assets/clinical_trial_safety_aggregate_template.json",
+        "assets/consistency_manifest_template.json",
+        "assets/deidentification_process_checklist.json",
+        "assets/lab_report_template.json",
+        "assets/pathology_report_template.json",
+        "assets/provenance_manifest_template.json",
+        "assets/quality_review_checklist.json",
+        "assets/radiology_report_template.json",
+        "assets/research_summary_template.json",
+        "assets/terminology_manifest_template.json",
+        "assets/trial_protocol_reporting_checklist.json",
+        "references/privacy_and_deidentification.md",
+        "references/professional_review.md",
+        "references/report_type_routing.md",
+        "references/safety_reporting.md",
+        "references/sources.md",
+        "scripts/_common.py",
+        "scripts/consistency_checker.py",
+        "scripts/provenance_validator.py"
+      ],
+      "overwritten": [
+        "SKILL.md",
+        "references/README.md",
+        "references/case_report_guidelines.md",
+        "references/clinical_trial_reporting.md",
+        "references/data_presentation.md",
+        "references/diagnostic_reports_standards.md",
+        "references/medical_terminology.md",
+        "scripts/check_deidentification.py",
+        "scripts/format_adverse_events.py",
+        "scripts/generate_report_template.py",
+        "scripts/terminology_validator.py",
+        "scripts/validate_case_report.py",
+        "scripts/validate_trial_report.py"
+      ],
+      "excluded": [],
+      "quarantined": [],
+      "files": {
+        "SKILL.md": {
+          "upstream_sha256": "c73481afcbfa2723259ec8c54c07ba174277130d4bc2761c0f17cbbf9e2e0982",
+          "previous_local_sha256": "921a4900466ea8052952150449c16409375939270e8713e899601d04a467d925",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/clinical-reports/SKILL.md",
+          "backup_sha256": "921a4900466ea8052952150449c16409375939270e8713e899601d04a467d925"
+        },
+        "assets/adverse_event_aggregate_input_template.csv": {
+          "upstream_sha256": "8f05771cf4b05dbc773ace36e716eac057e377b8e935458a2c2a4f24b9bb0f67"
+        },
+        "assets/case_report_template.json": {
+          "upstream_sha256": "c99c66b81ca31009e2778a9219fde9c9be978eba59dc60232a042f312d652037"
+        },
+        "assets/clinical_trial_csr_template.json": {
+          "upstream_sha256": "770999ce4dbd2092cdc2847fa7c7a8660cda2e4935f31360274253880a3169ee"
+        },
+        "assets/clinical_trial_results_template.json": {
+          "upstream_sha256": "81c8780df163415fcc4685b8886e249d214693cb5fe9973755d72e0c44452210"
+        },
+        "assets/clinical_trial_safety_aggregate_template.json": {
+          "upstream_sha256": "be43c4ff358fd049525ca6191cd0ee6310654d56bbcbd41edfa307778b0262dc"
+        },
+        "assets/consistency_manifest_template.json": {
+          "upstream_sha256": "ae00a783f2bdf303e2d6e5dbc9a370fa395046603e28719442edcd3548dbd27c"
+        },
+        "assets/deidentification_process_checklist.json": {
+          "upstream_sha256": "a1d6a293993e502b98aa49398bef47925dedb66f29197c1bc6064879557adfbb"
+        },
+        "assets/lab_report_template.json": {
+          "upstream_sha256": "936d1737e7afad9e79d94afcafc5e6249c66fc775c8309b6afa9eedf06dfea91"
+        },
+        "assets/pathology_report_template.json": {
+          "upstream_sha256": "1bd62ec61bab32a6015c02a24b01e95ff29720133f974c481600565ca51cffdf"
+        },
+        "assets/provenance_manifest_template.json": {
+          "upstream_sha256": "d8cbb688fe1d227e7c96093fbd602f09f93151d842e2b036e73af8a5c449ff52"
+        },
+        "assets/quality_review_checklist.json": {
+          "upstream_sha256": "9b8dd788379dcfa9fa33924a439a98d3e459c0033eab78e1ea75e6e74c668c71"
+        },
+        "assets/radiology_report_template.json": {
+          "upstream_sha256": "d7c35942a9770059883f4520ee960706e05edb1d51e4a0934c173173988fa7c1"
+        },
+        "assets/research_summary_template.json": {
+          "upstream_sha256": "e9a8c7e62f03b2711e2d86a691f0cc482418a96b2764804312b98e174e61f617"
+        },
+        "assets/terminology_manifest_template.json": {
+          "upstream_sha256": "e57417814d36d92ac646f2d3c67f6c2e91dedce6f98322ef5e5bdbee900d2494"
+        },
+        "assets/trial_protocol_reporting_checklist.json": {
+          "upstream_sha256": "7aa38661792ca847f3c6403392b1f2b1c12309f3b0cbfdf1fdec396c264fce5c"
+        },
+        "references/README.md": {
+          "upstream_sha256": "9b4da2f6c6eda8253a489a874c29182a953149b4e1c3f162bc8cf4e5692a4ea5",
+          "previous_local_sha256": "cd2218f5eb4b63af74883b8d480501e5a3771b86ce46f02d963b94c3f175bd00",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/clinical-reports/references/README.md",
+          "backup_sha256": "cd2218f5eb4b63af74883b8d480501e5a3771b86ce46f02d963b94c3f175bd00"
+        },
+        "references/case_report_guidelines.md": {
+          "upstream_sha256": "2d742701747a5b135dde1e9fea6cd2aad4231c4542581af04fa7a13b03d59f9e",
+          "previous_local_sha256": "4d7701f4c904c23fba4f1fd4b17cad903c6a3cf32dd8e7abc353f498b0d0c214",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/clinical-reports/references/case_report_guidelines.md",
+          "backup_sha256": "4d7701f4c904c23fba4f1fd4b17cad903c6a3cf32dd8e7abc353f498b0d0c214"
+        },
+        "references/clinical_trial_reporting.md": {
+          "upstream_sha256": "2fe70f874b03248712809b08d24539b95832a567c5e91ea920898b2965a71179",
+          "previous_local_sha256": "e0e35120a5f59e7827fbfb2a9186964782c67a0989a31d70a69d4ed71b266b98",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/clinical-reports/references/clinical_trial_reporting.md",
+          "backup_sha256": "e0e35120a5f59e7827fbfb2a9186964782c67a0989a31d70a69d4ed71b266b98"
+        },
+        "references/data_presentation.md": {
+          "upstream_sha256": "f75f06fe973bf75108eb64b4fc26971ba7f83093dfd12a2d07fcd0d0b97b6ecd",
+          "previous_local_sha256": "ce13cc40f5481055120abee18e031556cf06a1f960bcc296c8bd7f100653c070",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/clinical-reports/references/data_presentation.md",
+          "backup_sha256": "ce13cc40f5481055120abee18e031556cf06a1f960bcc296c8bd7f100653c070"
+        },
+        "references/diagnostic_reports_standards.md": {
+          "upstream_sha256": "ce41eb605ed3f7888f31f37df689aeadd97932c9662f4a151d899c06a5af41e9",
+          "previous_local_sha256": "96300bb070ab50fb53849578b27c9095e6688f3ce78a16a2ed44b6da0f0cfc50",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/clinical-reports/references/diagnostic_reports_standards.md",
+          "backup_sha256": "96300bb070ab50fb53849578b27c9095e6688f3ce78a16a2ed44b6da0f0cfc50"
+        },
+        "references/medical_terminology.md": {
+          "upstream_sha256": "0fbf67c9fa37501937035db090ff8ed4e328e62dc7d4fe482190e5828c83a50d",
+          "previous_local_sha256": "8eb908c2390b099e05aec4a9b7bf36f62fa09d8a10353c39431328f33184cb34",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/clinical-reports/references/medical_terminology.md",
+          "backup_sha256": "8eb908c2390b099e05aec4a9b7bf36f62fa09d8a10353c39431328f33184cb34"
+        },
+        "references/privacy_and_deidentification.md": {
+          "upstream_sha256": "a2cb6e5e72d7f316d4292e6e34e3870b2518980552361ced04753c382c80cbb6"
+        },
+        "references/professional_review.md": {
+          "upstream_sha256": "14a24d84fb820ac660ce643d7559532e72bc79266344a1530daec305741320ef"
+        },
+        "references/report_type_routing.md": {
+          "upstream_sha256": "83dc859e6663a8789a1bcc30a3f3eda017527a8d5a0ebc3fceda6876a1ce7323"
+        },
+        "references/safety_reporting.md": {
+          "upstream_sha256": "34fd7b53626d7621d30ac23346438c8a3a8ca2bbd5dcfddbb886cf36c1666d5f"
+        },
+        "references/sources.md": {
+          "upstream_sha256": "024d349c86ac49a6cf807a4dc51d8c68b1c2b661398432d0d1316c6dd39c5224"
+        },
+        "scripts/_common.py": {
+          "upstream_sha256": "5ac6f35d7b96fe9a176d3faa911e485df3a4dc2c4de50e286f50018b12ab3823"
+        },
+        "scripts/check_deidentification.py": {
+          "upstream_sha256": "b0ba5099f85ffc046aecdf9eb89d6192f9776cec8818ef16d0d570141bc37b16",
+          "previous_local_sha256": "5c90dbc7fa5351aff97046dbc2c3937746e7dd7ca314fe6a348f070f3fbe6e0b",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/clinical-reports/scripts/check_deidentification.py",
+          "backup_sha256": "5c90dbc7fa5351aff97046dbc2c3937746e7dd7ca314fe6a348f070f3fbe6e0b"
+        },
+        "scripts/consistency_checker.py": {
+          "upstream_sha256": "4cd79fab8a559fbbc7b900eac051424b938146e10b5c89ebb11cd8616f335422"
+        },
+        "scripts/format_adverse_events.py": {
+          "upstream_sha256": "496e4f527f9d0bbfb2d17b27327fc70d368141ee8147d38f49aaf875f94d75f4",
+          "previous_local_sha256": "7a758772d9fbbfa5f5441177e5b8112456eb8f44b503d5b10c3a3c44a6741829",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/clinical-reports/scripts/format_adverse_events.py",
+          "backup_sha256": "7a758772d9fbbfa5f5441177e5b8112456eb8f44b503d5b10c3a3c44a6741829"
+        },
+        "scripts/generate_report_template.py": {
+          "upstream_sha256": "02ca201797022bb4b718cb7865812446d7ef14d7ddd5db5e3be7875e84cc5425",
+          "previous_local_sha256": "4d6a6ba67934df9b22241add627dc7dba603837e060bf41b38a32a7994d03664",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/clinical-reports/scripts/generate_report_template.py",
+          "backup_sha256": "4d6a6ba67934df9b22241add627dc7dba603837e060bf41b38a32a7994d03664"
+        },
+        "scripts/provenance_validator.py": {
+          "upstream_sha256": "67fb48aadb60be52f189ab4ff767c0b520f1ba453a841163f4a4387a9b5c9081"
+        },
+        "scripts/terminology_validator.py": {
+          "upstream_sha256": "f2b6bdc21f111cc7edd2c7a74c2b007e47de51950c1272eaa93f71e76c658833",
+          "previous_local_sha256": "884ec372f1dd8b9da5bd5f639f78eb77379c49556cc4af93a3bdec557cc7d6e8",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/clinical-reports/scripts/terminology_validator.py",
+          "backup_sha256": "884ec372f1dd8b9da5bd5f639f78eb77379c49556cc4af93a3bdec557cc7d6e8"
+        },
+        "scripts/validate_case_report.py": {
+          "upstream_sha256": "fc15961fdb59c57782d230ed6f35d9a8c7c1ef4b751b1345c654a917e3faef82",
+          "previous_local_sha256": "7e4c22a7e4dc96b02bc0f4f5f622f694881d0b980e9f367f8bd9d3d02a49c30e",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/clinical-reports/scripts/validate_case_report.py",
+          "backup_sha256": "7e4c22a7e4dc96b02bc0f4f5f622f694881d0b980e9f367f8bd9d3d02a49c30e"
+        },
+        "scripts/validate_trial_report.py": {
+          "upstream_sha256": "baa77064f7917c36a31b9f3afe248cd43a97ca0058a517202d79cd888fcec4ae",
+          "previous_local_sha256": "dfec0163f0591ec24a41df73dc3193ababf2f0226ecb89b92896555ee4b99297",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/clinical-reports/scripts/validate_trial_report.py",
+          "backup_sha256": "dfec0163f0591ec24a41df73dc3193ababf2f0226ecb89b92896555ee4b99297"
+        }
+      },
+      "removed": [],
+      "retained_local": [
+        {
+          "path": "assets/case_report_template.md",
+          "sha256": "7f9e800517899b19b598937a03b6e8e181b95fa6e253226ab76d2cf25260e6a4",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "assets/clinical_trial_csr_template.md",
+          "sha256": "762ef9037bc0a3fc72b7460abefdcc7c0f13c0e4e6faa8f14f7df923092cbced",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "assets/clinical_trial_sae_template.md",
+          "sha256": "8bf96a808290c2b4413f080e722340ad3c32916b957e94069e3607715c9bed1c",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "assets/consult_note_template.md",
+          "sha256": "0293192c0f9fc0105fa9687145eee87e83c0d85e2341aaf5e5ba0938d2b8bd9c",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "assets/discharge_summary_template.md",
+          "sha256": "a74fb637db9673b8a21960ffd89281609d44c86f11eb0a75009977fec6e00eeb",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "assets/hipaa_compliance_checklist.md",
+          "sha256": "74b97bd05ce47ba87a4465f9752b003c120bd47cb64704c46349620870b0c05a",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "assets/history_physical_template.md",
+          "sha256": "f1cb9d4420c9ad364e56a3b1044eaca615a545d4c4d1989ad4131fc9d790e501",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "assets/lab_report_template.md",
+          "sha256": "2012eb87ba6d22e82a5bea6d1d4d3f8d38803c6d19ce8efda03d24b71bce139c",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "assets/pathology_report_template.md",
+          "sha256": "52e80fa0580254215165f09171266843d5eaeaea3ae54dae0a83db06eb7b0b24",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "assets/quality_checklist.md",
+          "sha256": "ad12b9fafa51678e2f921dbb43c693638b7e161f38963cb8c7cfd54167e43a31",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "assets/radiology_report_template.md",
+          "sha256": "27e5bde73659deaf6224c715e8f059db38642e21524fbf2a4d2a61b2b9f9d6be",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "assets/soap_note_template.md",
+          "sha256": "844cae5a09312419092dba108253ca21cf09eac318204f46788315bdf9727276",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "references/patient_documentation.md",
+          "sha256": "bed2d24b1cb2cb656bfef18771bb6bebbeef55e257052a53cab1ab85290de63d",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "references/peer_review_standards.md",
+          "sha256": "52b3e67271fa995ac7e069ba264a0836702579d599d40f8cd158a813e450f2a9",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "references/regulatory_compliance.md",
+          "sha256": "3db267167aeda175021d3cde18cc3190928c0a7cec827a3fd1ad4aa3385ec784",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "scripts/compliance_checker.py",
+          "sha256": "1a9e19d9e569e5f9bdeb319cbf08c9618a7e96aa5434156d41ce4d9e5b1632c6",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "scripts/extract_clinical_data.py",
+          "sha256": "6943e40ff5f011bc97228cc065c2ba936cde34d52538acd1561f0f81eb690ce2",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "scripts/generate_schematic.py",
+          "sha256": "a970c5330966745aa935dc30e29cc641719152699a667b6b43f2ff27eb52af5a",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "scripts/generate_schematic_ai.py",
+          "sha256": "0c6e36d7bfbd2fb4b33ca04cf23d52146d492cb3ee16cfcfb2c4eba179233d11",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        }
+      ]
+    },
+    "venue-templates": {
+      "copied": [
+        "references/current_sources.md"
+      ],
+      "overwritten": [
+        "SKILL.md",
+        "assets/examples/cell_summary_example.md",
+        "assets/examples/medical_structured_abstract.md",
+        "assets/examples/nature_abstract_examples.md",
+        "assets/examples/neurips_introduction_example.md",
+        "assets/grants/nih_specific_aims.tex",
+        "assets/grants/nsf_proposal_template.tex",
+        "assets/journals/elsarticle-harv.bst",
+        "assets/journals/elsarticle-num-names.bst",
+        "assets/journals/elsarticle-num.bst",
+        "assets/journals/elsarticle-template-harv.tex",
+        "assets/journals/elsarticle-template-num-names.tex",
+        "assets/journals/elsarticle-template-num.tex",
+        "assets/journals/nature_article.tex",
+        "assets/journals/neurips_article.tex",
+        "assets/journals/plos_one.tex",
+        "assets/posters/beamerposter_academic.tex",
+        "references/cell_press_style.md",
+        "references/conferences_formatting.md",
+        "references/cs_conference_style.md",
+        "references/grants_requirements.md",
+        "references/journals_formatting.md",
+        "references/medical_journal_styles.md",
+        "references/ml_conference_style.md",
+        "references/nature_science_style.md",
+        "references/posters_guidelines.md",
+        "references/reviewer_expectations.md",
+        "references/venue_writing_styles.md",
+        "scripts/customize_template.py",
+        "scripts/query_template.py",
+        "scripts/validate_format.py"
+      ],
+      "excluded": [],
+      "quarantined": [],
+      "files": {
+        "SKILL.md": {
+          "upstream_sha256": "913a9211e07ea13ae585943516e4d10be23ccb14bab02a9bec2b28f8ae3de50f",
+          "previous_local_sha256": "3a98890de38a8f31c57c89832ace95e85f39918fa99e7bed06d05d974c8c5f65",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/SKILL.md",
+          "backup_sha256": "3a98890de38a8f31c57c89832ace95e85f39918fa99e7bed06d05d974c8c5f65"
+        },
+        "assets/examples/cell_summary_example.md": {
+          "upstream_sha256": "f7870363e2b554fce13a36a63749386540110331c9cfe660217a8455b9c06b06",
+          "previous_local_sha256": "ea612efa17795e785c21cc7da725729fd2cd474df9a66291fd978c9ed2e1b6f8",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/assets/examples/cell_summary_example.md",
+          "backup_sha256": "ea612efa17795e785c21cc7da725729fd2cd474df9a66291fd978c9ed2e1b6f8"
+        },
+        "assets/examples/medical_structured_abstract.md": {
+          "upstream_sha256": "d4dfa33e33d08329621d38dbee98566a2a14024d7654b6ad70850900efb4adff",
+          "previous_local_sha256": "97c6ff6c998236d6bce8e1845adeae5c2afd7e0f2d010f752157020da1893957",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/assets/examples/medical_structured_abstract.md",
+          "backup_sha256": "97c6ff6c998236d6bce8e1845adeae5c2afd7e0f2d010f752157020da1893957"
+        },
+        "assets/examples/nature_abstract_examples.md": {
+          "upstream_sha256": "4f0142640edea4ea2f37a1e7ff2ef34ccc38cdef4b0941f3885af5b995371f1a",
+          "previous_local_sha256": "0fb146280c11789e816c2c2e6174247da9e753cf195ca7ca9c25ecedcf191b0f",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/assets/examples/nature_abstract_examples.md",
+          "backup_sha256": "0fb146280c11789e816c2c2e6174247da9e753cf195ca7ca9c25ecedcf191b0f"
+        },
+        "assets/examples/neurips_introduction_example.md": {
+          "upstream_sha256": "f429fa211405593e39ec4de51a90a1e17f1d8a5605f624fd50514bd7529282d7",
+          "previous_local_sha256": "e9a78659a9f564e84a88fbef637be4cf202e8c736b2120a80948f8340ed2471e",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/assets/examples/neurips_introduction_example.md",
+          "backup_sha256": "e9a78659a9f564e84a88fbef637be4cf202e8c736b2120a80948f8340ed2471e"
+        },
+        "assets/grants/nih_specific_aims.tex": {
+          "upstream_sha256": "bff64f62398e1614e866885c7e0917e254f7735ab201f46fc4c7228bc3eb4992",
+          "previous_local_sha256": "a9a7310027e2cfba8b83941159eaa0a492788633acca47860a6a46ca2dc2034a",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/assets/grants/nih_specific_aims.tex",
+          "backup_sha256": "a9a7310027e2cfba8b83941159eaa0a492788633acca47860a6a46ca2dc2034a"
+        },
+        "assets/grants/nsf_proposal_template.tex": {
+          "upstream_sha256": "252afff39a6bc4102e272b9c5f1b1c7f6e8ac64926cde53f91085891cad39516",
+          "previous_local_sha256": "51bb62884a892c69cd5d19c525bc4de25f64bf59877324c0a9861c8085cf2e52",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/assets/grants/nsf_proposal_template.tex",
+          "backup_sha256": "51bb62884a892c69cd5d19c525bc4de25f64bf59877324c0a9861c8085cf2e52"
+        },
+        "assets/journals/elsarticle-harv.bst": {
+          "upstream_sha256": "c648312c18148d28f66bcdf27b58a870f33eee7c8c0d2c1510b041930d34c147",
+          "previous_local_sha256": "d3bc8d517dac431bf35fa120626a797481643cab98a3e91bd1bd6a980fc1c7ca",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/assets/journals/elsarticle-harv.bst",
+          "backup_sha256": "d3bc8d517dac431bf35fa120626a797481643cab98a3e91bd1bd6a980fc1c7ca"
+        },
+        "assets/journals/elsarticle-num-names.bst": {
+          "upstream_sha256": "5d5bf585ec720da6db30ab5326b75f4d3dd97dd560f0fc572c42afb0fb68906b",
+          "previous_local_sha256": "e13cf7ca7e6cb8996cff6b7647def7d8b4c1baf88b2863406c7437a171d91427",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/assets/journals/elsarticle-num-names.bst",
+          "backup_sha256": "e13cf7ca7e6cb8996cff6b7647def7d8b4c1baf88b2863406c7437a171d91427"
+        },
+        "assets/journals/elsarticle-num.bst": {
+          "upstream_sha256": "17017f218f6e04f3ecb4b05203c0415f86a8e74b2f9bd962f4986a67e91e3a4f",
+          "previous_local_sha256": "a0b59d831d7333852503452c6dea79794144e00668e3d24dd82817d13cbcc15a",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/assets/journals/elsarticle-num.bst",
+          "backup_sha256": "a0b59d831d7333852503452c6dea79794144e00668e3d24dd82817d13cbcc15a"
+        },
+        "assets/journals/elsarticle-template-harv.tex": {
+          "upstream_sha256": "0fed9d721452fd539f0c41f4e5b4b1c9556a235dbda8ec3d27bb0bde3c6a4e2f",
+          "previous_local_sha256": "44b8286e6399713a88bac4f7f32c6eb4da9cd3c024ab495e5c8ac2c3aef0198f",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/assets/journals/elsarticle-template-harv.tex",
+          "backup_sha256": "44b8286e6399713a88bac4f7f32c6eb4da9cd3c024ab495e5c8ac2c3aef0198f"
+        },
+        "assets/journals/elsarticle-template-num-names.tex": {
+          "upstream_sha256": "8bf40de9a7d23b10f3bd4483866fd766bcbdd369a0f570eb88363a94374343b4",
+          "previous_local_sha256": "34fe8c03c696cf1aeb8ba166a60952bef02c7913927d051ab643c0890d828fec",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/assets/journals/elsarticle-template-num-names.tex",
+          "backup_sha256": "34fe8c03c696cf1aeb8ba166a60952bef02c7913927d051ab643c0890d828fec"
+        },
+        "assets/journals/elsarticle-template-num.tex": {
+          "upstream_sha256": "81976ac6e0a474af5a530bf6c6e33e141ddf577ad3a1541784d68771c63ef539",
+          "previous_local_sha256": "26c2d001a12796d9feda7019ed6052edb56e097ca3635bdb832ddc50a80e2a3c",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/assets/journals/elsarticle-template-num.tex",
+          "backup_sha256": "26c2d001a12796d9feda7019ed6052edb56e097ca3635bdb832ddc50a80e2a3c"
+        },
+        "assets/journals/nature_article.tex": {
+          "upstream_sha256": "d98ee7734d1211c4766ff9f4be64afd58cce76ae07664066007a01559279e9e9",
+          "previous_local_sha256": "88d4c21ff78281c82462912f3412864af368793026a80cef3c69a4fef7c675b5",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/assets/journals/nature_article.tex",
+          "backup_sha256": "88d4c21ff78281c82462912f3412864af368793026a80cef3c69a4fef7c675b5"
+        },
+        "assets/journals/neurips_article.tex": {
+          "upstream_sha256": "63d6968c41beb2e7824ea52dad86dbacd7639e27da1fe08dfc4771468fa92db4",
+          "previous_local_sha256": "03e2e4b7e117dab370e4e20efc969169a756d8116cedd4d6cf173a2a40f25d6c",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/assets/journals/neurips_article.tex",
+          "backup_sha256": "03e2e4b7e117dab370e4e20efc969169a756d8116cedd4d6cf173a2a40f25d6c"
+        },
+        "assets/journals/plos_one.tex": {
+          "upstream_sha256": "7ef51a677c5252b1c6089cd8ee0bd5fb0b7ae5e2635c56f841fcf4c504f356fa",
+          "previous_local_sha256": "ac349bc4381e8bc7bb5281e1ec849bea3c5beec2dde897448f9fa3271f107718",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/assets/journals/plos_one.tex",
+          "backup_sha256": "ac349bc4381e8bc7bb5281e1ec849bea3c5beec2dde897448f9fa3271f107718"
+        },
+        "assets/posters/beamerposter_academic.tex": {
+          "upstream_sha256": "7281865f50529e0fe1b2c6309fb1482a99617062b2ae1a03cf3da94f60e9e01b",
+          "previous_local_sha256": "6893e5d0844c226f062098294b1a2b856b687f190e652d99828eb89bf1981c3d",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/assets/posters/beamerposter_academic.tex",
+          "backup_sha256": "6893e5d0844c226f062098294b1a2b856b687f190e652d99828eb89bf1981c3d"
+        },
+        "references/cell_press_style.md": {
+          "upstream_sha256": "42893b9b03915fa5b0ee9e77a80341b9563f7b0f626fdb6ad714666880e213b8",
+          "previous_local_sha256": "98bf01d1bcd721d8eab2fcf74ab402a3ec34b5b87f7ad341126dc0aefc5fdbdc",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/references/cell_press_style.md",
+          "backup_sha256": "98bf01d1bcd721d8eab2fcf74ab402a3ec34b5b87f7ad341126dc0aefc5fdbdc"
+        },
+        "references/conferences_formatting.md": {
+          "upstream_sha256": "efc4315648688271b5fc21a321d92d89ee5c97e4f7f56b68ad9f3c91f9eae6c3",
+          "previous_local_sha256": "668fe25d8c0bb00beb70b4db028562c01cecbe544b545c7496dbd44a0628f803",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/references/conferences_formatting.md",
+          "backup_sha256": "668fe25d8c0bb00beb70b4db028562c01cecbe544b545c7496dbd44a0628f803"
+        },
+        "references/cs_conference_style.md": {
+          "upstream_sha256": "f80b46ae8f5679537c03405d0b52083d65e25f5465c8acf0f5fe6365d8bd2963",
+          "previous_local_sha256": "5317b1450ae5a6f316f9301449b9e196f465d079ea98b0efa01c371952699ca1",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/references/cs_conference_style.md",
+          "backup_sha256": "5317b1450ae5a6f316f9301449b9e196f465d079ea98b0efa01c371952699ca1"
+        },
+        "references/current_sources.md": {
+          "upstream_sha256": "719269fb84e1a109a390dbfbdf71993761f4f053b02278f3adab2a7942875599"
+        },
+        "references/grants_requirements.md": {
+          "upstream_sha256": "21fa9244225ce05c0b074c416c03e7a3770628ed3fdca9e9ff771fff2f431506",
+          "previous_local_sha256": "2b59b56dc0d5b5b1a988c993c11bcf1c5bd8737fcf00623a0f4a506fc790632b",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/references/grants_requirements.md",
+          "backup_sha256": "2b59b56dc0d5b5b1a988c993c11bcf1c5bd8737fcf00623a0f4a506fc790632b"
+        },
+        "references/journals_formatting.md": {
+          "upstream_sha256": "5493bc0a05c240687c0764250affdbde8d62ac685a688762f3c3dbfb9e65b0ce",
+          "previous_local_sha256": "5ace549a2553b6ae8efaa910d8670e0c5962ca90772df0a860b9c41aa66a87bd",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/references/journals_formatting.md",
+          "backup_sha256": "5ace549a2553b6ae8efaa910d8670e0c5962ca90772df0a860b9c41aa66a87bd"
+        },
+        "references/medical_journal_styles.md": {
+          "upstream_sha256": "a929c46a4a121322267850cc859e6c08825603c3a1e660a594d8d2b4c11ef1d0",
+          "previous_local_sha256": "3dfda877c5e30e5313615b5933b8bd36550280d087c2cf79d49b9f533aab4fbd",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/references/medical_journal_styles.md",
+          "backup_sha256": "3dfda877c5e30e5313615b5933b8bd36550280d087c2cf79d49b9f533aab4fbd"
+        },
+        "references/ml_conference_style.md": {
+          "upstream_sha256": "debd4cd2fc377b80cd6e58da16b2b4c1e69e912b988e0388960ed5efab3dd08d",
+          "previous_local_sha256": "a25eea56212f533d55278ccd0c3b152960e868a6a829238340d472238336f028",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/references/ml_conference_style.md",
+          "backup_sha256": "a25eea56212f533d55278ccd0c3b152960e868a6a829238340d472238336f028"
+        },
+        "references/nature_science_style.md": {
+          "upstream_sha256": "cf8e32416c0930d115f935f52f144df1ce80e496e6e26d1f33cab2f696152ede",
+          "previous_local_sha256": "b9c77ee46e3ea7a926dfa7d95d2fc5306ae017577a985539757d5ff446af5257",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/references/nature_science_style.md",
+          "backup_sha256": "b9c77ee46e3ea7a926dfa7d95d2fc5306ae017577a985539757d5ff446af5257"
+        },
+        "references/posters_guidelines.md": {
+          "upstream_sha256": "4c35806f61dcd4e9490968ca9a1323099432ed7e8260173843251e81b322ca4a",
+          "previous_local_sha256": "69f7319f9bf91c8a5c66ecede163a59a70e7d58b65f4f37661fc656d83e0ea95",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/references/posters_guidelines.md",
+          "backup_sha256": "69f7319f9bf91c8a5c66ecede163a59a70e7d58b65f4f37661fc656d83e0ea95"
+        },
+        "references/reviewer_expectations.md": {
+          "upstream_sha256": "4d67f58f194d067832f56d0f872291c03eb10af57162a08daabae2ac14bd3822",
+          "previous_local_sha256": "085ad5aeb2bf0f8b1de9e1c314ad23b774017b28999febce35fc993bf91f27bd",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/references/reviewer_expectations.md",
+          "backup_sha256": "085ad5aeb2bf0f8b1de9e1c314ad23b774017b28999febce35fc993bf91f27bd"
+        },
+        "references/venue_writing_styles.md": {
+          "upstream_sha256": "49a33a29be2d4ffd832f1aacdf057bea1d9942a6834f10b0b9bddc00559a7959",
+          "previous_local_sha256": "6f350665fc0012fdabb85d3341da90b52cb8c52bd857ccd3bc42e6f671619d57",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/references/venue_writing_styles.md",
+          "backup_sha256": "6f350665fc0012fdabb85d3341da90b52cb8c52bd857ccd3bc42e6f671619d57"
+        },
+        "scripts/customize_template.py": {
+          "upstream_sha256": "c4efb7cb9d1f3227999b69e620b29b33db384425626881b6c5139e36fd18ab64",
+          "previous_local_sha256": "0cb8b443ea4f0c3edcebd72a04fa40cc89cfa2645c35e0ea9b38db9009a72d77",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/scripts/customize_template.py",
+          "backup_sha256": "0cb8b443ea4f0c3edcebd72a04fa40cc89cfa2645c35e0ea9b38db9009a72d77"
+        },
+        "scripts/query_template.py": {
+          "upstream_sha256": "215965cab09418d71cbd34c78293d3c77bdc26446c7b5a9e806dbc35608b8a1d",
+          "previous_local_sha256": "e7e299069b8d72d55a0e1e4c9b7e7bdf58ee829e79bce0b2206d600e0626bbf0",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/scripts/query_template.py",
+          "backup_sha256": "e7e299069b8d72d55a0e1e4c9b7e7bdf58ee829e79bce0b2206d600e0626bbf0"
+        },
+        "scripts/validate_format.py": {
+          "upstream_sha256": "1b05498e9b122f116d3e0bb3accf515391651629a29df221ac42e945764410e6",
+          "previous_local_sha256": "fcc3cef09b1a7fafbaff9918bc6e7b294a73f65481655ffab44f09fcce1ca73a",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/venue-templates/scripts/validate_format.py",
+          "backup_sha256": "fcc3cef09b1a7fafbaff9918bc6e7b294a73f65481655ffab44f09fcce1ca73a"
+        }
+      },
+      "removed": [],
+      "retained_local": [
+        {
+          "path": "scripts/generate_schematic.py",
+          "sha256": "a970c5330966745aa935dc30e29cc641719152699a667b6b43f2ff27eb52af5a",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "scripts/generate_schematic_ai.py",
+          "sha256": "0c6e36d7bfbd2fb4b33ca04cf23d52146d492cb3ee16cfcfb2c4eba179233d11",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        }
+      ]
+    }
+  },
+  "apply": true
+}

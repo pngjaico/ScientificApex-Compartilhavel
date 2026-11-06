@@ -1,0 +1,48 @@
+lane: evidence-writing
+guidelines:
+- PRISMA
+- GRADE
+- ROBIS
+- AMSTAR 2
+risk_of_bias_tools:
+- RoB 2
+- ROBINS-I
+policy_labels:
+- evidence-synthesis
+- high-rigor
+deliverables:
+- protocol
+- screening log
+- claim map
+- manuscript
+- review report
+registration_policy:
+  required: true
+  timing: before-scientific-work
+  accepted_registries:
+  - PROSPERO
+  - OSF
+  verification_required: true
+  rationale: 'User policy: verified protocol registration before scientific execution;
+    preparing the protocol is permitted.'
+contract_version: 2
+project_type: systematic-review
+checklist_status:
+  PRISMA:
+    status: pending
+    items: []
+  GRADE:
+    status: pending
+    items: []
+  ROBIS:
+    status: pending
+    items: []
+  AMSTAR 2:
+    status: pending
+    items: []
+  RoB 2:
+    status: pending
+    items: []
+  ROBINS-I:
+    status: pending
+    items: []

@@ -1,0 +1,2 @@
+# Kit de publicação
+Modelos originais de trabalho, sem conteúdo clínico preenchido. Começar por `perfis_de_revistas/catalogo_revistas.json`, selecionar desenho/categoria, copiar para `projects/<id>/publicacoes/<revista>/<data>_vNN/` usando o organizador existente. Os 3 modelos científicos principais continuam em `modelos/`. Perfis datados são ajuda de preparação; conferir regras no momento de enviar. Documentos Markdown são editáveis; `renderizar_modelos.py` gera DOCX/HTML pareados. Nunca chamar estes modelos de submissão pronta. Não submeter a duas revistas simultaneamente.

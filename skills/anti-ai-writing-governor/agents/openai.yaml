@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anti-IA Writing Governor"
+  short_description: "Naturalidade cientifica sem bypass."
+  default_prompt: "Use $anti-ai-writing-governor to audit and naturalize a scientific manuscript without detector bypass or evidence drift."

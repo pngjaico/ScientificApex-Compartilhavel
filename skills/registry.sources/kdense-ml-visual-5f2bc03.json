@@ -1,0 +1,191 @@
+{
+  "schema_version": 2,
+  "provider": "K-Dense AI",
+  "origin": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
+  "license": "MIT",
+  "per_skill_licenses": {
+    "scikit-learn": "BSD-3-Clause",
+    "pytorch-lightning": "Apache-2.0",
+    "scientific-visualization": "MIT"
+  },
+  "status": "pilot",
+  "scientific_approval": false,
+  "skills": {
+    "scikit-learn": {
+      "files": {
+        "SKILL.md": {
+          "upstream_sha256": "fe68d54967aab64ee46533bd4efa749e748f6787b4096a2400e0968a52aaf562",
+          "previous_local_sha256": "7d945648fc4d33c7cf069cb56b2ddae1d4279b897a2c5dc62882cc8dfc65843d"
+        },
+        "references/common_workflows.md": {
+          "upstream_sha256": "5f79e3799c272a92813bcd8476a3ed758d4a41432f832d442430d92cbf2a0bc6",
+          "previous_local_sha256": null
+        },
+        "references/core_capabilities.md": {
+          "upstream_sha256": "716c020c53a9b8101810ec5ccd4773228f8a58bf646fab981dff534e6577dc7c",
+          "previous_local_sha256": null
+        },
+        "references/model_evaluation.md": {
+          "upstream_sha256": "6abe6f415d16a97cc5cafee3ea72c4a3765fb249884b030639e268e85dcc3151",
+          "previous_local_sha256": "595977f39e51764078a29d26e4da1cfb3b9cc5e5be0a5d49f277a879f2b3df9d"
+        },
+        "references/pipelines_and_composition.md": {
+          "upstream_sha256": "0354fdf00669d018b031d61eafd5159ff320d6c1af78f5be49c2f1b08895c10c",
+          "previous_local_sha256": "fe49fb3a57c7c5d1908ca3fb1c92c2d20808a6be96f4b42f295bf143fcb2e8c0"
+        },
+        "references/preprocessing.md": {
+          "upstream_sha256": "b3c8802022b402fb9af9ccd011f051feec63906460985a43ad2b638154ea4a89",
+          "previous_local_sha256": "333a123e6657a4d600ec33fe2bfca4e91012418dc4acbce69f51f70f0e9b1754"
+        },
+        "references/quick_reference.md": {
+          "upstream_sha256": "c9dd68419eaf2500f3e02f45b34c9498628b1dc453a13712ed3f0d25e4ea6110",
+          "previous_local_sha256": "d8295a56122899677c433ddc8fd5c2b00e9f89b5e865c30dc77a0e5e1e0ba4e6"
+        },
+        "references/supervised_learning.md": {
+          "upstream_sha256": "d6b13470a9d26fca8764d7d0e56d5eb391057ac741308ce65c42f1ff69668966",
+          "previous_local_sha256": "66f9542b7a29045d9b8ec22602a68269a1a2a63a06eab4643a429e71bd95f80d"
+        },
+        "references/unsupervised_learning.md": {
+          "upstream_sha256": "7af65a13d024744d76fbe2aa1bfcbe2f14b06579ac84931d3962e1a7c40e12cb",
+          "previous_local_sha256": "663fef81803bb0dca3e12cf21a4b0638b911f8107ebc78335907c377196847ac"
+        },
+        "scripts/classification_pipeline.py": {
+          "upstream_sha256": "b7317bf221c8ed989fd39b47679de0c552d455c7d238b7a52b9374987f589bcf",
+          "previous_local_sha256": "3dcbdd0b73b374915ba5a16909da743794e6eba8298dc6084f6f754c7115e114"
+        },
+        "scripts/clustering_analysis.py": {
+          "upstream_sha256": "7bafcb169e030d84698f83fffc1c64c461657cffe1abffa34d4b93cd9bd6f015",
+          "previous_local_sha256": "7937ed9749e2396b092db4e09dfef8393c861250ce9deb1f96db3068b7b7639a"
+        }
+      },
+      "retained_local_policy": "No deletion; old local paths not present upstream remain pending review"
+    },
+    "pytorch-lightning": {
+      "files": {
+        "SKILL.md": {
+          "upstream_sha256": "ec6b4caefcf0f300906d635f7b71d2f4af5300249c855d3a75aeed1ed4d80492",
+          "previous_local_sha256": "00b1f639fb11da164957fd0580d6b6f090b70f19b6d0a394f60166b1ffac1bb0"
+        },
+        "references/best_practices.md": {
+          "upstream_sha256": "3358d78dd5bd81688ae57803125b3aed080523d7ad0448c58adb476372162df2",
+          "previous_local_sha256": "395e6891937fe2368dbf0db8277fecfa5dcfbe8253d23dfd23f33d397f89c819"
+        },
+        "references/callbacks.md": {
+          "upstream_sha256": "8b960a9aa829f24c2ae1db3e3c693553d5bd619172a3ce05f474b651d8a27afc",
+          "previous_local_sha256": "6ce37879a2bb90441530ed9c8944c96a5e43a53d141e048fc53ed78bff15ca8d"
+        },
+        "references/data_module.md": {
+          "upstream_sha256": "fbc3cc2363129ecc83c62672eb690a87251a676558f1552dd5c9cb466269ea2d",
+          "previous_local_sha256": "941f7f27083a22fd891da789c3ceaf0497e241eded744d2811385eac506053c9"
+        },
+        "references/distributed_training.md": {
+          "upstream_sha256": "fe57659a4a1b8d8ce81edfa3ca44542acfb60efa025abf5674f5dfdd92078766",
+          "previous_local_sha256": "2cf2398c6600f18599114230044065b041a39d89767603798dc526018e5ffa52"
+        },
+        "references/lightning_module.md": {
+          "upstream_sha256": "21e56a8735e768fff8cc4ac3205dfd066dd79f1330bf15ee51fcfa29f783f4c6",
+          "previous_local_sha256": "16b7840e69d3373e50680802256ed8e7cf2f160ab446cbfa25b25fc1d608705b"
+        },
+        "references/logging.md": {
+          "upstream_sha256": "b3c9cac96386b50331becbeb177c5ec8c9867b7783ec323c3742aee6a21ff39e",
+          "previous_local_sha256": "9c65274baaa883e90a9199be77011089240ff61f4636ae82f19c70142cd26028"
+        },
+        "references/trainer.md": {
+          "upstream_sha256": "b5bb76c3410327fc26d42e250b162f0a06ef37df236eaf0cd171a582980f268c",
+          "previous_local_sha256": "2a131c20aecc821b84d4a590aa83832ad836fcf858d4ffb8d62cf6b075ce80ee"
+        },
+        "scripts/quick_trainer_setup.py": {
+          "upstream_sha256": "6d4938061cd21028dab9fda6c39bee1f125cbc5588fe3acfa2074be6f74ae54f",
+          "previous_local_sha256": "a5f37eee2cd9c92acd21d44089170f7315e12a6845340377c6f815a5f6b8ecbd"
+        },
+        "scripts/template_datamodule.py": {
+          "upstream_sha256": "7b8edc072dc91df83da12f81a9211415fadac7f6d6a8d66f45f5dc6607bf2a05",
+          "previous_local_sha256": "1a1c39354d855afa85be430958d5e13fb3524815bd7f603288277b4a19fbf5a0"
+        },
+        "scripts/template_lightning_module.py": {
+          "upstream_sha256": "d718762902f2a05b0234055ce69a35ad96bc6410981bcf4c6a48874f9760c587",
+          "previous_local_sha256": "6713a1ca6f10ca948cfbc8af8e71a3bd76ac0475824208c0cf7ae6b18d62eed1"
+        }
+      },
+      "retained_local_policy": "No deletion; old local paths not present upstream remain pending review"
+    },
+    "scientific-visualization": {
+      "files": {
+        "SKILL.md": {
+          "upstream_sha256": "bddc46cb5e027db1a0ddf7e9674cefe4f54bb259f78e77cf2960fe0368f0e5ae",
+          "previous_local_sha256": "f460e8b5e712fd747879c05f3623c409fa9301d7ec32e025c380b87a10c95c28"
+        },
+        "assets/color_palettes.py": {
+          "upstream_sha256": "95fef3e5f7c7d3a447d97c4800238847b8b48e3f1e8bafa0072d7aa311191ca3",
+          "previous_local_sha256": "400cb1312c30e37db30930bf5e2b93416ae9918769c2e6bc77c1f7e9b0724038"
+        },
+        "assets/nature.mplstyle": {
+          "upstream_sha256": "04a81e892c6031e2b4dea509067ec7c016e93763a1e3720e400b491b34fb0bcc",
+          "previous_local_sha256": "229848397e716ada19a53b10eeef69cf5945487ba92afc1842a269402c15d154"
+        },
+        "assets/presentation.mplstyle": {
+          "upstream_sha256": "5ffa6f457a0a50ff6520f41fbbf4036c7a519abf9ffb756f219c26231979b5fa",
+          "previous_local_sha256": "d6e9d1580776490e240b6339708a19e409cd980267212a798455e157414c7a17"
+        },
+        "assets/publication.mplstyle": {
+          "upstream_sha256": "59e33dffa8761d3f6a222b902894d8ee0141c2d29ae76be22e81cdb6812f5f7c",
+          "previous_local_sha256": "aa09903da14efc173dc9d441e8a76ca3a0f04a62ef4b806790396e8fd3d2aa33"
+        },
+        "assets/publisher_profiles.json": {
+          "upstream_sha256": "a0fb54a88476e6e07a95d3d5c51cc8940e1c121bd3f99bdd968df1f094490f70",
+          "previous_local_sha256": null
+        },
+        "references/color_palettes.md": {
+          "upstream_sha256": "9b6ffa44e997f590832797baf3ffc00ae3aee644bbe7309c5dd20d6a465f77d7",
+          "previous_local_sha256": "cf9e8c8cc055da4936993b30db080c7571daddfd1680856c3093594229e410f8"
+        },
+        "references/journal_requirements.md": {
+          "upstream_sha256": "5684aba0e259cf7ec4e7173b929e5ac04cbce69e91777ff492d629032f4720b5",
+          "previous_local_sha256": "253e2f93585cde484dc197aaf18fd30e449527fe2e6eed79931f2d41f41519e5"
+        },
+        "references/matplotlib_examples.md": {
+          "upstream_sha256": "f829a71ff15ad6fffc5c245fb0edc73e310a8fc47ad3f48d387c01b724dc42d6",
+          "previous_local_sha256": "891e45cab65201febdc8bad87f94268e23aefda1b590ae26f795fc56ec9c0390"
+        },
+        "references/publication_guidelines.md": {
+          "upstream_sha256": "3747feb114ded22091051ad91148cfcd8289ec32997d0c3be36a3de23017b6c6",
+          "previous_local_sha256": "e0d8713764a84e4a382857f4685cc1e4206ad370aff40047bcc271944b595c9c"
+        },
+        "references/sources.md": {
+          "upstream_sha256": "f686c43941ff68f9ba0ead1d338002cfaeaacc3b50cae0c5b96685c17d7c04bf",
+          "previous_local_sha256": null
+        },
+        "scripts/_common.py": {
+          "upstream_sha256": "334bedac12f899c4dface3a8f2740f75ada51586948788b6d101f8431bbb5fcb",
+          "previous_local_sha256": null
+        },
+        "scripts/export_plan.py": {
+          "upstream_sha256": "06dfd7c4d5d7296cdc8728b4727f74aa9803aefe438522df6d42e041078364d9",
+          "previous_local_sha256": null
+        },
+        "scripts/figure_export.py": {
+          "upstream_sha256": "b2c7ba3c82d6cce39735ed1ef509a5a5952452db0230eecc3519d86937b2cfdc",
+          "previous_local_sha256": "18ced02af9da143ed74a26de0f4275e722481ac53a8d537ddc68ffead99ec5d2"
+        },
+        "scripts/image_metadata.py": {
+          "upstream_sha256": "1e8dbc9a1a4de4a1b0049b056c4903eb2777e496aff5e90b512783e668fd7f83",
+          "previous_local_sha256": null
+        },
+        "scripts/palette_audit.py": {
+          "upstream_sha256": "6bd51add71388cd111e531cc60deab38a675ddf2f1845381546fe3bdbf923f13",
+          "previous_local_sha256": null
+        },
+        "scripts/style_presets.py": {
+          "upstream_sha256": "48ae33af80f50e1705f53dc37b9770cc28e7d9fc072689ac2c2c94c0a731769f",
+          "previous_local_sha256": "d9d2fe01529d37194b55b861133fcea49a96a4db2ec2737e972d9a69f8cc5aaa"
+        },
+        "scripts/style_preview.py": {
+          "upstream_sha256": "b6b5f346a48f2d8c050e57a861c53fdc210347b463fc15c7c6362504cbd27463",
+          "previous_local_sha256": null
+        }
+      },
+      "retained_local_policy": "No deletion; old local paths not present upstream remain pending review"
+    }
+  }
+}

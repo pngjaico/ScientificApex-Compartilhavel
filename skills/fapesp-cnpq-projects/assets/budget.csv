@@ -1,0 +1,3 @@
+item_id,atividade,rubrica,item,unidade,quantidade,custo_unitario,moeda,total,fonte_cotacao,data_cotacao,financiador,status_elegibilidade,justificativa
+BIO01,ensaio,PENDENTE,kit biomarcador,kit,PENDENTE,PENDENTE,BRL,PENDENTE,PENDENTE,PENDENTE,PENDENTE,nao_verificado,"Calcular pacientes x tempos x replicatas + controles e perdas; capacidade util por kit confirmada"
+IMG01,imagem,PENDENTE,exame ou leitura,unidade,PENDENTE,PENDENTE,BRL,PENDENTE,PENDENTE,PENDENTE,PENDENTE,nao_verificado,"Separar cuidado habitual de custo adicional de pesquisa e confirmar cobertura"

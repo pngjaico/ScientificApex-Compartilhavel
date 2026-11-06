@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deep Thinking Governor"
+  short_description: "Deliberacao critica para decisoes."
+  default_prompt: "Use $deep-thinking-governor to stress-test a scientific decision before writing conclusions."

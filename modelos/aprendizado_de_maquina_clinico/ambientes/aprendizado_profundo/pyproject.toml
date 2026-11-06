@@ -1,0 +1,14 @@
+[project]
+name = "demonstracao-aprendizado-profundo"
+version = "0.2.0"
+description = "Ambiente Python 3.13 isolado para Aprendizado Profundo Medico (PyTorch, Torchvision, TorchMetrics, avaliacao clinica e graficos)."
+requires-python = ">=3.13,<3.14"
+dependencies = [
+  "torch>=2.11,<3",
+  "torchvision>=0.21,<1",
+  "torchmetrics>=1.6,<2",
+  "scikit-learn>=1.9.1,<2",
+  "pandas>=3.0.2,<4",
+  "matplotlib>=3.10,<4",
+  "seaborn>=0.13.2,<1",
+]

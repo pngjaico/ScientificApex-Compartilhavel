@@ -1,0 +1,31 @@
+lane: evidence-writing
+guidelines:
+- TRIPOD+AI
+risk_of_bias_tools:
+- PROBAST+AI
+policy_labels:
+- prediction
+deliverables:
+- protocol
+- analysis
+- claim map
+- manuscript
+- review report
+contract_version: 2
+project_type: prediction-model
+checklist_status:
+  TRIPOD+AI:
+    status: pending
+    items: []
+  PROBAST+AI:
+    status: pending
+    items: []
+registration_policy:
+  required: true
+  timing: before-scientific-work
+  accepted_registries:
+  - PROSPERO
+  - OSF
+  verification_required: true
+  rationale: 'User policy: verified protocol registration before scientific execution;
+    preparing the protocol is permitted.'

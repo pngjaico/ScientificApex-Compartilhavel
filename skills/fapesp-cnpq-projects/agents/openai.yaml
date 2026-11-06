@@ -1,0 +1,4 @@
+interface:
+  display_name: "Projetos FAPESP e CNPq"
+  short_description: "Redigir e revisar propostas de fomento brasileiro"
+  default_prompt: "Use $fapesp-cnpq-projects para preparar uma proposta rastreável na modalidade correta, com requisitos oficiais, orçamento e revisão crítica."

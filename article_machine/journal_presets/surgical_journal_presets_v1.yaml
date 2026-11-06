@@ -1,0 +1,1033 @@
+schema_version: 1
+generated_at: '2026-04-26'
+source_caveat: Metrics are seed data for routing. Refresh against journal pages, JCR, PubMed, and author instructions before submission.
+journals:
+- journal_id: aesthetic-surgery-journal
+  title: Aesthetic Surgery Journal
+  issn: 1090-820X
+  publisher: Oxford University Press
+  society: The Aesthetic Society
+  domains: [plastic-surgery]
+  tier: A
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: 4.0
+    impact_factor_year: 2024
+    source: https://www.theaestheticsociety.org/media/press-releases/asj-open-forum-earns-second-consecutive-score-signaling-steady-growth
+  article_types: [original research, systematic review, meta-analysis, clinical study]
+  scope_fit: Cosmetic surgery, aesthetic plastic surgery, outcomes, techniques, and reviews.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify current OUP options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://academic.oup.com/asj
+  - https://www.theaestheticsociety.org/media/press-releases/asj-open-forum-earns-second-consecutive-score-signaling-steady-growth
+  last_verified_at: '2026-04-26'
+  verification_status: verified
+  red_flags: []
+- journal_id: plastic-and-reconstructive-surgery
+  title: Plastic and Reconstructive Surgery
+  issn: 0032-1052
+  publisher: Wolters Kluwer
+  society: American Society of Plastic Surgeons
+  domains: [plastic-surgery]
+  tier: A
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, systematic review, meta-analysis, clinical study, technique]
+  scope_fit: Broad reconstructive and aesthetic plastic surgery.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify current LWW options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://journals.lww.com/plasreconsurg/pages/default.aspx
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: jpras
+  title: Journal of Plastic, Reconstructive and Aesthetic Surgery
+  issn: 1748-6815
+  publisher: Elsevier
+  society: British Association of Plastic, Reconstructive and Aesthetic Surgeons
+  domains: [plastic-surgery]
+  tier: B
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, systematic review, meta-analysis, clinical study]
+  scope_fit: Plastic, reconstructive, aesthetic, craniofacial, and hand surgery.
+  format_rules:
+    citation_style: Vancouver
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify Elsevier options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://www.sciencedirect.com/journal/journal-of-plastic-reconstructive-and-aesthetic-surgery
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: aesthetic-plastic-surgery
+  title: Aesthetic Plastic Surgery
+  issn: 0364-216X
+  publisher: Springer Nature
+  society: International Society of Aesthetic Plastic Surgery
+  domains: [plastic-surgery]
+  tier: B
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, systematic review, meta-analysis, clinical study]
+  scope_fit: Aesthetic surgery, cosmetic outcomes, and technique-focused studies.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify Springer options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://link.springer.com/journal/266
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: prs-global-open
+  title: PRS Global Open
+  issn: 2169-7574
+  publisher: Wolters Kluwer
+  society: American Society of Plastic Surgeons
+  domains: [plastic-surgery]
+  tier: C
+  indexing: [PubMed, MEDLINE, Web of Science]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, systematic review, meta-analysis, clinical study, case report]
+  scope_fit: Open-access plastic and reconstructive surgery with broader acceptance lane.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: full open access
+    notes: Verify APC before submission.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://journals.lww.com/prsgo/pages/default.aspx
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: annals-of-plastic-surgery
+  title: Annals of Plastic Surgery
+  issn: 0148-7043
+  publisher: Wolters Kluwer
+  society: ''
+  domains: [plastic-surgery]
+  tier: C
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, systematic review, meta-analysis, clinical study, case report]
+  scope_fit: Broad clinical plastic surgery and reconstruction.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify LWW options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://journals.lww.com/annalsplasticsurgery/pages/default.aspx
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: journal-of-craniofacial-surgery
+  title: Journal of Craniofacial Surgery
+  issn: 1049-2275
+  publisher: Wolters Kluwer
+  society: ''
+  domains: [plastic-surgery]
+  tier: C
+  indexing: [PubMed, MEDLINE, Web of Science]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, clinical study, case report, technique]
+  scope_fit: Craniofacial surgery, facial reconstruction, and related plastic surgery.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify LWW options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://journals.lww.com/jcraniofacialsurgery/pages/default.aspx
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: jama-surgery
+  title: JAMA Surgery
+  issn: 2168-6254
+  publisher: American Medical Association
+  society: ''
+  domains: [general-surgery, digestive-surgery, transplant]
+  tier: A
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, clinical trial, systematic review, meta-analysis, viewpoint]
+  scope_fit: High-impact clinical surgery, health services, outcomes, and policy.
+  format_rules:
+    citation_style: AMA
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify AMA options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://jamanetwork.com/journals/jamasurgery
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: annals-of-surgery
+  title: Annals of Surgery
+  issn: 0003-4932
+  publisher: Wolters Kluwer
+  society: ''
+  domains: [general-surgery, digestive-surgery, transplant]
+  tier: A
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, clinical trial, systematic review, meta-analysis, cohort]
+  scope_fit: High-impact surgical science, trials, outcomes, and translational surgery.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify LWW options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://journals.lww.com/annalsofsurgery/pages/default.aspx
+  last_verified_at: '2026-04-26'
+  verification_status: verified
+  red_flags: []
+- journal_id: bjs
+  title: British Journal of Surgery
+  issn: 0007-1323
+  publisher: Oxford University Press
+  society: BJS Society
+  domains: [general-surgery, digestive-surgery]
+  tier: A
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, systematic review, meta-analysis, clinical trial]
+  scope_fit: Surgical research, trials, perioperative outcomes, and evidence synthesis.
+  format_rules:
+    citation_style: Vancouver
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify OUP options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://academic.oup.com/bjs
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: surgery
+  title: Surgery
+  issn: 0039-6060
+  publisher: Elsevier
+  society: ''
+  domains: [general-surgery, digestive-surgery, transplant]
+  tier: B
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, systematic review, meta-analysis, clinical trial]
+  scope_fit: Broad general surgery, clinical outcomes, and operative science.
+  format_rules:
+    citation_style: Vancouver
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify Elsevier options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://www.sciencedirect.com/journal/surgery
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: journal-of-the-american-college-of-surgeons
+  title: Journal of the American College of Surgeons
+  issn: 1072-7515
+  publisher: Wolters Kluwer
+  society: American College of Surgeons
+  domains: [general-surgery, digestive-surgery, transplant]
+  tier: B
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, clinical study, systematic review, meta-analysis]
+  scope_fit: Surgical outcomes, quality, education, trials, and clinical surgery.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify current options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://journals.lww.com/journalacs/pages/default.aspx
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: world-journal-of-surgery
+  title: World Journal of Surgery
+  issn: 0364-2313
+  publisher: Springer Nature
+  society: International Society of Surgery
+  domains: [general-surgery, digestive-surgery, transplant]
+  tier: B
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, systematic review, meta-analysis, clinical study]
+  scope_fit: International clinical surgery and surgical outcomes.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify Springer options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://link.springer.com/journal/268
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: international-journal-of-surgery
+  title: International Journal of Surgery
+  issn: 1743-9191
+  publisher: Wolters Kluwer
+  society: ''
+  domains: [general-surgery, digestive-surgery]
+  tier: B
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, systematic review, meta-analysis, clinical study]
+  scope_fit: Broad surgical studies, reviews, and global surgery.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify LWW options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://journals.lww.com/international-journal-of-surgery/pages/default.aspx
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: american-journal-of-transplantation
+  title: American Journal of Transplantation
+  issn: 1600-6135
+  publisher: Elsevier
+  society: American Society of Transplantation
+  domains: [transplant]
+  tier: A
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, clinical study, registry, systematic review, meta-analysis]
+  scope_fit: Solid organ transplant science, outcomes, immunology, and policy.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify Elsevier options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://www.myast.org/publications
+  - https://www.sciencedirect.com/journal/american-journal-of-transplantation
+  last_verified_at: '2026-04-26'
+  verification_status: verified
+  red_flags: []
+- journal_id: transplantation
+  title: Transplantation
+  issn: 0041-1337
+  publisher: Wolters Kluwer
+  society: The Transplantation Society
+  domains: [transplant]
+  tier: B
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: 5.5
+    impact_factor_year: 2024
+    source: https://tts.org/journal/transplantation-journal
+  article_types: [original research, clinical study, registry, systematic review, meta-analysis]
+  scope_fit: Broad transplant medicine and surgery.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify LWW options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://tts.org/journal/transplantation-journal
+  - https://journals.lww.com/transplantjournal/pages/default.aspx
+  last_verified_at: '2026-04-26'
+  verification_status: verified
+  red_flags: []
+- journal_id: liver-transplantation
+  title: Liver Transplantation
+  issn: 1527-6465
+  publisher: Wiley
+  society: American Association for the Study of Liver Diseases
+  domains: [transplant, gastroenterology]
+  tier: B
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, clinical study, registry, systematic review, meta-analysis]
+  scope_fit: Liver transplantation, hepatology-transplant interface, outcomes.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify Wiley options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://aasldpubs.onlinelibrary.wiley.com/journal/15276473
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: clinical-transplantation
+  title: Clinical Transplantation
+  issn: 0902-0063
+  publisher: Wiley
+  society: ''
+  domains: [transplant]
+  tier: C
+  indexing: [PubMed, MEDLINE, Web of Science]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, clinical study, case series, systematic review]
+  scope_fit: Clinical transplant practice and outcomes.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify Wiley options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://onlinelibrary.wiley.com/journal/13990012
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: transplant-international
+  title: Transplant International
+  issn: 0934-0874
+  publisher: Frontiers Media
+  society: European Society for Organ Transplantation
+  domains: [transplant]
+  tier: C
+  indexing: [PubMed, MEDLINE, Web of Science]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, clinical study, systematic review, meta-analysis]
+  scope_fit: International transplantation science and clinical outcomes.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: full open access
+    notes: Verify APC before submission.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://www.frontierspartnerships.org/journals/transplant-international
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: pediatric-transplantation
+  title: Pediatric Transplantation
+  issn: 1397-3142
+  publisher: Wiley
+  society: ''
+  domains: [transplant]
+  tier: C
+  indexing: [PubMed, MEDLINE, Web of Science]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, clinical study, case series, systematic review]
+  scope_fit: Pediatric solid organ and tissue transplantation.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify Wiley options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://onlinelibrary.wiley.com/journal/13993046
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: journal-of-gastrointestinal-surgery
+  title: Journal of Gastrointestinal Surgery
+  issn: 1091-255X
+  publisher: Springer Nature
+  society: Society for Surgery of the Alimentary Tract
+  domains: [digestive-surgery, general-surgery]
+  tier: B
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, clinical study, systematic review, meta-analysis]
+  scope_fit: GI surgery, hepatopancreatobiliary surgery, colorectal surgery, outcomes.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify Springer options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://link.springer.com/journal/11605
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: surgical-endoscopy
+  title: Surgical Endoscopy
+  issn: 0930-2794
+  publisher: Springer Nature
+  society: Society of American Gastrointestinal and Endoscopic Surgeons
+  domains: [digestive-surgery, general-surgery, gastroenterology]
+  tier: B
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, clinical study, systematic review, meta-analysis, technique]
+  scope_fit: Minimally invasive surgery, endoscopy, robotic surgery, GI surgery.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify Springer options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://link.springer.com/journal/464
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: diseases-of-the-colon-and-rectum
+  title: "Diseases of the Colon & Rectum"
+  issn: 0012-3706
+  publisher: Wolters Kluwer
+  society: American Society of Colon and Rectal Surgeons
+  domains: [digestive-surgery, gastroenterology, general-surgery]
+  tier: B
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, clinical study, systematic review, meta-analysis]
+  scope_fit: Colorectal surgery, colorectal disease, outcomes, and evidence synthesis.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify LWW options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://journals.lww.com/dcrjournal/pages/default.aspx
+  last_verified_at: '2026-04-26'
+  verification_status: verified
+  red_flags: []
+- journal_id: colorectal-disease
+  title: Colorectal Disease
+  issn: 1462-8910
+  publisher: Wiley
+  society: Association of Coloproctology of Great Britain and Ireland
+  domains: [digestive-surgery, gastroenterology]
+  tier: C
+  indexing: [PubMed, MEDLINE, Web of Science]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, clinical study, systematic review, meta-analysis]
+  scope_fit: Colorectal surgery and colorectal disease.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify Wiley options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://onlinelibrary.wiley.com/journal/14631318
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: digestive-surgery
+  title: Digestive Surgery
+  issn: 0253-4886
+  publisher: Karger
+  society: ''
+  domains: [digestive-surgery, general-surgery, gastroenterology]
+  tier: C
+  indexing: [PubMed, MEDLINE, Web of Science]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, clinical study, systematic review, meta-analysis]
+  scope_fit: Digestive tract surgery and operative GI disease.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify Karger options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://karger.com/dsu
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: endoscopy
+  title: Endoscopy
+  issn: 0013-726X
+  publisher: Thieme
+  society: European Society of Gastrointestinal Endoscopy
+  domains: [gastroenterology, digestive-surgery]
+  tier: A
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, clinical study, systematic review, meta-analysis, technique]
+  scope_fit: GI endoscopy, interventional endoscopy, techniques, and clinical outcomes.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify Thieme options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://www.thieme-connect.com/products/ejournals/journal/10.1055/s-00000012
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: gastroenterology
+  title: Gastroenterology
+  issn: 0016-5085
+  publisher: Elsevier
+  society: American Gastroenterological Association
+  domains: [gastroenterology, digestive-surgery]
+  tier: A
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: 25.7
+    impact_factor_year: 2024
+    source: https://gastro.org/news/aga-journals-receive-new-impact-factors/
+  article_types: [original research, clinical trial, systematic review, meta-analysis, review]
+  scope_fit: High-impact gastroenterology, hepatology-adjacent GI science, and translational disease.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify Elsevier options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://www.gastrojournal.org/
+  - https://gastro.org/news/aga-journals-receive-new-impact-factors/
+  last_verified_at: '2026-04-26'
+  verification_status: verified
+  red_flags: []
+- journal_id: gut
+  title: Gut
+  issn: 0017-5749
+  publisher: BMJ
+  society: British Society of Gastroenterology
+  domains: [gastroenterology]
+  tier: A
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: 26.2
+    impact_factor_year: 2024
+    source: https://gut.bmj.com/
+  article_types: [original research, clinical trial, systematic review, meta-analysis, review]
+  scope_fit: High-impact GI, hepatology, microbiome, endoscopy, and translational gastroenterology.
+  format_rules:
+    citation_style: Vancouver
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify BMJ options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://gut.bmj.com/
+  last_verified_at: '2026-04-26'
+  verification_status: verified
+  red_flags: []
+- journal_id: lancet-gastroenterology-hepatology
+  title: "The Lancet Gastroenterology & Hepatology"
+  issn: 2468-1253
+  publisher: Elsevier
+  society: ''
+  domains: [gastroenterology]
+  tier: A
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, clinical trial, systematic review, meta-analysis, review, comment]
+  scope_fit: Very high-impact gastroenterology and hepatology with strong novelty threshold.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify Lancet options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://www.thelancet.com/journals/langas/home
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: clinical-gastroenterology-and-hepatology
+  title: Clinical Gastroenterology and Hepatology
+  issn: 1542-3565
+  publisher: Elsevier
+  society: American Gastroenterological Association
+  domains: [gastroenterology]
+  tier: A
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: 11.6
+    impact_factor_year: 2024
+    source: https://gastro.org/news/aga-journals-receive-new-impact-factors/
+  article_types: [original research, clinical study, systematic review, meta-analysis, review]
+  scope_fit: Clinical gastroenterology, hepatology, outcomes, and evidence synthesis.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify Elsevier options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://www.cghjournal.org/
+  - https://gastro.org/news/aga-journals-receive-new-impact-factors/
+  last_verified_at: '2026-04-26'
+  verification_status: verified
+  red_flags: []
+- journal_id: american-journal-of-gastroenterology
+  title: American Journal of Gastroenterology
+  issn: 0002-9270
+  publisher: Wolters Kluwer
+  society: American College of Gastroenterology
+  domains: [gastroenterology]
+  tier: A
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, clinical study, systematic review, meta-analysis, review]
+  scope_fit: Clinical gastroenterology, guidelines, reviews, and clinical outcomes.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify LWW options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://journals.lww.com/ajg/pages/default.aspx
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []
+- journal_id: gastrointestinal-endoscopy
+  title: Gastrointestinal Endoscopy
+  issn: 0016-5107
+  publisher: Elsevier
+  society: American Society for Gastrointestinal Endoscopy
+  domains: [gastroenterology, digestive-surgery]
+  tier: A
+  indexing: [PubMed, MEDLINE, Web of Science, JCR]
+  metrics:
+    impact_factor: null
+    impact_factor_year: 2024
+    source: ''
+  article_types: [original research, clinical study, systematic review, meta-analysis, technique]
+  scope_fit: Diagnostic and therapeutic GI endoscopy, endoscopic outcomes, and innovation.
+  format_rules:
+    citation_style: journal-specific
+    structured_abstract: true
+    requires_author_instructions_refresh: true
+  open_access:
+    model: hybrid
+    notes: Verify Elsevier options.
+  apc:
+    amount_usd: unknown
+    notes: Verify before submission.
+  turnaround:
+    median_days: unknown
+    notes: Not encoded in v1 preset.
+  source_urls:
+  - https://www.giejournal.org/
+  last_verified_at: '2026-04-26'
+  verification_status: seeded-needs-refresh
+  red_flags: []

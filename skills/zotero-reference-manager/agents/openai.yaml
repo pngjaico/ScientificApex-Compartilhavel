@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zotero Reference Manager"
+  short_description: "Zotero, BibTeX e full text."
+  default_prompt: "Use $zotero-reference-manager to sync Zotero references with an Article Machine project."

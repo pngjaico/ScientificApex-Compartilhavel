@@ -1,0 +1,4 @@
+interface:
+  display_name: "PT-BR Article Writing"
+  short_description: "Português, ABNT e Vancouver."
+  default_prompt: "Escreva ou revise texto científico em português brasileiro natural, com Evidence Lock, ABNT/Vancouver quando exigido, e sem cara de tradução."

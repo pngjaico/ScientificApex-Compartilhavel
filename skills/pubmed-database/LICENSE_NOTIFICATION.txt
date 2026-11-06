@@ -1,0 +1,7 @@
+2026-06-30T13:50:00-03:00
+
+Before using the PubMed/NCBI wrapper, the user was notified to check:
+- https://pubmed.ncbi.nlm.nih.gov/disclaimer/
+- https://www.ncbi.nlm.nih.gov/home/about/policies/
+
+The user was also notified that each retrieved paper/full text must have its own license checked before download, storage, extraction, or redistribution.

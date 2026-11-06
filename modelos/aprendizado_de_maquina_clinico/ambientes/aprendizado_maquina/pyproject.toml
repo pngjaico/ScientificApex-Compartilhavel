@@ -1,0 +1,23 @@
+[project]
+name = "demonstracao-ml-medico"
+version = "0.2.0"
+description = "Ambiente Python 3.13 consolidado para Machine Learning Clinico, Calibracao, Predicao Conformal (MAPIE), Sobrevida (Lifelines), Tuning (Optuna) e Explicabilidade (SHAP)."
+requires-python = ">=3.13,<3.14"
+dependencies = [
+  "scikit-learn>=1.9.1,<2",
+  "pandas>=2.2.3,<3.0",
+  "numpy>=2.2,<3",
+  "scipy>=1.15,<2",
+  "statsmodels>=0.14.4,<1",
+  "xgboost>=3.0,<4",
+  "lightgbm>=4.5,<5",
+  "optuna>=4.2,<5",
+  "mapie>=1.6.0,<2",
+  "lifelines>=0.30.3,<1",
+  "shap>=0.47,<1",
+  "pandera>=0.35.0,<1",
+  "matplotlib>=3.10,<4",
+  "seaborn>=0.13.2,<1",
+  "plotly>=6.0,<7",
+  "openpyxl>=3.1.5,<4",
+]

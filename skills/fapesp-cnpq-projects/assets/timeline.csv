@@ -1,0 +1,6 @@
+etapa,inicio,fim,dependencia,responsavel,marco_verificavel,risco,alternativa
+autorizacoes,PENDENTE,PENDENTE,protocolo definido,PENDENTE,decisoes e autorizacoes documentadas,atraso,reprogramar coleta
+piloto operacional,PENDENTE,PENDENTE,autorizacoes aplicaveis,PENDENTE,logistica e qualidade avaliadas,falha de processamento,revisar procedimento antes da coorte
+recrutamento,PENDENTE,PENDENTE,piloto satisfatorio,PENDENTE,inclusoes e perdas registradas,fluxo insuficiente,reavaliar viabilidade sem mudar objetivo silenciosamente
+analise,PENDENTE,PENDENTE,banco validado,PENDENTE,analise predefinida reproduzivel,dados ausentes,plano de sensibilidade predefinido
+redacao,PENDENTE,PENDENTE,resultados auditados,PENDENTE,pacote com Evidence Lock,pendencias,corrigir antes da entrega

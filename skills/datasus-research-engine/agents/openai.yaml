@@ -1,0 +1,4 @@
+interface:
+  display_name: "DATASUS Research Engine"
+  short_description: "Complete DATASUS extraction workflows"
+  default_prompt: "Use $datasus-research-engine to build a reproducible DATASUS extraction, cohort, analysis, and reporting workflow."

@@ -1,0 +1,220 @@
+{
+  "data": "2026-11-02",
+  "natureza": "preparation-not-submission-ready",
+  "revistas": [
+    {
+      "id": "sistemas_medicos",
+      "nome": "Journal of Medical Systems",
+      "area": "IA clínica / sistemas médicos",
+      "nlm": "7806056",
+      "medline": true,
+      "tipos": {
+        "original": {
+          "palavras": 4000,
+          "resumo_palavras": 300
+        },
+        "revisao": {
+          "palavras": 5500
+        },
+        "relato_breve": {
+          "palavras": 2000,
+          "figuras_tabelas": 2,
+          "referencias": 15
+        },
+        "carta": {
+          "palavras": 1250,
+          "figuras": 1,
+          "referencias": 5,
+          "autores": 3,
+          "resumo": false
+        }
+      },
+      "cor": "free",
+      "adequacao_pt": "Sistemas e informática clínica, avaliação rigorosa e relevância prática.",
+      "adequacao_en": "Clinical systems/informatics with rigorous evaluation and practical relevance.",
+      "verificado_em": "2026-11-02",
+      "pubmed": true,
+      "nlm_url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/7806056",
+      "instrucoes_url": "https://link.springer.com/journal/10916/submission-guidelines",
+      "taxas_url": "https://link.springer.com/journal/10916/how-to-publish-with-us",
+      "modalidade_sem_apc": "subscription",
+      "apc_obrigatoria_modalidade_tradicional": 0,
+      "acesso_aberto_gratuito_confirmado": false,
+      "limites_nao_listados": "UNVERIFIED: check current author instructions",
+      "probabilidade_de_aceitacao": null,
+      "bloqueio_envio": true,
+      "revalidar_antes_de_submeter": true
+    },
+    {
+      "id": "engenharia_biomedica",
+      "nome": "Medical & Biological Engineering & Computing",
+      "area": "IA / engenharia biomédica",
+      "nlm": "7704869",
+      "medline": true,
+      "tipos": {
+        "original": {
+          "paginas": 18
+        },
+        "revisao": {
+          "paginas": 20
+        }
+      },
+      "cor": "online-free-print-optional-paid",
+      "adequacao_pt": "Inovação metodológica e impacto clínico; aplicação rotineira em base pública pode ser rejeitada sem revisão.",
+      "adequacao_en": "Methodological innovation and clinical impact; routine public-dataset applications may be desk-rejected.",
+      "verificado_em": "2026-11-02",
+      "pubmed": true,
+      "nlm_url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/7704869",
+      "instrucoes_url": "https://link.springer.com/journal/11517/submission-guidelines",
+      "taxas_url": "https://link.springer.com/journal/11517/how-to-publish-with-us",
+      "modalidade_sem_apc": "subscription",
+      "apc_obrigatoria_modalidade_tradicional": 0,
+      "acesso_aberto_gratuito_confirmado": false,
+      "limites_nao_listados": "UNVERIFIED: check current author instructions",
+      "probabilidade_de_aceitacao": null,
+      "bloqueio_envio": true,
+      "revalidar_antes_de_submeter": true
+    },
+    {
+      "id": "cirurgia_plastica",
+      "nome": "Plastic Surgery (Oakville)",
+      "area": "cirurgia plástica",
+      "nlm": "101623618",
+      "medline": false,
+      "tipos": {
+        "original": {
+          "palavras": 3000,
+          "resumo_palavras": 250,
+          "figuras_tabelas": 16
+        },
+        "revisao": {
+          "palavras": 3000,
+          "resumo_palavras": 250,
+          "figuras_tabelas": 16
+        },
+        "carta": {
+          "palavras": 500,
+          "referencias": 5,
+          "figuras_tabelas": 4,
+          "resumo": false,
+          "novos_dados_primarios": false
+        }
+      },
+      "cor": "online-free",
+      "adequacao_pt": "Pesquisa clínica e revisões em cirurgia plástica; PubMed/PMC, sem indexação MEDLINE atual.",
+      "adequacao_en": "Clinical plastic-surgery research/reviews; PubMed/PMC coverage, not currently MEDLINE-indexed.",
+      "verificado_em": "2026-11-02",
+      "pubmed": true,
+      "nlm_url": "https://www.ncbi.nlm.nih.gov/nlmcatalog?term=2292-5503%5BISSN%5D",
+      "instrucoes_url": "https://journals.sagepub.com/author-instructions/PSG",
+      "taxas_url": "https://journals.sagepub.com/author-instructions/PSG",
+      "taxa_obrigatoria_de_submissao_ou_publicacao": 0,
+      "modalidade_sem_apc": "subscription",
+      "apc_obrigatoria_modalidade_tradicional": 0,
+      "acesso_aberto_gratuito_confirmado": false,
+      "limites_nao_listados": "UNVERIFIED: check current author instructions",
+      "probabilidade_de_aceitacao": null,
+      "bloqueio_envio": true,
+      "revalidar_antes_de_submeter": true
+    },
+    {
+      "id": "cirurgia_plastica_estetica",
+      "nome": "Aesthetic Plastic Surgery",
+      "area": "cirurgia plástica / estética",
+      "nlm": "7701756",
+      "medline": true,
+      "tipos": {},
+      "cor": "recheck",
+      "adequacao_pt": "Cirurgia estética com contribuição clínica demonstrável. Limites do PDF 2026 pendentes de extração; não presumir.",
+      "adequacao_en": "Aesthetic surgery with demonstrated clinical contribution. Limits in the 2026 PDF remain unextracted; do not assume them.",
+      "verificado_em": "2026-11-02",
+      "pubmed": true,
+      "nlm_url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/7701756",
+      "instrucoes_url": "https://link.springer.com/journal/266/submission-guidelines",
+      "taxas_url": "https://link.springer.com/journal/266/how-to-publish-with-us",
+      "modalidade_sem_apc": "subscription",
+      "apc_obrigatoria_modalidade_tradicional": 0,
+      "acesso_aberto_gratuito_confirmado": false,
+      "limites_nao_listados": "UNVERIFIED: check current author instructions",
+      "probabilidade_de_aceitacao": null,
+      "bloqueio_envio": true,
+      "revalidar_antes_de_submeter": true
+    },
+    {
+      "id": "cirurgia_geral",
+      "nome": "Surgery Today",
+      "area": "cirurgia geral",
+      "nlm": "9204360",
+      "medline": true,
+      "tipos": {
+        "original": {
+          "resumo_palavras": 200
+        },
+        "revisao": {
+          "resumo_palavras": 200
+        },
+        "carta": {
+          "palavras_incluindo_referencias": 500
+        },
+        "comunicacao_breve": {
+          "paginas_digitadas": 9,
+          "resumo_palavras": 150,
+          "figuras_tabelas": 2
+        }
+      },
+      "cor": "free",
+      "adequacao_pt": "Investigação clínica/experimental cirúrgica; cartas objetivas e técnicas práticas nas categorias próprias.",
+      "adequacao_en": "Clinical/experimental surgical investigation; focused letters and practical techniques in their respective categories.",
+      "verificado_em": "2026-11-02",
+      "pubmed": true,
+      "nlm_url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/9204360",
+      "instrucoes_url": "https://link.springer.com/journal/595/submission-guidelines",
+      "taxas_url": "https://link.springer.com/journal/595/how-to-publish-with-us",
+      "modalidade_sem_apc": "subscription",
+      "apc_obrigatoria_modalidade_tradicional": 0,
+      "acesso_aberto_gratuito_confirmado": false,
+      "limites_nao_listados": "UNVERIFIED: check current author instructions",
+      "probabilidade_de_aceitacao": null,
+      "bloqueio_envio": true,
+      "revalidar_antes_de_submeter": true
+    },
+    {
+      "id": "atualizacoes_em_cirurgia",
+      "nome": "Updates in Surgery",
+      "area": "cirurgia geral / gastrointestinal",
+      "nlm": "101539818",
+      "medline": true,
+      "tipos": {
+        "original": {
+          "caracteres_com_espacos": 25000,
+          "resumo_palavras": 250,
+          "figuras_tabelas": 6,
+          "referencias": 50,
+          "autores_centro_unico": 8
+        },
+        "revisao": {
+          "caracteres_com_espacos": 30000,
+          "resumo_palavras": 250,
+          "figuras_tabelas": 6,
+          "referencias": 70,
+          "autores": 5
+        }
+      },
+      "cor": "online-free-print-optional-paid",
+      "adequacao_pt": "Pesquisa e síntese cirúrgica; os limites são caracteres, não palavras. Conferir políticas para multicêntricos.",
+      "adequacao_en": "Surgical research/synthesis; limits are characters, not words. Check multicenter policies.",
+      "verificado_em": "2026-11-02",
+      "pubmed": true,
+      "nlm_url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101539818",
+      "instrucoes_url": "https://link.springer.com/journal/13304/submission-guidelines",
+      "taxas_url": "https://link.springer.com/journal/13304/how-to-publish-with-us",
+      "modalidade_sem_apc": "subscription",
+      "apc_obrigatoria_modalidade_tradicional": 0,
+      "acesso_aberto_gratuito_confirmado": false,
+      "limites_nao_listados": "UNVERIFIED: check current author instructions",
+      "probabilidade_de_aceitacao": null,
+      "bloqueio_envio": true,
+      "revalidar_antes_de_submeter": true
+    }
+  ]
+}

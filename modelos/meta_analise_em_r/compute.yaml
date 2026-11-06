@@ -1,0 +1,115 @@
+contract_version: 2
+project_type: systematic-review
+lane: evidence-writing
+required_plugins: []
+r:
+  required: true
+  version: 4.6.1
+  runner: Rscript
+  package_manager: renv
+  package_manager_version: 1.3.1
+  lockfile: renv.lock
+  timeout_seconds: 900
+  allowed_directories:
+  - analysis
+  - scripts
+  packages:
+  - metafor
+  - meta
+  - netmeta
+  - clubSandwich
+  - mada
+  - dosresmeta
+  - robvis
+  - PRISMA2020
+  - metadat
+  - tidymodels
+  - probably
+  - dcurves
+  - xgboost
+  - lightgbm
+  - glmnet
+  - ranger
+  - pROC
+  - rms
+  - DALEX
+  - DALEXtra
+  - ingredients
+  - iBreakDown
+  - pdp
+  - kernelshap
+  - shapviz
+  - mice
+  - ggplot2
+  - patchwork
+  - ggpubr
+  - survminer
+  - cowplot
+  - ggridges
+  - ggrepel
+  - viridis
+  - scales
+  - RColorBrewer
+  - ragg
+  - svglite
+  - plotly
+  - dplyr
+  - tidyr
+  - readr
+  - purrr
+  - tibble
+  - stringr
+  - forcats
+  - lubridate
+  - data.table
+  - janitor
+  - skimr
+  - readxl
+  - writexl
+  - gtsummary
+  - gt
+  - flextable
+  - officer
+  - broom
+  - broom.mixed
+  - parameters
+  - performance
+  - effectsize
+  - emmeans
+  - marginaleffects
+  - rmarkdown
+  - knitr
+  - quarto
+  - shiny
+  - DT
+  - jsonlite
+  # Exclusoes deliberadas do lock base:
+  # - dmetar: nao esta no CRAN (apenas GitHub); diagnosticos cobertos nativamente por metafor e meta.
+  # - gemtc/BUGSnet: exigem instalacao externa do JAGS/Stan no SO; usar netmeta/metafor no fluxo padrao.
+  # - highcharter: biblioteca JS Highcharts possui licenca comercial proprietaria; usar plotly (MIT).
+  # - chattr/ellmer: chamadas de LLM dentro de scripts R quebram reprodutibilidade e violam a politica zero-trust.
+  # - keras/tensorflow/torch: Deep Learning roda no ambiente Python isolado (PyTorch 2.15.0+cpu).
+python:
+  required: false
+  version: '3.13'
+  runner: .venv/Scripts/python.exe
+  package_manager: uv
+  package_manager_version: 0.11.31
+  lockfile: null
+  timeout_seconds: 600
+  allowed_directories:
+  - analysis
+  - scripts
+  skills:
+  - statistical-analysis
+browser:
+  required: false
+  version: 1.61.1
+  runner: tools/playwright/node_modules/.bin/playwright.cmd
+  package_manager: npm
+  package_manager_version: 11.17.0
+  lockfile: null
+  timeout_seconds: 180
+  allowed_directories:
+  - analysis
+  - scripts

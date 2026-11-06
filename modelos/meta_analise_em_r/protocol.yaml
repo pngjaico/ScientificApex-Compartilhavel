@@ -1,0 +1,20 @@
+contract_version: 2
+project_type: systematic-review
+status: draft
+research_question: ''
+hypothesis: ''
+objectives: []
+inclusion_criteria: []
+exclusion_criteria: []
+registration:
+  required: true
+  status: pending
+  registry: ''
+  registry_id: ''
+  registry_url: ''
+  registered_at: ''
+  registered_before_extraction: false
+  notes: ''
+  registered_before_scientific_work: false
+  verification_required: true
+notes: ''

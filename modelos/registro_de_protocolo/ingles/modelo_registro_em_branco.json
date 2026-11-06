@@ -1,0 +1,17 @@
+{
+  "TEMPLATE_STATUS": "BLANK_NON_SUBMITTABLE",
+  "registry": null,
+  "registry_id": null,
+  "registry_url": null,
+  "registered_at": null,
+  "record_kind": null,
+  "registration_final": false,
+  "scientific_work_not_started_before_registration": false,
+  "protocol_matches_record": false,
+  "protocol_sha256": null,
+  "reviewer": "",
+  "verification_method": null,
+  "verified_at": null,
+  "source_record_path": null,
+  "source_record_sha256": null
+}

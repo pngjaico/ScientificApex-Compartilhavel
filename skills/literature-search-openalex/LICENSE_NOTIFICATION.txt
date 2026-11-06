@@ -1,0 +1,3 @@
+Notification delivered to the user on 2026-07-22 (America/Sao_Paulo):
+Check the OpenAlex developer terms at https://developers.openalex.org/ and
+verify the license of each retrieved paper before use or redistribution.

@@ -1,0 +1,42 @@
+{
+  "contract": "BilingualScientificAuditV1",
+  "status": "pass",
+  "language": "en",
+  "draft": "ingles/LEIA-ME.md",
+  "reference": "portugues/LEIA-ME.md",
+  "signatures": {
+    "claim_ids": [],
+    "citation_keys": [],
+    "numeric_values": [
+      "0",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1.3",
+      "2",
+      "2.15",
+      "3",
+      "4",
+      "4.6",
+      "4.6",
+      "4.6",
+      "69"
+    ],
+    "inequalities": [
+      "<",
+      "<",
+      "<",
+      ">",
+      ">",
+      ">"
+    ]
+  },
+  "issues": [],
+  "gate_eligible": false,
+  "semantic_review_required": true,
+  "limits": [
+    "lexical preservation does not prove semantic equivalence or claim support"
+  ]
+}

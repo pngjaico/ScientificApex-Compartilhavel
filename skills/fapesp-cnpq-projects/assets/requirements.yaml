@@ -1,0 +1,25 @@
+# Template autoral. Começa bloqueado; preencher com a chamada e os arquivos reais.
+agency: FAPESP
+modality: null
+call_id: null
+status: minuta-base
+verified_on: null
+deadline: null
+sources:
+  - id: norma
+    url: null
+    version: null
+    accessed_on: null
+    role: current-rule
+requirements:
+  - id: projeto
+    source_id: norma
+    locator: null
+    kind: mandatory
+    rule: null
+    verified: false
+# text e limit só se aplicam quando o edital define limite de caracteres.
+fields: []
+# Ex.: [{name: objetivo, text: "Texto real", limit: 4000, source_id: norma}]
+pending:
+  - Selecionar modalidade e confirmar chamada e retificacoes.

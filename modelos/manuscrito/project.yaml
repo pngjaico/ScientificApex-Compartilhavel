@@ -1,0 +1,13 @@
+contract_version: 2
+id: modelo-manuscrito
+name: Modelo manuscrito
+project_type: observational-study
+lane: evidence-writing
+created_at: '2026-11-02T16:16:27.229249+00:00'
+updated_at: '2026-11-02T16:16:27.229261+00:00'
+state:
+  current_mode: bootstrap
+  mode_history:
+  - bootstrap
+  allowed_next_modes:
+  - protocol-freeze

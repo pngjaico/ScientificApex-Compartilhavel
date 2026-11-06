@@ -1,0 +1,272 @@
+{
+  "schema_version": 2,
+  "provider": "K-Dense AI",
+  "origin": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "observed_origin_main": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "license": "MIT",
+  "license_file": "LICENSE.md",
+  "license_sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+  "curated_skills": [
+    "scientific-writing",
+    "scientific-critical-thinking"
+  ],
+  "skills": {
+    "scientific-writing": {
+      "copied": [
+        "assets/authorship_template.json",
+        "assets/claim_evidence_template.csv",
+        "assets/consistency_manifest_template.json",
+        "assets/manuscript_manifest_template.json",
+        "assets/manuscript_scaffold.md",
+        "assets/reporting_coverage_template.json",
+        "assets/reporting_guidelines.json",
+        "assets/source_manifest_template.json",
+        "references/authorship_ai_confidentiality.md",
+        "references/cli_reference.md",
+        "references/evidence_workflow.md",
+        "references/journal_policies.md",
+        "references/research_integrity_open_science.md",
+        "references/source_ledger.md",
+        "scripts/_common.py",
+        "scripts/audit_claims.py",
+        "scripts/check_consistency.py",
+        "scripts/check_references.py",
+        "scripts/lint_manuscript.py",
+        "scripts/scaffold_manuscript.py",
+        "scripts/select_reporting_guidelines.py",
+        "scripts/validate_authorship.py",
+        "scripts/validate_manifest.py"
+      ],
+      "overwritten": [
+        "SKILL.md",
+        "assets/REPORT_FORMATTING_GUIDE.md",
+        "references/citation_styles.md",
+        "references/figures_tables.md",
+        "references/imrad_structure.md",
+        "references/professional_report_formatting.md",
+        "references/reporting_guidelines.md",
+        "references/writing_principles.md"
+      ],
+      "excluded": [],
+      "quarantined": [],
+      "files": {
+        "SKILL.md": {
+          "upstream_sha256": "234b312260c19946fbe0975304ca20d76ed624f704569f763b94d0d1f35a2d74",
+          "previous_local_sha256": "45d40b188d33ef718c057b6734fd9871c40d7a54c73ba9184a0693e3a87c7457",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/scientific-writing/SKILL.md",
+          "backup_sha256": "45d40b188d33ef718c057b6734fd9871c40d7a54c73ba9184a0693e3a87c7457"
+        },
+        "assets/REPORT_FORMATTING_GUIDE.md": {
+          "upstream_sha256": "c3863b3fc32b11a57c83aff9c89638e218834f880619ce5d4e37e96a3e15c5f7",
+          "previous_local_sha256": "f21b4840a4293dcc795eb7445ab462a567a0ed0ec54863176c9d02e9271c6a42",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/scientific-writing/assets/REPORT_FORMATTING_GUIDE.md",
+          "backup_sha256": "f21b4840a4293dcc795eb7445ab462a567a0ed0ec54863176c9d02e9271c6a42"
+        },
+        "assets/authorship_template.json": {
+          "upstream_sha256": "81b868b811a1f349f0858a55e0eb5270556aa96523ddc00f48bb0b9ddbf82611"
+        },
+        "assets/claim_evidence_template.csv": {
+          "upstream_sha256": "9eebce3f3cd096714d89fd9d0a6bb868ed5e9f4ef917e8cd08e899a4dc0585e4"
+        },
+        "assets/consistency_manifest_template.json": {
+          "upstream_sha256": "dd226efcabc688adc1cacf1e1c17c6556871af1d3a0a8bc8538262d5337bcf9b"
+        },
+        "assets/manuscript_manifest_template.json": {
+          "upstream_sha256": "c182c71fbbf7437a1e391e4b36bc68613145c414c63889a895b4c7e210a35b6f"
+        },
+        "assets/manuscript_scaffold.md": {
+          "upstream_sha256": "c3104913c856e4488f3777c4908943139a54f483e7420d06debb1f1b09c89d4e"
+        },
+        "assets/reporting_coverage_template.json": {
+          "upstream_sha256": "9d56f0eac2ace521191a6fee45672a46c8795136d7aedc6363e0e250fa299a5e"
+        },
+        "assets/reporting_guidelines.json": {
+          "upstream_sha256": "a335593ef51321269d6d2ea74862326241424c6e7bd58f6227954bb1b14b467b"
+        },
+        "assets/source_manifest_template.json": {
+          "upstream_sha256": "a79e9e095cf77500d5a7a4663a99f9826d5eb3c4fbd4466b4d6853d505e422e3"
+        },
+        "references/authorship_ai_confidentiality.md": {
+          "upstream_sha256": "5316aa9f00e2bdf00e4cbf23d8b8d1c40f8acbce9810d87f37a051b80d6f02e2"
+        },
+        "references/citation_styles.md": {
+          "upstream_sha256": "8f4a378fb22eb45955d2f3d7c06bfdba62de7db3e0a3d1d6dd0b47385e9b1be3",
+          "previous_local_sha256": "717c94c4d1fd02e99290d786ca1ac691309b4b29d75f27879b78ff36ffbd9dba",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/scientific-writing/references/citation_styles.md",
+          "backup_sha256": "717c94c4d1fd02e99290d786ca1ac691309b4b29d75f27879b78ff36ffbd9dba"
+        },
+        "references/cli_reference.md": {
+          "upstream_sha256": "599e2a379e1a4ebbeaa10e933a02d79457419c8d71be05ba5fffe8a15867cc4e"
+        },
+        "references/evidence_workflow.md": {
+          "upstream_sha256": "e8c510ce859d4ff79ce237d31e5a2faad49815ae4a5bcf5f891ab374683640ba"
+        },
+        "references/figures_tables.md": {
+          "upstream_sha256": "5c4b5b454ac60fc8a75fb386aa3d05f8a59bfe6fa9873804d3dbda7d5f8876a7",
+          "previous_local_sha256": "8b242dcc4a49f64d577dd2c9aa5a9b96ac3446063bb89d7986af82f8d36c0c1a",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/scientific-writing/references/figures_tables.md",
+          "backup_sha256": "8b242dcc4a49f64d577dd2c9aa5a9b96ac3446063bb89d7986af82f8d36c0c1a"
+        },
+        "references/imrad_structure.md": {
+          "upstream_sha256": "3dfaa821f8bf99442a19de9a2b150d96f693d23995df6f047bbb4c32a81b1a0f",
+          "previous_local_sha256": "ad4fba312ae5dbe2900c4337244c3070b7381034183d4ecbeaacd4f95985847b",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/scientific-writing/references/imrad_structure.md",
+          "backup_sha256": "ad4fba312ae5dbe2900c4337244c3070b7381034183d4ecbeaacd4f95985847b"
+        },
+        "references/journal_policies.md": {
+          "upstream_sha256": "a56d84c3ab8c8fdf25c4a92a9529f330779363b236b34b0d8576294d7a3ebc0e"
+        },
+        "references/professional_report_formatting.md": {
+          "upstream_sha256": "b03f097f603cf90654aa1cb2367559556b8a3adaff89de79eeb3e9eb08829408",
+          "previous_local_sha256": "2863226a4d33c1c5a57764435706af4a79256323177cb203f48df224830cc99f",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/scientific-writing/references/professional_report_formatting.md",
+          "backup_sha256": "2863226a4d33c1c5a57764435706af4a79256323177cb203f48df224830cc99f"
+        },
+        "references/reporting_guidelines.md": {
+          "upstream_sha256": "1654071d852d4d6002bd7760d24f8fce197504e43fbbf3b3e4765153450ba511",
+          "previous_local_sha256": "24afaaf90f07ad79e2784fcfcb9c674f74bbb7ee7aa8981dee078e145d42b18c",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/scientific-writing/references/reporting_guidelines.md",
+          "backup_sha256": "24afaaf90f07ad79e2784fcfcb9c674f74bbb7ee7aa8981dee078e145d42b18c"
+        },
+        "references/research_integrity_open_science.md": {
+          "upstream_sha256": "c3a482d32721f1c80ab5934c4f562f9c75da78498af656c57e00b9ec5f831896"
+        },
+        "references/source_ledger.md": {
+          "upstream_sha256": "2cc4f3af752dfaccfccf7f3db46f1723ff7b7d58b136c62d4a16dc4710f20973"
+        },
+        "references/writing_principles.md": {
+          "upstream_sha256": "9df775ba57e0e32ecd65dd35fb5f5db438b883d1cea278ca6c459e3855f8006b",
+          "previous_local_sha256": "20dceb8b52c3428efc62cce2efadf26211871ca7fc728e7e1dbe3c176d56e7d0",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/scientific-writing/references/writing_principles.md",
+          "backup_sha256": "20dceb8b52c3428efc62cce2efadf26211871ca7fc728e7e1dbe3c176d56e7d0"
+        },
+        "scripts/_common.py": {
+          "upstream_sha256": "c63906dc512d4dacca38d4e406d5cce010869198f644eed0fa44b3d4b1f10384"
+        },
+        "scripts/audit_claims.py": {
+          "upstream_sha256": "702007d6cfc185559c80bf0abaa19b6ea24d931500da17e01d18322142b2a57b"
+        },
+        "scripts/check_consistency.py": {
+          "upstream_sha256": "a6cb8ba51aa724fab053e709ee643d0ce5e0e4a21e2e87d83eeb580030ba3e6d"
+        },
+        "scripts/check_references.py": {
+          "upstream_sha256": "eb20598821bf7f16a820856644742304b6aadecca5a5347649e52d20126d0f1a"
+        },
+        "scripts/lint_manuscript.py": {
+          "upstream_sha256": "aa9f00405438b3cc282f9197bf8c3ab4f0fcffb74a53503ad40545157032e70f"
+        },
+        "scripts/scaffold_manuscript.py": {
+          "upstream_sha256": "a340075eb11239ab812f8171a0d454a20bcb89d28ad65733ce1d7731c17ecb22"
+        },
+        "scripts/select_reporting_guidelines.py": {
+          "upstream_sha256": "811256a45b12af61deb40782c70d0bd670272b1ce9daece443421d9f538ccd31"
+        },
+        "scripts/validate_authorship.py": {
+          "upstream_sha256": "0d390e9d82bce61b65250af59e0b59ac325a88e616374cf1499fb63d39b7976d"
+        },
+        "scripts/validate_manifest.py": {
+          "upstream_sha256": "27626e9c5c866e823f5d4855c310134afe9e7a25fce311d86cebe8c2c22bb01e"
+        }
+      },
+      "removed": [],
+      "retained_local": [
+        {
+          "path": "assets/scientific_report.sty",
+          "sha256": "8dc723d2fdd7acf0a29ba3e2d2a4ff2afbadc0923d7a7c17dfc1d4cd32c69711",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "assets/scientific_report_template.tex",
+          "sha256": "08af5943fefcc22f5c14a747d8984afadb6b286a60e793164d57d569d2d085d2",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "scripts/generate_image.py",
+          "sha256": "f3e879a16611545e4d6d84935f28314998bc8d6c2c106fa250c42508882ecbcc",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "scripts/generate_schematic.py",
+          "sha256": "a970c5330966745aa935dc30e29cc641719152699a667b6b43f2ff27eb52af5a",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        },
+        {
+          "path": "scripts/generate_schematic_ai.py",
+          "sha256": "0c6e36d7bfbd2fb4b33ca04cf23d52146d492cb3ee16cfcfb2c4eba179233d11",
+          "reason": "not present in selected upstream tree; retained without deletion"
+        }
+      ]
+    },
+    "scientific-critical-thinking": {
+      "copied": [
+        "references/core_capabilities.md",
+        "references/review_sources.md"
+      ],
+      "overwritten": [
+        "SKILL.md",
+        "references/common_biases.md",
+        "references/evidence_hierarchy.md",
+        "references/experimental_design.md",
+        "references/logical_fallacies.md",
+        "references/scientific_method.md",
+        "references/statistical_pitfalls.md"
+      ],
+      "excluded": [],
+      "quarantined": [],
+      "files": {
+        "SKILL.md": {
+          "upstream_sha256": "cd80217c03ac740b6c835b826f8d98d016b157e8cedd96419c84072b7225fa43",
+          "previous_local_sha256": "097662636ad6f3252855c24b3e9384a7cea33d72ad21f89140b87c8058c86718",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/scientific-critical-thinking/SKILL.md",
+          "backup_sha256": "097662636ad6f3252855c24b3e9384a7cea33d72ad21f89140b87c8058c86718"
+        },
+        "references/common_biases.md": {
+          "upstream_sha256": "d5bba4b6d80d36c98a80db1fc1b5996e95ae73eedf72a06ddef5a75ec684154b",
+          "previous_local_sha256": "9e1737d442981375fca926da8d5ab824820e28da506d42c9c699e78c160bc447",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/scientific-critical-thinking/references/common_biases.md",
+          "backup_sha256": "9e1737d442981375fca926da8d5ab824820e28da506d42c9c699e78c160bc447"
+        },
+        "references/core_capabilities.md": {
+          "upstream_sha256": "73ccade3e8b3beeaebcd24dd5b1afe07a8f43daf4c06b723154ca610d2466ff5"
+        },
+        "references/evidence_hierarchy.md": {
+          "upstream_sha256": "ca1736acece138c4f067335b76f1df76b0e6cf4fcc42cd32bf6431dfbd572f16",
+          "previous_local_sha256": "a836721cdd4395cbebf6f164dd2dee26361d3061f1fed700206837d0d6aa822a",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/scientific-critical-thinking/references/evidence_hierarchy.md",
+          "backup_sha256": "a836721cdd4395cbebf6f164dd2dee26361d3061f1fed700206837d0d6aa822a"
+        },
+        "references/experimental_design.md": {
+          "upstream_sha256": "abac57523425c97ee0dc3bbb1d0e48ce53ca6d33bc948cbafa87da32cd0930e9",
+          "previous_local_sha256": "31cf2e89fc25ac150673708274f17ea8ea96bc4b4ff1f861c731f8ec2798fb02",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/scientific-critical-thinking/references/experimental_design.md",
+          "backup_sha256": "31cf2e89fc25ac150673708274f17ea8ea96bc4b4ff1f861c731f8ec2798fb02"
+        },
+        "references/logical_fallacies.md": {
+          "upstream_sha256": "e58710ede21e7608ded9b2d9dabc03482174b92a48705ada2ebb8eb996fcc6bf",
+          "previous_local_sha256": "01fef2a5554fea3dac8cac6a319e859803f88affd3b09b13ddd644c30a169478",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/scientific-critical-thinking/references/logical_fallacies.md",
+          "backup_sha256": "01fef2a5554fea3dac8cac6a319e859803f88affd3b09b13ddd644c30a169478"
+        },
+        "references/review_sources.md": {
+          "upstream_sha256": "c19a78e98a27f12c7ed38d524539fcdbf28db97d047bee166aa6d97ecc37911b"
+        },
+        "references/scientific_method.md": {
+          "upstream_sha256": "36650d873a4cd90c3cd59ae97efe2951cbf610eed0d17e1b186af033308504cf",
+          "previous_local_sha256": "0c91c5a6883eb2ad83b490416f8cb250d77a45ee605f1fd6d3e9a27aabc3976e",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/scientific-critical-thinking/references/scientific_method.md",
+          "backup_sha256": "0c91c5a6883eb2ad83b490416f8cb250d77a45ee605f1fd6d3e9a27aabc3976e"
+        },
+        "references/statistical_pitfalls.md": {
+          "upstream_sha256": "a794c87cd95639890a9aa160d73d7fe439f666ee24598d0597582574dc2cb2c8",
+          "previous_local_sha256": "79b43c124cf738971eaac6d209ded9733f725459390e6da42ce1bb62504e67e0",
+          "backup_path": ".machine/skill-backups/kdense/a1043ef544e3a100c28e70a736b6cf32554d0677/scientific-critical-thinking/references/statistical_pitfalls.md",
+          "backup_sha256": "79b43c124cf738971eaac6d209ded9733f725459390e6da42ce1bb62504e67e0"
+        }
+      },
+      "removed": [],
+      "retained_local": []
+    }
+  },
+  "apply": true
+}

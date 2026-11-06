@@ -1,0 +1,31 @@
+lane: evidence-writing
+guidelines:
+- STROBE
+risk_of_bias_tools:
+- ROBINS-I
+policy_labels:
+- observational
+deliverables:
+- protocol
+- analysis
+- claim map
+- manuscript
+- review report
+contract_version: 2
+project_type: observational-study
+checklist_status:
+  STROBE:
+    status: pending
+    items: []
+  ROBINS-I:
+    status: pending
+    items: []
+registration_policy:
+  required: true
+  timing: before-scientific-work
+  accepted_registries:
+  - PROSPERO
+  - OSF
+  verification_required: true
+  rationale: 'User policy: verified protocol registration before scientific execution;
+    preparing the protocol is permitted.'

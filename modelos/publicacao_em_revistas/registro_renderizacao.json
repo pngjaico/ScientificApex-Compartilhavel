@@ -1,0 +1,175 @@
+{
+  "renders": [
+    {
+      "file": "editaveis\\portugues\\LEIA-ME.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\portugues\\carta_ao_editor.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\portugues\\carta_de_apresentacao.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\portugues\\declaracoes_e_autoria.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\portugues\\lista_de_verificacao_de_submissao.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\portugues\\manuscrito_ia_clinica.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\portugues\\manuscrito_original.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\portugues\\manuscrito_revisao_sistematica.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\portugues\\pagina_de_rosto.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\portugues\\plano_de_suplementos.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\portugues\\relato_de_caso_ou_nota_tecnica.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\portugues\\resposta_a_pareceristas.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\ingles\\LEIA-ME.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\ingles\\carta_ao_editor.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\ingles\\carta_de_apresentacao.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\ingles\\declaracoes_e_autoria.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\ingles\\lista_de_verificacao_de_submissao.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\ingles\\manuscrito_ia_clinica.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\ingles\\manuscrito_original.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\ingles\\manuscrito_revisao_sistematica.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\ingles\\pagina_de_rosto.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\ingles\\plano_de_suplementos.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\ingles\\relato_de_caso_ou_nota_tecnica.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    },
+    {
+      "file": "editaveis\\ingles\\resposta_a_pareceristas.docx",
+      "exit_code": 0,
+      "docx_structure_valid": true,
+      "status": "PASS",
+      "stderr": ""
+    }
+  ],
+  "human_layout_review": "SKIPPED",
+  "clinical_content": "unfilled-template",
+  "status": "PASS"
+}

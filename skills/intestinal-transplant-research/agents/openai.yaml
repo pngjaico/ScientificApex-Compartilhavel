@@ -1,0 +1,4 @@
+interface:
+  display_name: "Intestinal Transplant Research"
+  short_description: "Routes intestinal transplant research workflows"
+  default_prompt: "Use $intestinal-transplant-research to plan a rigorous intestinal transplant, intestinal failure, or translational GI research workflow."

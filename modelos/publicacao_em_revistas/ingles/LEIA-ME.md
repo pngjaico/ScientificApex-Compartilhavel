@@ -1,0 +1,2 @@
+# Publication kit
+Original working templates without filled clinical content. Start at `perfis_de_revistas/catalogo_revistas.json`, select design/category and copy into `projects/<id>/publicacoes/<revista>/<date>_vNN/` using the existing organizer. The 3 core scientific templates remain in `modelos/`. Dated profiles assist preparation; recheck policies at submission. Markdown files are editable; `renderizar_modelos.py` generates paired DOCX/HTML. These templates are not submission-ready manuscripts. Do not submit to two journals simultaneously.
