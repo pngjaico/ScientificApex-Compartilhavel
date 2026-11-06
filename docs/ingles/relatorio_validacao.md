@@ -1,6 +1,6 @@
 # Distribution verification
 
-Date: 2026-11-06. Scope: Article Machine 0.3.0 core on Windows.
+Date: 2026-11-06. Scope: Article Machine 0.3.0 core on local Windows and Windows/Ubuntu CI.
 
 - Locked installation in a clean local clone in a different directory: PASS.
 - CLI and strict operational machine audit in that clone: PASS.
@@ -30,6 +30,8 @@ license notices are preserved.
 
 Not executed: R, ML/DL, browser/Quarto, Zotero, external APIs and remote catalogs,
 clinical validation, human review of all templates, and agent/editor layout QA.
-No third-party computer or Linux/macOS was tested. The clean clone was installed
+No third-party personal computer or macOS was tested. The core and installer verification passed on Ubuntu/Linux and Windows CI. The clean clone was installed
 on the same computer using an existing uv cache; future package availability
 and other environments are not established by this test.
+
+Remote evidence: 84 tests and all core checks passed in each Windows/Ubuntu job, commit `ac8ec81`. [GitHub Actions](https://github.com/pngjaico/ScientificApex-Compartilhavel/actions/runs/42286830255).

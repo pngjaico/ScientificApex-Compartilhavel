@@ -74,7 +74,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "4ff2ce471f804b4be2ebe2500acf0cc8815f1ed92ebf4902adf2023b0aa5ddfb"
+      "sha256": "6428c63a1f1a64c1157a563a40005cbe4ee07c1ad827e8410e0197f528e698ad"
     },
     {
       "path": "SECURITY.md",
@@ -350,11 +350,11 @@
     },
     {
       "path": "docs/ingles/guia_de_uso.md",
-      "sha256": "216ffa02317b6e9f31eee04b9217695ed5dc3b4a3eb67a4c20e84bbec00c0298"
+      "sha256": "51d14579c3381f9f9f8b05e8d7280869db0036fd8127fc8d223682006a56e3f5"
     },
     {
       "path": "docs/ingles/relatorio_validacao.md",
-      "sha256": "b429d35541a4bbc4637ffc9eca04b9ed7ad1a10ad03d486e965544c0bc2b9678"
+      "sha256": "f06d6d311485c9fb12038c7e70e931c5c4bc01d7b96ac94ae861ab3e8825d4a0"
     },
     {
       "path": "docs/portugues/creditos_opensource.md",
@@ -362,11 +362,11 @@
     },
     {
       "path": "docs/portugues/guia_de_uso.md",
-      "sha256": "bc6d43cb1810dff9336dac2efcd58432ff419d4ebafc6cb1871af60210a724d7"
+      "sha256": "385807a6a2be171f5a2b8cf243badc8ef799a1679a7956d77656ffca961e9bcc"
     },
     {
       "path": "docs/portugues/relatorio_validacao.md",
-      "sha256": "10e99a9c94194010588a8d4ff0df5709399fd8ea2a7edac8d550ea824e339731"
+      "sha256": "0e302287dea272f058069c4041d82929d7af041331146ea75f19b104e08d743e"
     },
     {
       "path": "instalar.ps1",
@@ -4743,7 +4743,17 @@
     "license_scope_audit": "pass (117 skills, documentary current-source scope)",
     "platforms_executed_locally": [
       "Windows"
-    ]
+    ],
+    "remote_ci": {
+      "commit": "ac8ec81d9d6860631ebd70d8a6ea1b70f6bd8a70",
+      "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel/actions/runs/42286830255",
+      "platforms": [
+        "ubuntu-latest",
+        "windows-latest"
+      ],
+      "result": "success",
+      "scope": "84 core tests, license scope, manifest, strict machine audit, skill provenance, installer verification"
+    }
   },
   "hash_policy": "SHA-256; valid UTF-8 without NUL: CRLF normalized to LF; binary: exact bytes"
 }

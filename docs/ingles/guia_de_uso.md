@@ -24,7 +24,7 @@ cd ScientificApex-Compartilhavel
 bash instalar.sh
 ```
 
-Pass `--development` to install development dependencies or `--verify-only` to check an existing installation. These instructions have not yet been tested on Linux or macOS; optional integrations may require platform-specific setup.
+Pass `--development` to install development dependencies or `--verify-only` to check an existing installation. The core and installer verification passed on Ubuntu/Linux CI. macOS remains untested; optional integrations need separate platform-specific verification.
 
 The installers sync locked dependencies from `uv.lock` and check the CLI and strict operational audit. Internet access is needed while packages are installed. They do not install R, ML/DL, browser tools, Zotero, Quarto, external providers, or an AI model, and they do not configure an agent account or credentials.
 
@@ -59,7 +59,7 @@ A skill is written guidance, not an active integration or proof that the describ
 
 Use synthetic data or data you are authorized to process. Do not commit personal data, patient-level data, private manuscripts, credentials, or account profiles. Do not send human data to external services without authorization and applicable safeguards. Keep new projects under `projects/<id>/`; review contents before creating a separate repository to share them. Templates and demonstrations are software examples, not approved studies or evidence.
 
-The verification report documents the scope and limits of its checks. Windows installation was validated; Linux/macOS, R and ML/DL environments, external integrations, and clinical validity were not verified by that report. The original layer uses Apache-2.0; third-party terms are retained in LICENSE_SCOPE.md and the per-skill policy. Check Actions for the remote CI status of the commit in use.
+The verification report documents the scope and limits of its checks. The core passed locally on Windows and in Windows/Ubuntu CI. macOS, R and ML/DL environments, external integrations, and clinical validity were not verified. The original layer uses Apache-2.0; third-party terms are retained in LICENSE_SCOPE.md and the per-skill policy. Check Actions for the remote CI status of the commit in use.
 
 ## Operational graph
 

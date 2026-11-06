@@ -24,7 +24,7 @@ cd ScientificApex-Compartilhavel
 bash instalar.sh
 ```
 
-Use `--development` para dependências de desenvolvimento ou `--verify-only` para verificar uma instalação existente. Essas instruções ainda não foram testadas em Linux/macOS; integrações opcionais podem exigir configuração específica da plataforma.
+Use `--development` para dependências de desenvolvimento ou `--verify-only` para verificar uma instalação existente. O núcleo e o instalador em modo de verificação passaram no CI Ubuntu/Linux. macOS não foi testado; integrações opcionais precisam de validação específica.
 
 Os instaladores sincronizam dependências travadas com `uv.lock` e verificam CLI e auditoria operacional estrita. Precisam de acesso à internet durante a instalação de pacotes. Não instalam R, ML/DL, navegador, Zotero, Quarto, provedores externos ou modelo de IA; também não configuram conta ou credenciais de agente.
 
@@ -59,7 +59,7 @@ Uma skill é orientação textual, não uma integração ativa nem validação d
 
 Use dados sintéticos ou cujo processamento esteja autorizado. Não versione dados pessoais, dados em nível de paciente, manuscritos privados, credenciais ou perfis de conta. Não envie dados humanos a serviços externos sem autorização e salvaguardas aplicáveis. Projetos novos ficam sob `projects/<id>/`; revise o conteúdo antes de criar um repositório separado para compartilhamento. Modelos e demonstrações são exemplos de software, não estudos aprovados nem evidência.
 
-O relatório de validação documenta escopo e limitações dos checks executados. A instalação de Windows foi validada; Linux/macOS, ambientes R e ML/DL, integrações externas e validade clínica não foram verificados por esse relatório. A camada própria usa Apache-2.0; terceiros mantêm seus termos. Consulte LICENSE_SCOPE.md e a política por skill para o escopo atual e as adaptações.
+O relatório de validação documenta escopo e limitações dos checks executados. O núcleo foi validado localmente em Windows e no CI Windows/Ubuntu. macOS, ambientes R e ML/DL, integrações externas e validade clínica não foram verificados. A camada própria usa Apache-2.0; terceiros mantêm seus termos. Consulte LICENSE_SCOPE.md e a política por skill para o escopo atual e as adaptações.
 
 ## Grafo operacional
 

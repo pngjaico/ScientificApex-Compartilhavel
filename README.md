@@ -16,7 +16,7 @@ These controls improve traceability. Passing an operational check does not estab
 
 ## Quick start
 
-Install Git and [uv](https://docs.astral.sh/uv/), clone the repository, and enter the clone. The development team documents Windows and Unix-like setup paths below. Linux and macOS instructions are provided but have not been tested for this distribution.
+Install Git and [uv](https://docs.astral.sh/uv/), clone the repository, and enter the clone. The development team documents Windows and Unix-like setup paths below. The core passed 84 tests and installer verification on Windows and Ubuntu/Linux in [GitHub Actions](https://github.com/pngjaico/ScientificApex-Compartilhavel/actions/runs/42286830255). macOS has not been tested.
 
 ### Windows (PowerShell)
 
@@ -36,7 +36,7 @@ cd ScientificApex-Compartilhavel
 bash instalar.sh
 ```
 
-For development dependencies, pass `--development`. To check an existing local installation without syncing packages, pass `--verify-only`. These instructions are untested on Linux and macOS; optional integrations may require platform-specific setup.
+For development dependencies, pass `--development`. To check an existing local installation without syncing packages, pass `--verify-only`. The Unix verification path passed on Ubuntu/Linux CI; macOS remains untested. Optional integrations require separate platform-specific checks.
 
 ### Create a project
 

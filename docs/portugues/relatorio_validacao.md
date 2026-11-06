@@ -1,6 +1,6 @@
 # Verificação da distribuição
 
-Data: 2026-11-06. Escopo: núcleo Windows da Article Machine 0.3.0.
+Data: 2026-11-06. Escopo: núcleo da Article Machine 0.3.0 em Windows local e CI Windows/Ubuntu.
 
 - Instalação por uv.lock em clone local limpo e em outra pasta: PASS.
 - CLI e auditoria operacional estrita no clone limpo: PASS.
@@ -31,6 +31,8 @@ e avisos de licença foram preservados.
 
 Não executados: R, ML/DL, browser/Quarto, Zotero, APIs externas e catálogos remotos,
 validação clínica, revisão humana de todos os modelos e layout em agentes/editores.
-Não houve instalação em computador de terceiro nem teste em Linux/macOS.
+Não houve instalação em computador pessoal de terceiro nem teste em macOS. O núcleo e o instalador em modo de verificação passaram no CI Ubuntu/Linux e Windows.
 O clone limpo foi testado nesta mesma máquina, com cache uv existente. Isso não
 comprova disponibilidade futura de todos os pacotes em outro ambiente.
+
+Evidência remota: 84 testes e todas as verificações do núcleo passaram em cada job Windows/Ubuntu, commit `ac8ec81`. [GitHub Actions](https://github.com/pngjaico/ScientificApex-Compartilhavel/actions/runs/42286830255).
