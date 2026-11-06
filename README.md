@@ -49,5 +49,17 @@ Nenhum PASS operacional aprova um estudo ou garante aceitação editorial.
 As licenças e origens de componentes terceiros constam de `skills/registry.json`
 e dos avisos incluídos. Não se concede licença nova a material de terceiros.
 
+## Créditos ao código aberto
+
+A máquina integra contribuições de K-Dense, ToolUniverse/MIMS Lab, Graphify,
+Python, R, Astral/uv, Playwright e muitas outras comunidades. Agradecemos aos
+autores e mantenedores e preservamos suas atribuições.
+
+Veja [os créditos completos](docs/portugues/creditos_opensource.md),
+[os avisos de terceiros](THIRD_PARTY_NOTICES.md) e [NOTICE](NOTICE).
+O inventário cobre dependências diretas e transitivas dos ambientes incluídos.
+Origens ou licenças indefinidas estão sinalizadas; não são apresentadas como
+direitos de redistribuição já verificados.
+
 Verificação executada e limites: [relatório](docs/portugues/relatorio_validacao.md).
 English instructions: [usage guide](docs/ingles/guia_de_uso.md).

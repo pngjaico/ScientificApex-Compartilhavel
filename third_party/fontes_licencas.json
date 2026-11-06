@@ -1,0 +1,18 @@
+[
+  {
+    "project": "K-Dense scientific-agent-skills",
+    "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "license": "MIT",
+    "path": "third_party/licenses/K-Dense-MIT.txt",
+    "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+  },
+  {
+    "project": "ToolUniverse",
+    "url": "https://raw.githubusercontent.com/mims-harvard/ToolUniverse/v1.3.1/LICENSE",
+    "revision": "v1.3.1",
+    "license": "Apache-2.0",
+    "path": "third_party/licenses/ToolUniverse-LICENSE.txt",
+    "sha256": "d0fd2a0c2969573ae74147b7400bbb57e6a5b334816beea15475f29fd5deeb49"
+  }
+]

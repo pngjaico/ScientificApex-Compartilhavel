@@ -1,0 +1,22 @@
+ScientificApex / Article Machine
+Third-party acknowledgements
+
+This distribution incorporates or references work by independent open-source
+authors and communities. The local project does not claim authorship of their
+code, skills, documentation, statistical methods, or dependency libraries.
+
+K-Dense Inc. and scientific-agent-skills contributors: scientific skill source
+trees and references, with per-skill terms preserved in their metadata.
+MIMS Lab / ToolUniverse contributors: scientific tool and skill integrations.
+Safi Shamsi and Graphify contributors: Graphify/graphifyy knowledge-graph tooling.
+Python Software Foundation and Python contributors; R Foundation, R Core Team
+and R package authors; Astral and uv contributors; Git contributors; Microsoft
+and Playwright contributors; Node.js and OpenJS contributors; all direct and
+transitive dependency maintainers listed in third_party/inventario_creditos.json.
+
+See THIRD_PARTY_NOTICES.md and docs/{portugues,ingles}/creditos_opensource.md for
+source references, versions, author metadata, license records and limitations.
+Original copyright, license and notice texts remain applicable. The root
+Apache-2.0 license does not relicense third-party material. Unresolved origins
+and license records are explicitly marked, not represented as cleared rights.
+Acknowledgement does not imply affiliation, certification or endorsement.
