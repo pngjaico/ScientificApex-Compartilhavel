@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: agent-benchmark-harness
 description: Use when evaluating Article Machine, agent skills, scientific workflows, retrieval quality, claim accuracy, reproducibility, slides/posters, discovery pipelines, or comparing agent outputs against benchmark cases and regression tests.
 ---

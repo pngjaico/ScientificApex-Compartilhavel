@@ -119,7 +119,7 @@ def machine_doctor(workspace_root: Path, project_dir: Path | None = None) -> dic
 def release_audit(project_dir: Path) -> dict[str, Any]:
     project = Path(project_dir).resolve()
     root = next((parent for parent in (project, *project.parents) if (parent / "pyproject.toml").is_file()), project)
-    python = str(root / ".venv" / "Scripts" / "python.exe")
+    python = str(root / ".venv" / ("Scripts/python.exe" if os.name == "nt" else "bin/python"))
     commands = {
         "uv_lock": ["uv", "lock", "--check"],
         "uv_sync_dry_run": ["uv", "sync", "--locked", "--all-extras", "--dev", "--dry-run"],

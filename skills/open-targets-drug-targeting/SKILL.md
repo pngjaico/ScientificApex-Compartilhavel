@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: open-targets-drug-targeting
 description: Use when drug discovery, target validation, disease biology, gene prioritization, indication expansion, or mechanism analysis needs Open Targets evidence, target-disease scores, genetics, drugs, pathways, tractability, safety, or target prioritization.
 ---

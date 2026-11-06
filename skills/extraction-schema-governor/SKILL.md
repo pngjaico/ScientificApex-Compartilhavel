@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: extraction-schema-governor
 description: Use when designing, validating, piloting, or auditing structured extraction forms, variable dictionaries, dual extraction, conflict resolution, or data provenance.
 ---

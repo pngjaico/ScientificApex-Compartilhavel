@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: experimental-design-planner
 description: Use when designing wet-lab, dry-lab, in silico, preclinical, organoid, animal, clinical, simulation, or validation experiments with controls, endpoints, sample size, randomization, blinding, and reproducibility requirements.
 ---

@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: snakemake-pipeline-runner
 description: Use when a scientific analysis should be converted into a readable Python-friendly Snakemake workflow with rules, conda/container environments, reports, provenance, local reruns, or reproducible multi-step analysis.
 ---

@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: living-review-monitor
 description: Use when setting up, auditing, or refreshing living searches, update alerts, surveillance queries, new preprint checks, trial updates, or evidence-change monitoring.
 ---

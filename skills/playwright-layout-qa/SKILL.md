@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: playwright-layout-qa
 description: Use when validating HTML scientific slides or posters with browser rendering, screenshots, overflow checks, PDF export, or thumbnails.
 ---

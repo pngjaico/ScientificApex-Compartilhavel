@@ -4,6 +4,8 @@ description: Use when clinical trial feasibility, endpoint selection, comparator
 disable-model-invocation: true
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Clinical Trial Design Feasibility Assessment
 
 Systematically assess clinical trial feasibility by analyzing 6 research dimensions. Produces comprehensive feasibility reports with quantitative enrollment projections, endpoint recommendations, and regulatory pathway analysis.

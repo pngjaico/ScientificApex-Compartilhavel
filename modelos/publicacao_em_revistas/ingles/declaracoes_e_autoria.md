@@ -6,7 +6,7 @@
 - Funding/funder role: [actual; never assume none].
 - Ethics/consent: [documented approval/waiver; identifiable images need specific publication consent when applicable].
 - Data/code: [repository/license/justified restricted access; never publish identifiable data].
-- AI use (Canonical Machine Disclosure): "During the preparation of this work, the authors used Claude Opus 5.5 (Anthropic) to assist with English language polishing, grammatical refinement, typographical corrections, and table layout formatting. Following the use of this tool, the authors critically reviewed, verified, and edited all generated content and take full responsibility for the scientific integrity, factual accuracy, and conclusions presented in this manuscript. In accordance with [insert target journal name] authorship criteria, generative AI technologies are not listed as authors."
+- AI use (Canonical Machine Disclosure): "During the preparation of this work, the authors used [AI tool and version actually used] [provider] to assist with English language polishing, grammatical refinement, typographical corrections, and table layout formatting. Following the use of this tool, the authors critically reviewed, verified, and edited all generated content and take full responsibility for the scientific integrity, factual accuracy, and conclusions presented in this manuscript. In accordance with [insert target journal name] authorship criteria, generative AI technologies are not listed as authors."
 - Registration/amendments: [final ID/URL, dates and deviations].
 - Third-party material/preprints: [verified licenses/permissions/links].
 Never sign official forms or accept declarations on authors' behalf.

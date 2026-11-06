@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: chembl-bindingdb-miner
 description: Use when mining ChEMBL, BindingDB, PubChem, ChEBI, or related chemistry databases for compound activity, ligand-target binding, potency, selectivity, mechanism, assay metadata, SMILES, ADMET, medchem triage, or drug-discovery evidence.
 ---

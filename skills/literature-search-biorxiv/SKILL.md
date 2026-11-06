@@ -3,6 +3,8 @@ name: literature-search-biorxiv
 description: Use when bioRxiv or medRxiv preprint discovery, DOI lookup, recent biology or medical preprint monitoring, or date-bounded preprint retrieval is needed.
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # bioRxiv and medRxiv Literature Search
 
 ## Prerequisites

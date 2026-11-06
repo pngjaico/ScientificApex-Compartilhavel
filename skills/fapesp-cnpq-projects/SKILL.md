@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: fapesp-cnpq-projects
 description: Use when drafting, adapting or critically reviewing FAPESP or CNPq research proposals, postgraduate scholarship projects, budgets, data management plans, curricular summaries or responses to funding reviewers in Brazil.
 ---

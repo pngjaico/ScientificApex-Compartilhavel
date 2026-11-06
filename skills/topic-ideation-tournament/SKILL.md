@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: topic-ideation-tournament
 description: Use when generating, comparing, ranking, or rejecting manuscript topics, research questions, thesis ideas, database-driven projects, or publication strategies.
 ---

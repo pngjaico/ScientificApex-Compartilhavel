@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: life-science-router
 description: Use when a biomedical, drug-discovery, omics, genetics, protein, pathway, microbiome, clinical, or public-dataset question should be routed through Life Science Research plugin skills inside Article Machine projects.
 ---

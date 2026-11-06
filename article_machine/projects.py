@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from datetime import datetime, timezone
 from pathlib import Path
+import os
 import re
 import unicodedata
 
@@ -138,7 +139,7 @@ def _compute_template(project_type: str, lane: str) -> dict:
         "python": {
             "required": True,
             "version": "3.13",
-            "runner": ".venv/Scripts/python.exe",
+            "runner": ".venv/Scripts/python.exe" if os.name == "nt" else ".venv/bin/python",
             "package_manager": "uv",
             "package_manager_version": "0.11.31",
             "lockfile": "uv.lock",
@@ -149,7 +150,7 @@ def _compute_template(project_type: str, lane: str) -> dict:
         "browser": {
             "required": browser_required,
             "version": "1.61.1",
-            "runner": "tools/playwright/node_modules/.bin/playwright.cmd",
+            "runner": "tools/playwright/node_modules/.bin/playwright.cmd" if os.name == "nt" else "tools/playwright/node_modules/.bin/playwright",
             "package_manager": "npm",
             "package_manager_version": "11.17.0",
             "lockfile": "tools/playwright/package-lock.json" if browser_required else None,

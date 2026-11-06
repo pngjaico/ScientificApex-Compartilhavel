@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: nextflow-pipeline-runner
 description: Use when a scientific analysis should run as a scalable, portable, containerized, HPC/cloud-ready, nf-core-compatible, or production-grade Nextflow pipeline with trace, timeline, report, DAG, and reproducible parameters.
 ---

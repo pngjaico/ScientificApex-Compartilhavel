@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: datasus-research-engine
 description: Use when creating, running, auditing, or expanding DATASUS/SUS epidemiology workflows from natural-language topics or YAML, including PySUS, SIH/RD, SIM, SIA, SINASC, CNES, PNI, IBGE, TABNET/FTP transfer, Parquet/DuckDB caching, cohort filters, indicators, figures, tables, reports, and scientific quality gates.
 ---

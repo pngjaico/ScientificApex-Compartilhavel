@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: catalogos-cientificos-sob-demanda
 description: Use when selecting or comparing scientific skills from K-Dense, DenDen047, Orchestra-Research, Imbad0202 or InternScience, or when existing medical-research routes need a justified external capability.
 ---

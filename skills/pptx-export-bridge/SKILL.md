@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: pptx-export-bridge
 description: Use when converting HTML-first decks or posters into editable PowerPoint fallbacks while preserving text editability and provenance.
 ---

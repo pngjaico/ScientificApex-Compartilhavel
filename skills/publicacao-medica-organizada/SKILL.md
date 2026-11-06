@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: publicacao-medica-organizada
 description: Use to organize a medical manuscript and its journal-specific versions inside an existing Article Machine project, create an empty publication index, preserve canonical drafts/evidence paths, prepare paired PT-BR/English deliverables, or audit a journal submission checklist. Does not submit manuscripts or move existing material.
 ---

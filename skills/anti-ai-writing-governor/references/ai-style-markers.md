@@ -27,11 +27,11 @@ This skill does not bypass AI detectors. It improves scientific authorship and r
 
 ### English:
 > **Use of Artificial Intelligence and AI-Assisted Technologies in Scientific Writing**  
-> During the preparation of this work, the authors used Claude Opus 5.5 (Anthropic) to assist with English language polishing, grammatical refinement, typographical corrections, and table layout formatting. Following the use of this tool, the authors critically reviewed, verified, and edited all generated content and take full responsibility for the scientific integrity, factual accuracy, and conclusions presented in this manuscript. In accordance with [target journal name] authorship criteria, generative AI technologies are not listed as authors.
+> During the preparation of this work, the authors used [AI tool and version actually used] [provider] to assist with English language polishing, grammatical refinement, typographical corrections, and table layout formatting. Following the use of this tool, the authors critically reviewed, verified, and edited all generated content and take full responsibility for the scientific integrity, factual accuracy, and conclusions presented in this manuscript. In accordance with [target journal name] authorship criteria, generative AI technologies are not listed as authors.
 
 ### Portuguese (pt-BR):
 > **Uso de Inteligência Artificial e Tecnologias Assistidas por IA na Redação Científica**  
-> Durante a preparação deste trabalho, os autores utilizaram Claude Opus 5.5 (Anthropic) para auxiliar no polimento do idioma inglês, refinamento gramatical, correções tipográficas e formatação do layout de tabelas. Após o uso desta ferramenta, os autores revisaram criticamente, verificaram e editaram todo o conteúdo gerado e assumem total responsabilidade pela integridade científica, precisão factual e conclusões apresentadas neste manuscrito. Em conformidade com os critérios de autoria da [nome da revista], tecnologias de IA generativa não são listadas como autores.
+> Durante a preparação deste trabalho, os autores utilizaram [AI tool and version actually used] [provider] para auxiliar no polimento do idioma inglês, refinamento gramatical, correções tipográficas e formatação do layout de tabelas. Após o uso desta ferramenta, os autores revisaram criticamente, verificaram e editaram todo o conteúdo gerado e assumem total responsabilidade pela integridade científica, precisão factual e conclusões apresentadas neste manuscrito. Em conformidade com os critérios de autoria da [nome da revista], tecnologias de IA generativa não são listadas como autores.
 
 ## Sources
 

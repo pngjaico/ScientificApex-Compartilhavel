@@ -16,6 +16,8 @@ metadata:
       description: OpenRouter API key for the skill's LLM-powered steps.
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Literature Review
 
 ## Overview

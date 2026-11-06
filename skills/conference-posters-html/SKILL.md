@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: conference-posters-html
 description: Use when creating editable vertical or horizontal scientific posters from a claim-safe storyboard and congress size requirements.
 ---

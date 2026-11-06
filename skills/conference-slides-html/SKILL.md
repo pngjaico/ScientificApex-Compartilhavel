@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: conference-slides-html
 description: Use when creating HTML-first scientific slide decks with animations, speaker notes, timing, QA, and export to PDF/PPTX.
 ---

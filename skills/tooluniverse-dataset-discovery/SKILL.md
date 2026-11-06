@@ -4,6 +4,8 @@ description: Use when finding or evaluating research datasets, cohorts, reposito
 disable-model-invocation: true
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Dataset Discovery
 
 ## When to Use

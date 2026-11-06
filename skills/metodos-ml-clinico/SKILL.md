@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: metodos-ml-clinico
 description: Use for developing or validating clinical prediction models with regression, machine learning, or deep learning; covers patient-level nested validation, calibration, uncertainty, external validation, TRIPOD+AI reporting, PROBAST+AI appraisal, and paired PT-BR/English scientific outputs. Not for bedside diagnosis or treatment decisions.
 ---

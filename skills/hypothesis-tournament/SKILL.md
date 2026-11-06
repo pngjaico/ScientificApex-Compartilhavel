@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: hypothesis-tournament
 description: Use when a scientific project needs hypothesis generation, comparison, debate, ranking, or evolution before protocol, computational discovery, experiment design, drug repurposing, target prioritization, or manuscript claims.
 ---

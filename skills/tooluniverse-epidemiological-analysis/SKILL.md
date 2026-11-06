@@ -4,6 +4,8 @@ description: Use when observational epidemiology needs PECO framing, cohort/case
 disable-model-invocation: true
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Epidemiological Data Analysis
 
 Complete workflow for observational epidemiology — from research question to publication-ready report. Write and run Python code for every step. Never describe what you "would do" — do it.

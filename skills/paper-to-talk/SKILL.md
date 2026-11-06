@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: paper-to-talk
 description: Use when transforming a manuscript, review, thesis chapter, or claim map into an oral scientific presentation.
 ---

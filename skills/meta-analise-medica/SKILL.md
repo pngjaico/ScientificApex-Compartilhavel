@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: meta-analise-medica
 description: Use for protocol-driven systematic reviews and meta-analyses of clinical evidence in R, from PICO and reproducible search through duplicate screening, extraction, risk of bias, synthesis, small-k uncertainty, GRADE, and paired PT-BR/English outputs. Not for pooling incompatible outcomes or study designs.
 ---

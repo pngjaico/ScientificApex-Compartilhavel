@@ -14,5 +14,45 @@
     "license": "Apache-2.0",
     "path": "third_party/licenses/ToolUniverse-LICENSE.txt",
     "sha256": "d0fd2a0c2969573ae74147b7400bbb57e6a5b334816beea15475f29fd5deeb49"
+  },
+  {
+    "project": "K-Dense additional skill source",
+    "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/LICENSE.md",
+    "revision": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "license": "MIT",
+    "path": "third_party/licenses/K-Dense-current-MIT.txt",
+    "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+  },
+  {
+    "project": "Google DeepMind Science Skills",
+    "url": "https://raw.githubusercontent.com/google-deepmind/science-skills/v1.0.4/LICENSE",
+    "revision": "v1.0.4",
+    "license": "Apache-2.0",
+    "path": "third_party/licenses/Google-Science-Skills-LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "project": "Google Science Skills provider terms",
+    "url": "https://raw.githubusercontent.com/google-deepmind/science-skills/v1.0.4/SKILL_LICENSES.md",
+    "revision": "v1.0.4",
+    "license": "CC-BY-4.0",
+    "path": "third_party/licenses/Google-Science-Skills-TERMS.md",
+    "sha256": "8557fad5e97c0c3f5ec0b33e5e09e2a643efc63587dbf11466c84b4da6bfe150"
+  },
+  {
+    "project": "Creative Commons Attribution 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+    "revision": "4.0",
+    "license": "CC-BY-4.0",
+    "path": "third_party/licenses/CC-BY-4.0.txt",
+    "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+  },
+  {
+    "project": "renv",
+    "url": "https://raw.githubusercontent.com/rstudio/renv/v1.3.1/LICENSE",
+    "revision": "v1.3.1",
+    "license": "MIT",
+    "path": "third_party/licenses/renv-LICENSE.txt",
+    "sha256": "c858160a4d741390cf9ec945197eca031d4f2e897b7e6494758d170e5cf654ce"
   }
 ]

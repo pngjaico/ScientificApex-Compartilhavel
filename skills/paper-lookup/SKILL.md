@@ -4,6 +4,8 @@ description: Search 10 academic paper databases via REST APIs for research paper
 metadata: {"version": "1.0", "skill-author": "K-Dense Inc."}
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Paper Lookup
 
 You have access to 10 academic paper databases through their REST APIs. Your job is to figure out which database(s) best serve the user's query, call them, and return the results.

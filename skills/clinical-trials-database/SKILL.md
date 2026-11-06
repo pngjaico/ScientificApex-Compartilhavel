@@ -3,6 +3,8 @@ name: clinical-trials-database
 description: Use when ClinicalTrials.gov API v2, NCT ID lookup, trial status, phase, eligibility criteria, sponsor portfolios, recruitment geography, or trial landscape counts are needed.
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Clinical Trials Database
 
 ## Prerequisites

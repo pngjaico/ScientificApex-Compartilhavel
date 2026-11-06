@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: semantic-scholar-citation-graph
 description: Use when Semantic Scholar paper lookup, citation graph expansion, recommendations, influential citations, author-paper context, or AI2 Academic Graph cross-checking is needed.
 ---

@@ -7,6 +7,8 @@ required_environment_variables: [{"name": "EXA_API_KEY", "prompt": "Exa search A
 metadata: {"version": "1.1", "skill-author": "Exa", "website": "https://exa.ai", "docs": "https://exa.ai/docs", "openclaw": {"primaryEnv": "EXA_API_KEY", "envVars": [{"name": "EXA_API_KEY", "required": true, "description": "Exa search API key."}]}}
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Exa Web Toolkit
 
 A skill for web-powered research tasks backed by [Exa](https://exa.ai): web search and URL extraction. Exa's index combines high-quality keyword and semantic retrieval, which makes it well-suited to scientific, technical, and conceptual queries.

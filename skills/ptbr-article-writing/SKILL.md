@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: ptbr-article-writing
 description: Use when drafting, rewriting, naturalizing, or auditing scientific manuscripts, abstracts, thesis chapters, posters, decks, or Article Machine outputs in Portuguese, especially Brazilian Portuguese, pt-BR versus pt-PT variant control, natural scientific prose without AI-like tone, journal/editorial profiles, IMRAD, structured abstracts, SciELO metadata, ABNT, Vancouver/ICMJE/NLM, APA, IEEE, Chicago, citation/reference formatting, ptbr-audit, Evidence Lock, or Portuguese style review.
 ---

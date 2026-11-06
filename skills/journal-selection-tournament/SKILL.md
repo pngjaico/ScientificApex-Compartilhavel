@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: journal-selection-tournament
 description: Use when selecting, ranking, or running a tournament of target academic journals for manuscript submission, enforcing mandatory PubMed/MEDLINE indexing and zero author fees via CAPES Transformative Agreements or Diamond Open Access.
 ---

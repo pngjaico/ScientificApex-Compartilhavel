@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: protocol-registration-governor
 description: Use when preregistration, PROSPERO, OSF registration, ClinicalTrials.gov registration, protocol freeze, amendments, or registry-to-manuscript consistency is needed.
 ---

@@ -17,6 +17,9 @@ as our original work.
 | --- | --- | --- |
 | [K-Dense scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | K-Dense Inc. e colaboradores / contributors | Skills científicas e referências; termos por skill / scientific skills and references; per-skill terms |
 | [ToolUniverse](https://github.com/mims-harvard/ToolUniverse) | MIMS Lab e colaboradores / contributors | Integrações científicas e skills / scientific integrations and skills |
+| [Google DeepMind Science Skills](https://github.com/google-deepmind/science-skills) | Google LLC / Google DeepMind e colaboradores / contributors | Clientes de bases e helpers; código Apache-2.0, outros materiais CC-BY-4.0 / database clients and helpers; Apache-2.0 code, CC-BY-4.0 other materials |
+| [BIDS](https://bids.neuroimaging.io/) | Yaroslav Halchenko e colaboradores / contributors | Documentação da skill BIDS em CC-BY-4.0 / BIDS skill documentation under CC-BY-4.0 |
+| [Exa](https://exa.ai/) | Exa e colaboradores / contributors | Skill de busca MIT / MIT search skill |
 | [Graphify](https://pypi.org/project/graphifyy/0.9.23/) | Safi Shamsi e colaboradores / contributors, conforme metadados da versão / per version metadata | Grafo operacional / operational graph |
 | [Python](https://www.python.org/) | Python Software Foundation e comunidade / community | Runtime |
 | [R](https://www.r-project.org/) | R Foundation, R Core Team e comunidade / community | Estatística opcional / optional statistical runtime |
@@ -60,15 +63,18 @@ Official root-license texts are included for the pinned K-Dense commit and
 ToolUniverse tag above. Snapshot URLs and hashes are recorded separately; root
 upstream terms do not override file-specific or skill-specific terms.
 
-**Pendência real:** há skills com origem `local://`, licença indefinida ou
-`LicenseRef-Local-Private`. O inventário as marca para revisão. Dar crédito não
-resolve automaticamente direitos de redistribuição. A Apache-2.0 da camada local
-não substitui essas licenças. Metadados de autoria upstream são atribuições de
-terceiros, não dados de pesquisa do responsável por esta distribuição.
+O responsável autorizou a publicação da camada própria em Apache-2.0. A revisão
+da distribuição atual substituiu rótulos locais/indefinidos por uma política
+documentada por skill, corrigindo atribuições a K-Dense e Google. As fontes
+oficiais e licenças foram conferidas; isso não afirma identidade de toda a árvore
+local com uma revisão upstream. Leia [LICENSE_SCOPE.md](LICENSE_SCOPE.md).
+Dar crédito não relicencia dados, artigos ou material histórico de terceiros.
 
-**Outstanding issue:** some skill origins/licenses remain local, undefined or
-private. The inventory flags these records. Attribution does not itself establish
-redistribution rights; the local Apache-2.0 license does not replace upstream terms.
+The owner authorized Apache-2.0 publication of the original layer. Current-source
+review replaces local/undefined labels with a documented per-skill policy and
+corrects K-Dense and Google attribution. Official sources and terms were checked;
+this does not assert whole-tree identity to upstream revisions. See the license
+scope. Acknowledgement does not relicense research data, papers or older history.
 
 Catálogos externos apenas mencionados, sem árvores incorporadas nesta distribuição:
 DenDen047, Orchestra-Research, Imbad0202 e InternScience. A menção não significa

@@ -4,6 +4,8 @@ description: Use when building task-specific success criteria, self-review rubri
 disable-model-invocation: true
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Self-Review: Task Success Criteria + Work Review
 
 Derive the criteria that define a good result for a specific task, then review work

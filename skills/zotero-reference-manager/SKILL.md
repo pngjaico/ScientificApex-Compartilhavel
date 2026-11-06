@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: zotero-reference-manager
 description: Use when Article Machine projects need Zotero integration, local Zotero Desktop API checks, Zotero library search, collection/tag inventory, BibTeX export, references.bib synchronization, citation insertion into Markdown/LaTeX drafts, DOI/PMID/reference organization, attachment paths, indexed full-text retrieval, or explicit BibTeX/RIS import into Zotero. Use for prompts mentioning Zotero, full text, PDF attachments, bibliography, reference library, citation keys, references.bib, local API localhost:23119, pyzotero, or organizing references.
 ---

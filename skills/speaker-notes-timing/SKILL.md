@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: speaker-notes-timing
 description: Use when fitting scientific slides to a strict oral presentation duration or generating speaker notes for a congress talk.
 ---

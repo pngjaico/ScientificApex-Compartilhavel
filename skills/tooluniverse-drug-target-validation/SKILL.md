@@ -4,6 +4,8 @@ description: Use when drug-target validation needs druggability, selectivity, sa
 disable-model-invocation: true
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Drug Target Validation Pipeline
 
 Validate drug target hypotheses using multi-dimensional computational evidence before committing to wet-lab work. Produces a quantitative Target Validation Score (0-100) with priority tier classification and GO/NO-GO recommendation.

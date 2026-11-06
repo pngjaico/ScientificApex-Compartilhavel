@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: database-retrieval-governor
 description: Use when planning or auditing PubMed, Europe PMC, OpenAlex, Crossref, ORCID, ROR, retraction metadata, or any database retrieval that needs cache, rate limits, query hashes, manifests, and offline replay.
 ---

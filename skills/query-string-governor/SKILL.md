@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: query-string-governor
 description: Use when creating, validating, compiling, or auditing database search strings, Boolean logic, field tags, exclusions, date filters, language filters, escaping, wildcards, or provider-specific query syntax.
 ---

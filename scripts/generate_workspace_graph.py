@@ -579,7 +579,7 @@ def build_extraction() -> tuple[dict[str, Any], dict[int, list[str]], dict[int, 
         "codex_profiles": 0,
     }
 
-    add_node(nodes, "workspace_doutorado", "Doutorado Workspace", "document", ".")
+    add_node(nodes, "workspace_doutorado", "ScientificApex Workspace", "document", ".")
     hubs = {
         "hub_runtime": "Runtime And Commands",
         "hub_article_machine": "Article Machine Package",

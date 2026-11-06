@@ -4,6 +4,8 @@ description: Use when deep literature research needs ToolUniverse multi-source r
 disable-model-invocation: true
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Literature Deep Research
 
 Systematic literature research: disambiguate, search with collision-aware queries, grade evidence, produce structured reports.

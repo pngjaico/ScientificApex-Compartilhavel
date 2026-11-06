@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: scientific-red-team-reviewer
 description: Use when stress-testing a scientific claim, manuscript, protocol, analysis, discovery result, slide deck, poster, grant, or thesis for hallucination, weak evidence, causal overreach, missing controls, statistical flaws, or reproducibility failures.
 ---

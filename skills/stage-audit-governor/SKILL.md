@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: stage-audit-governor
 description: Use when checking project modes, mode advancement, submission readiness, task packets, protocol freeze, corpus build, extraction, analysis, Evidence Lock, Review Trinity, benchmark, or journal route gates.
 ---

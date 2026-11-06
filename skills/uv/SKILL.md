@@ -6,6 +6,8 @@ description: >-
   prerequisite.
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # uv (Python Package Manager)
 
 `uv` is a fast Python package manager used by Science Skills to run their Python

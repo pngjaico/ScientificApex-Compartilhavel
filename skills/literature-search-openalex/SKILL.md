@@ -3,6 +3,8 @@ name: literature-search-openalex
 description: Use when OpenAlex API retrieval, scholarly works, authors, institutions, topics, venues, funders, DOI lookup, bibliometrics, or open-access links are needed.
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # OpenAlex Skill
 
 ## Prerequisites

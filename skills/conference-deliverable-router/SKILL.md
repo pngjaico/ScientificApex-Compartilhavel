@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: conference-deliverable-router
 description: Use when a research project must become a congress deliverable such as an oral deck, poster, abstract, handout, or submission pack.
 ---

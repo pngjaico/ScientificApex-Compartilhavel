@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: anti-ai-writing-governor
 description: Use when auditing, rewriting, naturalizing, or structuring scientific manuscripts, abstracts, thesis chapters, posters, decks, and Article Machine outputs that look AI-generated, ChatGPT-like, generic, over-polished, detector-oriented, translation-like, or inflated. Use for requests such as "anti IA", "tirar cara de IA", "humanizar texto", "parece ChatGPT", "naturalizar artigo", "detector de IA", "LLM style", and article-structure polish, while preserving Evidence Lock, claims, citations, numbers, uncertainty, and disclosure obligations.
 ---
@@ -37,7 +38,7 @@ Remove generic LLM style from scientific writing without fraud, detector bypass,
 - Break symmetrical or overlong paragraphs that read like a model-generated template.
 - Replace vague conclusions with bounded claims tied to the objective and evidence.
 - Keep methodologic uncertainty visible. A cautious sentence is not a style defect.
-- Verify mandatory AI disclosure: every manuscript must include the standardized Claude Opus 5.5 AI disclosure statement under Declarations.
+- Verify AI disclosure against actual tool use and current journal instructions. Do not invent a tool, provider, activity or human-review attestation.
 
 ## Hard Stops
 

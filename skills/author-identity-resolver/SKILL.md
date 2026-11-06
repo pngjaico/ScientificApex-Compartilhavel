@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: author-identity-resolver
 description: Use when resolving author identity, ORCID, PubMed author records, affiliations, ROR organizations, author fit, professor profiles, or collaborator-specific publication strategy.
 ---

@@ -9,6 +9,8 @@ metadata:
   skill-author: K-Dense Inc.
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Peer Review
 
 Support an accountable human reviewer with a rigorous, fair, actionable assessment. Treat every unpublished submission and review as confidential.

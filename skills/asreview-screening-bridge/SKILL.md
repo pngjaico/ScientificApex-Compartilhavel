@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: asreview-screening-bridge
 description: Use when systematic review title/abstract screening needs active learning, ASReview-compatible exports, prioritization, reviewer labels, stopping rules, recall audits, or transparent semi-automated screening.
 ---

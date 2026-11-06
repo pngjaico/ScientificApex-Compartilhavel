@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: crossref-unpaywall-resolver
 description: Use when DOI metadata, Crossref member metadata, references, licenses, funders, ORCID/ROR fields, Crossmark updates, or Unpaywall open-access full-text links need verification.
 ---

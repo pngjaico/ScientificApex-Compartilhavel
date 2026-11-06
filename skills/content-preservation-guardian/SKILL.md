@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: content-preservation-guardian
 description: Use when reorganizing, cleaning, staging, deleting, moving, graphing, or indexing the Doutorado workspace could affect raw scientific content, legacy folders, full text, patient/source dumps, or generated corpora.
 ---

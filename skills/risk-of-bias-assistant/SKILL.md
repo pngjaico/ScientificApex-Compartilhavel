@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: risk-of-bias-assistant
 description: Use when assessing study quality or risk of bias with RoB 2, ROBINS-I, QUADAS-2, PROBAST, ROBIS, AMSTAR 2, SYRCLE, TACIT, or diagnostic, randomized, observational, prediction, animal, and systematic-review bias tools.
 ---

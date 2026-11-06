@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the specific repository commit used, and separately credit/cite upstream scientific software and skill sources."
+title: "ScientificApex / Article Machine"
+type: software
+authors:
+  - name: "ScientificApex contributors"
+version: "0.3.0"
+url: "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+repository-code: "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+license: Apache-2.0
+abstract: "A command-line scientific workflow runtime with project contracts, protocol gates, evidence tracking, skill routing and bilingual deliverables. Third-party components retain their own licenses."

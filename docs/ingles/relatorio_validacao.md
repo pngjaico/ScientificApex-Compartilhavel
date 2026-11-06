@@ -4,8 +4,15 @@ Date: 2026-11-06. Scope: Article Machine 0.3.0 core on Windows.
 
 - Locked installation in a clean local clone in a different directory: PASS.
 - CLI and strict operational machine audit in that clone: PASS.
-- Selected core suite: 80 tests PASS, covering lifecycle guards, registration,
+- Selected core suite: 84 tests PASS, covering lifecycle guards, registration,
   contracts, evidence, reviews, metrics and portability regressions.
+- AI-disclosure scaffolds do not presume a provider and explicitly retain
+  pending author verification: regression test PASS.
+- Documentary license scope: PASS for 117 skills; 65 original-layer components
+  released under Apache-2.0 and 52 third-party components retaining upstream terms.
+- Shell installer syntax checked with Bash; no local Unix/macOS execution.
+  CI is configured for Windows and Linux. Check Actions for the commit's remote
+  result rather than inferring macOS support.
 - PROSPERO author/contact/affiliation do not inherit an identity: targeted test PASS.
 - Operational graph with absent optional documents: PASS; relationships to absent
   entities are omitted and counted in the graph manifest.
@@ -22,7 +29,7 @@ metadata remain part of the software. Public upstream maintainer contacts and
 license notices are preserved.
 
 Not executed: R, ML/DL, browser/Quarto, Zotero, external APIs and remote catalogs,
-clinical validation, human review of all templates, and Antigravity layout QA.
+clinical validation, human review of all templates, and agent/editor layout QA.
 No third-party computer or Linux/macOS was tested. The clean clone was installed
 on the same computer using an existing uv cache; future package availability
 and other environments are not established by this test.

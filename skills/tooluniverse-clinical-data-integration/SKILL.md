@@ -4,6 +4,8 @@ description: Use when clinical drug-safety work needs integrated FDA labels, FAE
 disable-model-invocation: true
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Clinical Data Integration for Drug Safety
 
 End-to-end drug safety review pipeline that integrates FDA label information, FAERS spontaneous reports, disproportionality signal detection, pharmacogenomic biomarkers, clinical trial data, and published literature. Designed for regulatory assessments, pharmacovigilance, and clinical decision support.

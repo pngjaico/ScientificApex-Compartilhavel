@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: submission-ops-playwright
 description: Use when preparing or dry-running congress portal submission with browser automation and explicit final confirmation requirements.
 ---

@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: evidence-lock-hardener
 description: Use when validating claims, citations, excerpts, DOI/PMID strings, factual manuscript sentences, bibliography synchronization, or anti-hallucination gates before draft, review, routing, or submission.
 ---

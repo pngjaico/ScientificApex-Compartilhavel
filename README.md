@@ -1,65 +1,71 @@
-# ScientificApex: máquina científica para Antigravity
+# ScientificApex / Article Machine
 
-Distribuição independente da Article Machine 0.3.0. Inclui o runtime, skills,
-modelos de trabalho, locks de dependências e instruções. Não inclui estudos,
-coortes, manuscritos, credenciais, perfil de pesquisador ou histórico do workspace
-de origem. Os modelos são exemplos vazios ou demonstrações, não estudos aprovados.
+ScientificApex distributes Article Machine, an open-source, agent-neutral scientific research environment. It combines a Python command-line application, project contracts, evidence and review gates, workflow guidance, and a curated skill collection. Use it from a terminal, with a coding agent that can read repository instructions, or with both. No particular AI provider, model, account, or agent is required by the core.
 
-## Instalação no Windows
+The repository is a source distribution. Clone it to get the complete machine, including its skills, templates, documentation, and operational files. Installing a Python wheel alone does not provide that full environment.
 
-1. Instale Git e uv. Consulte as instruções oficiais: https://git-scm.com/install/windows
-   e https://docs.astral.sh/uv/getting-started/installation/ .
-2. Clone este repositório em uma pasta sua e abra essa pasta no Antigravity:
+## What it provides
+
+- Project scaffolding and workflow commands for protocol, corpus, analysis, drafting, review, and publication preparation.
+- Project contracts that describe the question, protocol, standards, and computational environment.
+- Provenance and evidence controls, including claim tracking, Evidence Lock, and Review Trinity gates.
+- Optional scientific skills and integrations. A skill is guidance; it does not install or validate the external software or service it describes.
+- Optional R, clinical ML/DL, browser, Quarto, Zotero, and external data-provider workflows, configured and validated for each project as needed.
+
+These controls improve traceability. Passing an operational check does not establish methodological validity, clinical safety, reproducibility on another computer, or publication readiness.
+
+## Quick start
+
+Install Git and [uv](https://docs.astral.sh/uv/), clone the repository, and enter the clone. The development team documents Windows and Unix-like setup paths below. Linux and macOS instructions are provided but have not been tested for this distribution.
+
+### Windows (PowerShell)
 
 ```powershell
 git clone https://github.com/pngjaico/ScientificApex-Compartilhavel.git
 cd ScientificApex-Compartilhavel
-```
-
-3. No terminal PowerShell da pasta clonada, execute:
-
-```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\instalar.ps1
 ```
 
-O instalador baixa Python 3.13 e dependências travadas pelo uv, cria somente a
-`.venv` deste clone e verifica o runtime e a auditoria operacional. Não instala
-R, modelos de IA, navegadores ou extensões; não configura credenciais nem consulta
-bases científicas. Requer internet para instalar dependências. Depois, o núcleo
-funciona sem uma API de IA própria; o agente do Antigravity usa a sua configuração.
+For development dependencies, pass `-Development`. To check an existing local installation without syncing packages, pass `-VerifyOnly`.
 
-Para desenvolvimento e testes, use `-Development`. Para auditar sem baixar pacotes,
-use `-VerifyOnly` depois da instalação. Leia [o guia](docs/portugues/guia_de_uso.md).
+### Linux or macOS (Bash)
 
-## Pedido para colar no Antigravity
+```sh
+git clone https://github.com/pngjaico/ScientificApex-Compartilhavel.git
+cd ScientificApex-Compartilhavel
+bash instalar.sh
+```
 
-> Leia GEMINI.md, AGENTS.md e docs/portugues/guia_de_uso.md. Instale esta máquina
-> usando instalar.ps1 e confira a auditoria. Pergunte meu tema e desenho do estudo,
-> crie um projeto novo e prepare o protocolo. Não invente autoria, dados ou registro.
-> Não execute trabalho científico antes dos gates de registro e protocolo.
+For development dependencies, pass `--development`. To check an existing local installation without syncing packages, pass `--verify-only`. These instructions are untested on Linux and macOS; optional integrations may require platform-specific setup.
 
-## Limites
+### Create a project
 
-O núcleo instala organização, protocolos, roteamento, controle de evidências e
-CLI. Análises R, ML/DL, Zotero, navegadores, catálogos externos e plugins têm
-dependências próprias, configuradas por projeto. Uma skill instalada não instala
-o software que descreve. `compute.yaml` deve refletir o computador do usuário.
-Nenhum PASS operacional aprova um estudo ou garante aceitação editorial.
+Use the interpreter in this clone so the command uses its locked environment:
 
-As licenças e origens de componentes terceiros constam de `skills/registry.json`
-e dos avisos incluídos. Não se concede licença nova a material de terceiros.
+```powershell
+.\.venv\Scripts\python.exe -m article_machine init "My study" --type systematic-review
+.\.venv\Scripts\python.exe -m article_machine --help
+```
 
-## Créditos ao código aberto
+On Linux/macOS, use `.venv/bin/python` in place of the Windows interpreter path. Review the generated `project.yaml`, `protocol.yaml`, `standards.yaml`, and `compute.yaml` before work proceeds. Start with planning, and follow the project's protocol and registration requirements before scientific execution. Local registration commands prepare or verify artifacts; they do not register a study with an external registry.
 
-A máquina integra contribuições de K-Dense, ToolUniverse/MIMS Lab, Graphify,
-Python, R, Astral/uv, Playwright e muitas outras comunidades. Agradecemos aos
-autores e mantenedores e preservamos suas atribuições.
+## Scientific gates and responsible use
 
-Veja [os créditos completos](docs/portugues/creditos_opensource.md),
-[os avisos de terceiros](THIRD_PARTY_NOTICES.md) e [NOTICE](NOTICE).
-O inventário cobre dependências diretas e transitivas dos ambientes incluídos.
-Origens ou licenças indefinidas estão sinalizadas; não são apresentadas como
-direitos de redistribuição já verificados.
+Record sources and extraction decisions, preserve the link between claims and evidence, and keep references synchronized with the project. Evidence Lock and Review Trinity are required gates for applicable drafting and submission workflows. Do not invent registration IDs, ethics approvals, authorship, results, or prospective-registration statements. An audit can report pass, fail, or skipped checks; report its scope and limitations.
 
-Verificação executada e limites: [relatório](docs/portugues/relatorio_validacao.md).
-English instructions: [usage guide](docs/ingles/guia_de_uso.md).
+Use synthetic or authorized data. Do not place credentials or personal data in Git, and do not send human data to external services without authorization and applicable safeguards. Configure optional tools and providers explicitly for the project. The installer does not require an AI API key or configure an agent account.
+
+## Documentation and contribution
+
+- [Guia de uso em português](docs/portugues/guia_de_uso.md)
+- [English usage guide](docs/ingles/guia_de_uso.md)
+- [Contribuir](CONTRIBUTING.md) · [Contributing in English](docs/ingles/contribuir.md)
+- [Agent-neutral repository instructions](AGENTS.md)
+- [Gemini/Antigravity adapter](GEMINI.md) (optional)
+- [Open-source credits in Portuguese](docs/portugues/creditos_opensource.md) · [English credits](docs/ingles/creditos_opensource.md)
+- [Third-party notices](THIRD_PARTY_NOTICES.md) · [NOTICE](NOTICE)
+- [Distribution verification report](docs/portugues/relatorio_validacao.md)
+
+The original machine layer is open source under **Apache-2.0**. Included third-party components retain their own terms, including MIT, BSD-3-Clause, Apache-2.0 and CC-BY-4.0 for documentation. See [license scope](LICENSE_SCOPE.md), [the per-skill policy](third_party/politica_licencas.json) and [third-party notices](THIRD_PARTY_NOTICES.md). The policy covers the current source distribution, not external research data or blanket relicensing of older history.
+
+Pull requests and issues are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md) and [CITATION.cff](CITATION.cff). Automated checks cover the core tests, operational gates and documentary license scope; they do not certify scientific validity or legal authenticity.

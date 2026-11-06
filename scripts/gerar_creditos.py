@@ -140,7 +140,7 @@ def skill_credits() -> list[dict]:
         nested = nested if isinstance(nested, dict) else {}
         origin = registered.get("origin", {})
         stated_author = nested.get("skill-author") or frontmatter.get("author")
-        declared_license = frontmatter.get("license") or registered.get("license", "NOASSERTION")
+        declared_license = registered.get("license") or frontmatter.get("license", "NOASSERTION")
         unresolved = origin.get("url", "").startswith("local:") or declared_license in {"NOASSERTION", "LicenseRef-Local-Private"}
         rows.append({"name": name, "path": relative(entrypoint),
                      "author": stated_author or origin.get("provider") or "Origin not established",

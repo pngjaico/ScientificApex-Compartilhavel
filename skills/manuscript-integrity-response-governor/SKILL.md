@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: manuscript-integrity-response-governor
 description: Use when reviewer comments, rebuttal letters, response to reviewers, parecerista responses, manuscript consistency, claim-strength calibration, reference integrity, citation integrity, figure/table-to-text consistency, or pre-submission manuscript repair is needed.
 ---

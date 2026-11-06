@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: skill-upgrade-governor
 description: Use when researching, selecting, installing, auditing, or routing new Article Machine skills, external skill repositories, APIs, or agent capability upgrades.
 ---

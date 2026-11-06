@@ -3,6 +3,8 @@ name: pubmed-database
 description: Use when PubMed, NCBI E-utilities, PMC full text, PMID resolution, biomedical citation matching, medical spelling, or PubMed-to-biological-database linking is needed.
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # PubMed API
 
 ## Prerequisites

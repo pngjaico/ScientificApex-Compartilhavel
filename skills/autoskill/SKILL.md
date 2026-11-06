@@ -7,6 +7,8 @@ required_environment_variables: [{"name": "SCREENPIPE_TOKEN", "prompt": "Auth to
 metadata: {"version": "1.1", "skill-author": "K-Dense Inc.", "openclaw": {"requires": {"bins": ["screenpipe"]}, "primaryEnv": "SCREENPIPE_TOKEN", "envVars": [{"name": "SCREENPIPE_TOKEN", "required": true, "description": "Auth token for the local screenpipe daemon."}, {"name": "ANTHROPIC_API_KEY", "required": false, "description": "For Claude API calls during skill drafting."}, {"name": "FOUNDRY_API_KEY", "required": false, "description": "Optional Foundry access for drafting."}]}}
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # autoskill
 
 > **Requires a running [screenpipe](https://github.com/screenpipe/screenpipe) daemon.** This skill has no alternate data source — it reads exclusively from the local screenpipe HTTP API (default `http://localhost:3030`). If the daemon isn't running, `run()` raises `ScreenpipeUnreachable` with install instructions.

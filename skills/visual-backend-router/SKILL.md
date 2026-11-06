@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: visual-backend-router
 description: Use when choosing how to generate or render scientific visuals, diagrams, hero images, charts, tables, or poster assets.
 ---

@@ -6,6 +6,8 @@ description: >-
   Not a standalone agent skill. Do not invoke directly.
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Science Skills Common
 
 This is a shared Python package, not an agent skill. Skills import it as:

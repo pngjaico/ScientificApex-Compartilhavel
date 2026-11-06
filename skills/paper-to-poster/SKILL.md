@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: paper-to-poster
 description: Use when transforming a manuscript, review, thesis chapter, or claim map into an editable scientific poster.
 ---

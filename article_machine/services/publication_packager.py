@@ -23,8 +23,9 @@ CANONICAL_AREAS = [
 ]
 
 DISCLOSURE_EN = (
+    "PENDING AUTHOR VERIFICATION. "
     "Use of Artificial Intelligence and AI-Assisted Technologies in Scientific Writing: "
-    "During the preparation of this work, the authors used Claude Opus 5.5 (Anthropic) "
+    "During the preparation of this work, the authors used [AI tool and version actually used] [provider] "
     "to assist with English language polishing, grammatical refinement, typographical "
     "corrections, and table layout formatting. Following the use of this tool, the "
     "authors critically reviewed, verified, and edited all generated content and take full "
@@ -34,8 +35,9 @@ DISCLOSURE_EN = (
 )
 
 DISCLOSURE_PT = (
+    "PENDENTE DE VERIFICAÇÃO PELOS AUTORES. "
     "Uso de Inteligência Artificial e Tecnologias Assistidas por IA na Redação Científica: "
-    "Durante a preparação deste trabalho, os autores utilizaram Claude Opus 5.5 (Anthropic) "
+    "Durante a preparação deste trabalho, os autores utilizaram [AI tool and version actually used] [provider] "
     "para auxiliar no polimento do idioma inglês, refinamento gramatical, correções tipográficas "
     "e formatação do layout de tabelas. Após o uso desta ferramenta, os autores revisaram "
     "criticamente, verificaram e editaram todo o conteúdo gerado e assumem total responsabilidade "

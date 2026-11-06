@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: opencitations-citation-audit
 description: Use when open citation links, COCI DOI-to-DOI citation checks, citation graph audit, reference coverage, or independent citation-network corroboration is needed.
 ---

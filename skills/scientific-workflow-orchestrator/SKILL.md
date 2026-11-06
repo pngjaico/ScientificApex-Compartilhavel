@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: scientific-workflow-orchestrator
 description: Use when planning complex scientific work, systematic reviews, meta-analysis, cohort or trial analysis, scientific hypotheses, reproducible research, or trabalhos científicos complexos with coordinated agents.
 ---

@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: grade-sof-table-builder
 description: Use when a review, meta-analysis, guideline, health technology assessment, diagnostic review, or clinical evidence project needs GRADE certainty ratings, Summary of Findings tables, evidence profiles, footnotes, or GRADEpro-ready outputs.
 ---

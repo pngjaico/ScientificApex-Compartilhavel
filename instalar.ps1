@@ -30,7 +30,7 @@ try {
     & $pythonExe -m article_machine machine audit --workspace-root . --strict > '.machine/verification/auditoria.json'
     if ($LASTEXITCODE -ne 0) { throw 'Auditoria bloqueou. Consulte .machine/verification/auditoria.json.' }
     Write-Host 'PASS: núcleo instalado e auditoria operacional aprovada.'
-    Write-Host 'Abra GEMINI.md e docs/portugues/guia_de_uso.md no Antigravity.'
+    Write-Host 'Leia AGENTS.md e docs/portugues/guia_de_uso.md. Use a CLI ou o agente de sua escolha.'
     if ($Development) { Write-Host 'Testes: .\.venv\Scripts\python.exe -m pytest tests/' }
 }
 finally { Pop-Location }

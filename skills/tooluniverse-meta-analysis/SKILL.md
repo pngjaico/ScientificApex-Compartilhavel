@@ -4,6 +4,8 @@ description: Use when pooling multiple studies, converting effect sizes and stan
 disable-model-invocation: true
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Meta-Analysis & Evidence Synthesis
 
 Pool quantitative results from **multiple studies** into one estimate, and judge how consistent the studies are. This is the statistical half of a systematic review (the literature-collection half is `tooluniverse-literature-deep-research`).

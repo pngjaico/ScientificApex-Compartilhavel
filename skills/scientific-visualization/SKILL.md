@@ -10,6 +10,8 @@ metadata:
   skill-author: K-Dense Inc.
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Scientific Visualization
 
 Build figures that preserve scientific meaning before optimizing appearance. Separate universal principles from dated publisher rules, preserve raw data and transformations, use color redundantly, and inspect delivered files rather than trusting plotting defaults.

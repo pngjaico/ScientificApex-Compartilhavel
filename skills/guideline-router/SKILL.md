@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: guideline-router
 description: Use when choosing reporting guidelines, PRISMA, CONSORT, STROBE, EQUATOR-indexed checklists, review standards, trial standards, observational designs, or manuscript compliance gates.
 ---

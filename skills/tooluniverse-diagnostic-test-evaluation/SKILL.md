@@ -4,6 +4,8 @@ description: Use when diagnostic test or biomarker accuracy needs sensitivity, s
 disable-model-invocation: true
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Diagnostic Test / Biomarker Accuracy Evaluation
 
 Judge how well a test or biomarker discriminates disease — at a fixed cutoff (2×2) or across all cutoffs (ROC) — and turn a result into a probability of disease.

@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: conference-requirements-importer
 description: Use when congress rules, submission pages, PDFs, screenshots, or pasted instructions must be normalized before generating scientific deliverables.
 ---

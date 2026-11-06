@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: openalex-literature-graph
 description: Use when literature discovery needs OpenAlex works, authors, institutions, citation graph, concept/topic mapping, bibliometrics, author disambiguation, venue analysis, or open scholarly metadata.
 ---

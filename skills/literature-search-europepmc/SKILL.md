@@ -3,6 +3,8 @@ name: literature-search-europepmc
 description: Use when Europe PMC, open-access biomedical full text, PMCID full-text retrieval, citation lists, references, or Europe PMC fallback searches are needed.
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Europe PMC Database
 
 A skill for searching, downloading, and exploring open-access papers from

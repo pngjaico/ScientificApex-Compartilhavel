@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: machine-continuous-learner
 description: Use when an agent needs to extract, distill, and persist reusable workflows, debugging fixes, laboratory protocols, or scientific best practices into the Article Machine from recent user sessions or corrections (equivalent to /learn).
 ---

@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: ngs-analysis-router
 description: Use when Article Machine projects need Life Sciences NGS Analysis plugin routing for sequencing data including BCL run folders, FASTQ, BAM/CRAM, VCF, count matrices, scRNA-seq, bulk RNA-seq, ATAC-seq, ChIP-seq, CUT&RUN/CUT&Tag, WGS/WES/panel variant calling, microbiome amplicon, shotgun metagenomics, demultiplexing, QC, trimming, alignment, differential expression, peak calling, UMAP/annotation, or NGS runtime preflight.
 ---

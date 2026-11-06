@@ -24,6 +24,8 @@ metadata:
       description: Optional OpenAlex key for a higher account budget.
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Citation Management
 
 ## Overview

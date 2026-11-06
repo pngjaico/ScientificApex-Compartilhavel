@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: intestinal-transplant-research
 description: Use when planning, extracting, routing, or quality-gating research on intestinal transplantation, intestinal failure, short bowel syndrome, GLP-2 therapies, intestinal graft rejection biomarkers, machine perfusion, intestinal organoids, intestinal ischemia-reperfusion, microbiome/omics, digital pathology, or Brazilian SUS/ABTO implementation studies.
 ---

@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: in-silico-validation-governor
 description: Use when computational discovery, docking, virtual screening, digital twins, simulations, ML predictions, omics models, drug repurposing, or mechanistic models need validation labels, benchmark design, limitations, leakage checks, or overclaim prevention.
 ---

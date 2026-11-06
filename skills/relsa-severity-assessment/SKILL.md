@@ -9,6 +9,8 @@ metadata:
   skill-author: K-Dense Inc.
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # RELSA severity assessment and humane endpoint forecasting
 
 ## Overview

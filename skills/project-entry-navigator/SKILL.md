@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: project-entry-navigator
 description: Use when an agent must select, create, resume, or orient inside an Article Machine project under projects/<project_id>/ before evidence, analysis, discovery, drafting, or deliverables.
 ---

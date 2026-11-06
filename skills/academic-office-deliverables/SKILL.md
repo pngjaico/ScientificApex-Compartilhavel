@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: academic-office-deliverables
 description: Use when scientific work must become editable DOCX, PPTX, LaTeX, PDF, thesis-defense slides, group-meeting slides, paper-reading reports, template-matched Office files, Zotero-backed document packages, or local-first academic writing workspaces with layout QA.
 ---

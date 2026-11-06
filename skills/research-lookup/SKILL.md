@@ -18,6 +18,8 @@ metadata:
       description: Optional OpenRouter key for explicit Perplexity use.
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Research Lookup
 
 Compile the external evidence needed to plan and write a high-quality scientific

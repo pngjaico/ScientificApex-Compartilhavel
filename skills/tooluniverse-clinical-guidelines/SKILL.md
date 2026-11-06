@@ -4,6 +4,8 @@ description: Use when clinical practice guidelines, treatment recommendations, s
 disable-model-invocation: true
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Clinical Guidelines Search & Retrieval
 
 ## Guideline Hierarchy

@@ -17,7 +17,9 @@ from article_machine.services.skill_registry import REGISTRY_SCHEMA_VERSION, tre
 K_DENSE_URL = "https://github.com/K-Dense-AI/scientific-agent-skills"
 TOOLUNIVERSE_URL = "https://github.com/mims-harvard/ToolUniverse"
 TOOLUNIVERSE_REVISION = "v1.3.1"
-LOCAL_URL = "local://doutorado/article-machine"
+LOCAL_URL = "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+LICENSE_POLICY = ROOT / "third_party" / "politica_licencas.json"
+RELEASE_SKILLS = json.loads(LICENSE_POLICY.read_text(encoding="utf-8"))["skills"] if LICENSE_POLICY.is_file() else {}
 CURATED_K_DENSE = {
     "research-lookup", "database-lookup", "citation-management", "literature-review",
     "statistical-analysis", "peer-review", "clinical-reports", "venue-templates",
@@ -68,6 +70,9 @@ LOCAL_CURATED_SKILLS = {
 
 
 def _source_for(name: str) -> tuple[dict[str, str], str, str, str]:
+    if name in RELEASE_SKILLS:
+        record = RELEASE_SKILLS[name]
+        return (record["origin"], record["source_revision"], record["license"], record["status"])
     if name == "fapesp-cnpq-projects":
         return ({"provider": "Article Machine curated layer", "url": LOCAL_URL}, "workspace-2026-11-03", "LicenseRef-Local-Private", "active")
     if name.startswith("tooluniverse-"):
@@ -138,10 +143,13 @@ def build_registry(skills_dir: Path = ROOT / "skills") -> dict:
             "next_review": "2027-01-12",
         }
         if name.startswith("tooluniverse-"):
-            entries[name]["review_note"] = "Held pending evidence of incremental value over existing routes."
-            entries[name]["source_verification"] = "historical-attribution-not-refreshed"
+            entries[name]["review_note"] = "Optional workflow; scientific validation and service readiness remain separate from licensing."
+            entries[name]["source_verification"] = "upstream-entrypoint-and-license-reviewed" if name in RELEASE_SKILLS else "historical-attribution-not-refreshed"
         if origin["url"] == LOCAL_URL:
-            entries[name]["license_note"] = "Private workspace use; redistribution rights for inherited content require separate review."
+            entries[name]["license_note"] = "First-party workflow layer released under Apache-2.0 by the repository owner; upstream exceptions are recorded separately."
+        if name in RELEASE_SKILLS:
+            entries[name]["distribution_scope"] = RELEASE_SKILLS[name]["classification"]
+            entries[name]["license_evidence"] = "third_party/politica_licencas.json"
         if name == "tooluniverse-statistical-modeling":
             entries[name]["status"] = "pilot"
             entries[name]["review_note"] = "Narrow pilot only; promotion requires benchmark evidence."

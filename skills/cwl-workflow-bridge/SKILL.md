@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: cwl-workflow-bridge
 description: Use when a scientific command-line workflow needs a vendor-neutral Common Workflow Language bridge for portability, reuse, standards compliance, workflow exchange, or execution across multiple CWL-compatible platforms.
 ---

@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: scientific-novelty-checker
 description: Use when evaluating whether a hypothesis, drug target, mechanism, biomarker, model, thesis aim, or manuscript claim is novel, already known, incremental, contradicted, or unsupported in the literature.
 ---

@@ -1,77 +1,75 @@
-# Instalar e operar no seu computador
+# Guia de uso
 
-Abra a raiz deste clone no Antigravity e leia `GEMINI.md`. No Windows, instale Git
-e uv, clone o repositório e execute `instalar.ps1`. O script usa sua própria pasta,
-baixa Python 3.13 se necessário e instala o núcleo com o `uv.lock` incluído.
-Não há necessidade de copiar pastas, credenciais ou ambientes de outro computador.
+ScientificApex / Article Machine é uma máquina científica de código aberto, composta por CLI Python, contratos de projeto, gates de evidência e revisão, documentação e skills. Pode ser usada no terminal, com qualquer agente que consiga ler os arquivos do repositório, ou em fluxo combinado. O núcleo não exige provedor, modelo, conta ou agente específico de IA.
 
-## Começar um projeto
+## Instalação do clone completo
 
-No terminal da pasta clonada:
+Instale Git e [uv](https://docs.astral.sh/uv/), clone o repositório e entre na pasta. O clone é necessário para usar a máquina completa: skills, modelos, documentação e arquivos operacionais não são entregues por um wheel Python isolado.
+
+### Windows (PowerShell)
 
 ```powershell
+git clone https://github.com/pngjaico/ScientificApex-Compartilhavel.git
+cd ScientificApex-Compartilhavel
+powershell -NoProfile -ExecutionPolicy Bypass -File .\instalar.ps1
+```
+
+Use `-Development` para instalar dependências de desenvolvimento. Use `-VerifyOnly` para verificar uma instalação existente sem sincronizar pacotes. O script cria e usa `.venv` neste clone.
+
+### Linux ou macOS (Bash)
+
+```sh
+git clone https://github.com/pngjaico/ScientificApex-Compartilhavel.git
+cd ScientificApex-Compartilhavel
+bash instalar.sh
+```
+
+Use `--development` para dependências de desenvolvimento ou `--verify-only` para verificar uma instalação existente. Essas instruções ainda não foram testadas em Linux/macOS; integrações opcionais podem exigir configuração específica da plataforma.
+
+Os instaladores sincronizam dependências travadas com `uv.lock` e verificam CLI e auditoria operacional estrita. Precisam de acesso à internet durante a instalação de pacotes. Não instalam R, ML/DL, navegador, Zotero, Quarto, provedores externos ou modelo de IA; também não configuram conta ou credenciais de agente.
+
+## Criar e preparar um projeto
+
+Use o interpretador do clone:
+
+```powershell
+.\.venv\Scripts\python.exe -m article_machine --help
 .\.venv\Scripts\python.exe -m article_machine init "Meu estudo" --type systematic-review
-.\.venv\Scripts\python.exe -m article_machine skills route --query "planejar protocolo de revisão sistemática"
 .\.venv\Scripts\python.exe -m article_machine preflight projects/meu-estudo
 ```
 
-Outros tipos incluem `prediction-model` e `network-meta-analysis`. Leia os quatro
-contratos gerados. O projeto começa em bootstrap, com pergunta/protocolo a preencher.
-O preflight poderá bloquear se o ambiente exigido estiver ausente; corrija o contrato
-e instale o ambiente adequado. Não desative gates para fazer um estudo parecer pronto.
+Em Linux/macOS, substitua o caminho do interpretador por `.venv/bin/python`. Tipos adicionais incluem `prediction-model` e `network-meta-analysis`. Leia `project.yaml`, `protocol.yaml`, `standards.yaml` e `compute.yaml`; preencha-os com informações verificadas e prepare um Task Packet antes do trabalho científico. Use `skills route --query "..."` para localizar orientações relevantes, sem supor que a ferramenta externa descrita pela skill esteja instalada.
 
-Antes da execução científica, registre e documente o protocolo final PROSPERO/OSF,
-conforme o desenho e as regras aplicáveis. `registry register` só declara metadados;
-não registra um estudo no provedor. `registry verify` exige evidência revisada real.
-O planejamento anterior ao registro continua permitido.
+Comece com planejamento e protocolo. Antes de corpus, triagem, extração, análise, descoberta ou redação científica, cumpra o gate aplicável de protocolo e registro final PROSPERO/OSF, conforme desenho e regras vigentes. Planejar e preparar o protocolo antes do registro é permitido. Comandos locais podem compilar ou revisar metadados e evidências, mas não registram um estudo no serviço externo. Não invente IDs, aprovação ética, autoria ou declaração de registro prospectivo.
 
-```powershell
-.\.venv\Scripts\python.exe -m article_machine workflow plan projects/meu-estudo --query "preparar protocolo" --language pt-BR
-.\.venv\Scripts\python.exe -m article_machine context build projects/meu-estudo --mode bootstrap --hypothesis "Pergunta a definir"
-```
+Depois de liberados os gates, preserve proveniência das fontes e decisões de extração, faça análises reproduzíveis, sincronize `evidence/claim_map.jsonl` e `drafts/references.bib`, e use Evidence Lock e Review Trinity nos pontos exigidos. Entregas científicas novas devem ter versões em português e inglês, com números, citações, incerteza e disclosure verdadeiro das ferramentas utilizados preservados. PASS operacional não valida método, segurança clínica ou prontidão de publicação.
 
-Depois dos gates, siga o desenho: fontes com proveniência, extração verificável,
-análise reproduzível, claims e referências sincronizados, redação PT-BR/EN, revisão
-e exportação. Use `--help` em cada subcomando. Nenhum dado real vem neste clone.
+## Ambientes opcionais
 
-## Recursos adicionais
+Configure somente o que o projeto exige e registre a configuração real em `compute.yaml`.
 
-- R: instale a versão exigida pelo projeto e restaure o renv.lock apropriado.
-  Configure o executável e o lock em compute.yaml. Bibliotecas R não vêm no Git.
-- ML: os pyproject.toml e uv.lock em modelos/aprendizado_de_maquina_clinico
-  definem ambientes próprios. Instale apenas o ambiente necessário com
-  `uv sync --directory modelos/aprendizado_de_maquina_clinico`.
-- Browser: instale Node 24 e use `npm ci --prefix tools/playwright --ignore-scripts`,
-  seguido de `npm exec --prefix tools/playwright -- playwright install chromium`.
-  O package-lock incluído fixa o runtime. Instale Quarto e Zotero separadamente
-  quando necessários. Não há sessão autenticada ou perfil de navegador incluído.
-- APIs e bases restritas: forneça suas próprias credenciais e autorizações;
-  não coloque segredos no Git nem envie dados humanos sem autorização.
-- Skills: `skills/registry.json` registra origem/licença/proveniência. Skills que
-  mencionam catálogos externos exigem obtê-los separadamente; cópias desses
-  repositórios e assinaturas comerciais não estão incluídas.
+- **R:** instale a versão do projeto e restaure o `renv.lock` correspondente. R e bibliotecas não são instalados pelo instalador principal.
+- **ML/DL:** os ambientes separados em `modelos/aprendizado_de_maquina_clinico/` e subpastas têm seus próprios `pyproject.toml`/locks. Exemplo: `uv sync --directory modelos/aprendizado_de_maquina_clinico`.
+- **Navegador:** siga os arquivos de lock e instruções do ambiente Playwright local; perfis autenticados não são distribuídos.
+- **Quarto, Zotero, catálogos, plugins e APIs:** instale ou configure separadamente quando necessários. Use credenciais próprias, não as registre no Git, e confira permissões e termos do serviço.
+
+Uma skill é orientação textual, não uma integração ativa nem validação da disponibilidade do serviço descrito.
+
+## Dados, privacidade e limites
+
+Use dados sintéticos ou cujo processamento esteja autorizado. Não versione dados pessoais, dados em nível de paciente, manuscritos privados, credenciais ou perfis de conta. Não envie dados humanos a serviços externos sem autorização e salvaguardas aplicáveis. Projetos novos ficam sob `projects/<id>/`; revise o conteúdo antes de criar um repositório separado para compartilhamento. Modelos e demonstrações são exemplos de software, não estudos aprovados nem evidência.
+
+O relatório de validação documenta escopo e limitações dos checks executados. A instalação de Windows foi validada; Linux/macOS, ambientes R e ML/DL, integrações externas e validade clínica não foram verificados por esse relatório. A camada própria usa Apache-2.0; terceiros mantêm seus termos. Consulte LICENSE_SCOPE.md e a política por skill para o escopo atual e as adaptações.
 
 ## Grafo operacional
+
+Quando disponível, gere ou atualize o grafo deste clone e use-o para navegação:
 
 ```powershell
 .\.venv\Scripts\python.exe scripts/generate_workspace_graph.py
 .\.venv\Scripts\python.exe -m article_machine graph query "protocol evidence gates" --limit 5
 ```
 
-O grafo gerado representa este clone. Não use o grafo de estudos de outra pessoa.
+No Unix, use `.venv/bin/python`. O grafo serve para localizar componentes, não para provar claims científicos.
 
-## Proteção dos seus arquivos
-
-Projetos e arquivos pessoais são ignorados por padrão. Para compartilhar um estudo,
-crie um repositório separado e revise dados, consentimento, licença e credenciais.
-Templates e demonstrações em modelos/ não constituem evidência científica.
-Declare as ferramentas de IA realmente usadas; não copie disclosure com modelo
-ou autoria de outra pessoa. Leia o relatório de validação desta distribuição.
-
-## Outros sistemas
-
-O instalador foi preparado para Windows. Em Linux/macOS, use `uv sync --locked
---no-dev --python 3.13` e `.venv/bin/python -m article_machine --help`.
-Ajuste compute.yaml para `.venv/bin/python` e caminhos locais. Essas plataformas
-não foram executadas nesta entrega; recursos de navegador/exportação podem exigir
-adaptação adicional. R, ML e integrações externas não foram validados neste clone.
+Veja também [AGENTS.md](../../AGENTS.md), [como contribuir](../../CONTRIBUTING.md), [guia em inglês](../ingles/guia_de_uso.md), [créditos](creditos_opensource.md), [avisos de terceiros](../../THIRD_PARTY_NOTICES.md) e [relatório de validação](relatorio_validacao.md).

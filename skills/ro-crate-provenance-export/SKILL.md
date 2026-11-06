@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: ro-crate-provenance-export
 description: Use when a project, analysis run, R/Python pipeline, discovery workflow, benchmark, manuscript, deck, poster, or submission pack needs FAIR provenance, RO-Crate, Workflow Run Crate, hashes, environment capture, or reproducibility packaging.
 ---

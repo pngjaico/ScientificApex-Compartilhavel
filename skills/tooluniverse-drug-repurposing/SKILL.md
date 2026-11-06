@@ -4,6 +4,8 @@ description: Use when drug repurposing needs target-based, compound-based, disea
 disable-model-invocation: true
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Drug Repurposing with ToolUniverse
 
 Systematically identify and evaluate drug repurposing candidates using multiple computational strategies.

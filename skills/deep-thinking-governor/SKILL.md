@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: deep-thinking-governor
 description: Use when a scientific, clinical, analytical, manuscript, grant, thesis, or Article Machine decision needs deeper reasoning before action including hypothesis comparison, causal caution, alternative explanations, premortem, steelman/red-team, assumption audit, decision matrix, uncertainty mapping, or when the user asks for deep thinking, pensar profundamente, raciocínio profundo, análise crítica, não seja superficial, deixe perfeito, or strong conclusions. Do not reveal hidden chain-of-thought; produce a concise reasoning audit and decision-ready summary.
 ---

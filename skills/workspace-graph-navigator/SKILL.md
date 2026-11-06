@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: workspace-graph-navigator
 description: Use when an agent must navigate the Doutorado workspace, query or refresh graphify-out, understand agent handoff docs, or answer architecture/navigation questions without scanning raw corpora.
 ---

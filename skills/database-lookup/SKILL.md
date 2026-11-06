@@ -9,6 +9,8 @@ metadata:
   skill-author: "K-Dense Inc."
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Database Lookup
 
 This skill catalogs 80 databases with public, registered, or licensed access patterns. Your job is to turn the user's intent into a reproducible retrieval: select the authoritative database(s), make bounded and rate-limited API calls, verify counts when completeness matters, and return results with enough provenance that another agent or human can repeat the lookup.

@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: alphafold-pdb-structure-router
 description: Use when protein structure, AlphaFold DB, RCSB PDB, UniProt, domains, binding pockets, variants, complexes, docking preparation, pLDDT confidence, or structure-based mechanism evidence is needed.
 ---

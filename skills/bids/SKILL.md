@@ -10,6 +10,8 @@ license: https://creativecommons.org/licenses/by/4.0/
 metadata: {"version": "1.0", "skill-author": "Yaroslav Halchenko"}
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # Brain Imaging Data Structure (BIDS)
 
 ## Overview

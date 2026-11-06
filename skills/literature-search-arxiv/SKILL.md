@@ -3,6 +3,8 @@ name: literature-search-arxiv
 description: Use when arXiv preprints, arXiv IDs, non-biomedical preprint discovery, abstracts, metadata, or arXiv PDF/HTML retrieval are needed.
 ---
 
+<!-- Adapted for ScientificApex workflow routing and local safety gates. Original authors retain copyright; see LICENSE_SCOPE.md and third_party/politica_licencas.json for source and license scope. -->
+
 # arXiv Search and Retrieval
 
 ## Prerequisites

@@ -1,0 +1,1849 @@
+{
+  "contract": "DistributionLicensePolicyV1",
+  "review_date": "2026-11-06",
+  "first_party_license": "Apache-2.0",
+  "first_party_authorization": "Repository owner explicitly requested open-source release of their machine; third-party terms preserved",
+  "historical_scope": "Current source distribution only; no blanket relicensing of older commits or external datasets",
+  "skills": {
+    "academic-office-deliverables": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "agent-benchmark-harness": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "alphafold-pdb-structure-router": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "analytical-method-validation": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "status": "active",
+      "evidence": {
+        "entrypoint_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/analytical-method-validation/SKILL.md",
+        "license_text": "third_party/licenses/K-Dense-current-MIT.txt",
+        "basis": "Bundled frontmatter and official upstream entrypoint; local adaptations retained",
+        "upstream_entrypoint_sha256": "7c2cd278bd397f0f85f4fc790b236a61190cff8799c8ece8da923342f4dc0032",
+        "local_entrypoint_before_release_sha256": "86e3839fcd54b76688bedd76cd6285e4277c1c3e24cda72329a0bfd727f59b9c",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "anti-ai-writing-governor": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "arbor": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/arbor/SKILL.md",
+        "license_text": "third_party/licenses/K-Dense-current-MIT.txt",
+        "basis": "Bundled frontmatter and official upstream entrypoint; local adaptations retained",
+        "upstream_entrypoint_sha256": "aae219831d92984eb6584831f77509cb8650a3986e8c42474aaa4d118ce080a6",
+        "local_entrypoint_before_release_sha256": "f98e4e576ad17ee9cc89588e4542524ec42487d9f674b47cadb5a2e1e07e44b5",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "asreview-screening-bridge": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "author-identity-resolver": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "autoskill": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/autoskill/SKILL.md",
+        "license_text": "third_party/licenses/K-Dense-current-MIT.txt",
+        "basis": "Bundled frontmatter and official upstream entrypoint; local adaptations retained",
+        "upstream_entrypoint_sha256": "d7fc7db094649f5cd1ee6349110d78197166011e929aecd2d468e251b0542ecc",
+        "local_entrypoint_before_release_sha256": "46c96e3c494ccccd5ff120a47e3bded16f20237e07c2d38dd50a0bfdbe726480",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "bids": {
+      "license": "CC-BY-4.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/bids/SKILL.md",
+        "license_text": "third_party/licenses/K-Dense-current-MIT.txt",
+        "basis": "Bundled frontmatter and official upstream entrypoint; local adaptations retained",
+        "upstream_entrypoint_sha256": "e1ae63105ccc2e4da7c40e8a2f40d031dd8f2a77270be626df780f0c39eb0b1b",
+        "local_entrypoint_before_release_sha256": "9e2d7295010b97d6694a62738bc8ffd3a40a52ab92b9a5c14c89e00dde0e7fb8",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "bilingual-scientific-writing": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "bulk-rnaseq": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/bulk-rnaseq/SKILL.md",
+        "license_text": "third_party/licenses/K-Dense-current-MIT.txt",
+        "basis": "Bundled frontmatter and official upstream entrypoint; local adaptations retained",
+        "upstream_entrypoint_sha256": "e945e970268505368e20d9ddc0c135de469e86626d67565ae9047fb05f70cdbf",
+        "local_entrypoint_before_release_sha256": "09c53cbc2c5033f485f43c2677c3741a715fee41c06a562d32ceefc9efeafe27",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "catalogos-cientificos-sob-demanda": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "chembl-bindingdb-miner": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "citation-management": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "status": "active",
+      "evidence": {
+        "manifest": "skills/registry.sources/kdense-curated-a1043ef.json",
+        "license_text": "third_party/licenses/K-Dense-MIT.txt",
+        "basis": "Pinned curated source manifest and per-skill license metadata"
+      }
+    },
+    "clinical-reports": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "status": "active",
+      "evidence": {
+        "manifest": "skills/registry.sources/kdense-curated-a1043ef.json",
+        "license_text": "third_party/licenses/K-Dense-MIT.txt",
+        "basis": "Pinned curated source manifest and per-skill license metadata"
+      }
+    },
+    "clinical-trials-database": {
+      "license": "Apache-2.0 AND CC-BY-4.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "Google LLC / Google DeepMind Science Skills",
+        "url": "https://github.com/google-deepmind/science-skills"
+      },
+      "source_revision": "v1.0.4",
+      "status": "active",
+      "evidence": {
+        "entrypoint_url": "https://github.com/google-deepmind/science-skills/blob/v1.0.4/skills/clinical_trials_database/SKILL.md",
+        "license_text": "third_party/licenses/Google-Science-Skills-LICENSE.txt",
+        "terms": "third_party/licenses/Google-Science-Skills-TERMS.md",
+        "software_license": "Apache-2.0",
+        "documentation_license": "CC-BY-4.0",
+        "observed_git_ref": "33557e0f1faf0f281d255940de58935c61b2143b",
+        "upstream_entrypoint_sha256": "1aec54af542e431170e5573305a5816dd67c5e613b18a87cf642a2ab4a7ed088",
+        "local_entrypoint_before_release_sha256": "0ec0284b0765291a5de99ae2af9cabfb0abe49fac823a2c3aeeef51eb1c052b1",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "conference-deliverable-router": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "pilot",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "conference-posters-html": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "pilot",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "conference-requirements-importer": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "pilot",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "conference-slides-html": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "pilot",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "content-preservation-guardian": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "crossref-unpaywall-resolver": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "cwl-workflow-bridge": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "database-lookup": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "status": "active",
+      "evidence": {
+        "manifest": "skills/registry.sources/kdense-curated-a1043ef.json",
+        "license_text": "third_party/licenses/K-Dense-MIT.txt",
+        "basis": "Pinned curated source manifest and per-skill license metadata"
+      }
+    },
+    "database-retrieval-governor": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "datasus-research-engine": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "pilot",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "deep-thinking-governor": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "evidence-lock-hardener": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "exa-search": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exa-search/SKILL.md",
+        "license_text": "third_party/licenses/K-Dense-current-MIT.txt",
+        "basis": "Bundled frontmatter and official upstream entrypoint; local adaptations retained",
+        "upstream_entrypoint_sha256": "8cdedf5648783a209593ff91024f43bd8d8e066b03f0a72a6cf36d90e1650204",
+        "local_entrypoint_before_release_sha256": "aba36e8c353fd582c57561ba90c08a69d0e92d979878cfce3f9d40c93ba3b581",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "experimental-design": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/experimental-design/SKILL.md",
+        "license_text": "third_party/licenses/K-Dense-current-MIT.txt",
+        "basis": "Bundled frontmatter and official upstream entrypoint; local adaptations retained",
+        "upstream_entrypoint_sha256": "db2de0f3d29b7729776a91e923c9c83801298f5ad8e88fe44570045fbefcc248",
+        "local_entrypoint_before_release_sha256": "f8a3c3022cc8ddf37cca9ec03df032ce1cdaf149d5974166dd2d2a480124f093",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "experimental-design-planner": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "extraction-schema-governor": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "fapesp-cnpq-projects": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "grade-sof-table-builder": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "guideline-router": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "hypothesis-tournament": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "in-silico-validation-governor": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "intestinal-transplant-research": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "pilot",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "iso-standards-readiness": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "status": "active",
+      "evidence": {
+        "entrypoint_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/iso-standards-readiness/SKILL.md",
+        "license_text": "third_party/licenses/K-Dense-current-MIT.txt",
+        "basis": "Bundled frontmatter and official upstream entrypoint; local adaptations retained",
+        "upstream_entrypoint_sha256": "0ffd95e86924a698fcd0c806e51f24e2fc500847697d8ff99b255af817e15259",
+        "local_entrypoint_before_release_sha256": "240ff881b547a3877fabda4b8ac04c666e16b974fa8c7b7015f1bd292b8d5ba1",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "journal-selection-tournament": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "life-science-router": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "liteparse": {
+      "license": "Apache-2.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/liteparse/SKILL.md",
+        "license_text": "third_party/licenses/K-Dense-current-MIT.txt",
+        "basis": "Bundled frontmatter and official upstream entrypoint; local adaptations retained",
+        "upstream_entrypoint_sha256": "02a789c7959670cb8898e329588a41d43fa7b270c768a70c22aed05031d042a4",
+        "local_entrypoint_before_release_sha256": "9d6b13a850e6ac4b6c24256d2e1724441493631ed3eebbf7374d66833c2c6050",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "literature-review": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "status": "active",
+      "evidence": {
+        "manifest": "skills/registry.sources/kdense-curated-a1043ef.json",
+        "license_text": "third_party/licenses/K-Dense-MIT.txt",
+        "basis": "Pinned curated source manifest and per-skill license metadata"
+      }
+    },
+    "literature-search-arxiv": {
+      "license": "Apache-2.0 AND CC-BY-4.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "Google LLC / Google DeepMind Science Skills",
+        "url": "https://github.com/google-deepmind/science-skills"
+      },
+      "source_revision": "v1.0.4",
+      "status": "active",
+      "evidence": {
+        "entrypoint_url": "https://github.com/google-deepmind/science-skills/blob/v1.0.4/skills/literature_search_arxiv/SKILL.md",
+        "license_text": "third_party/licenses/Google-Science-Skills-LICENSE.txt",
+        "terms": "third_party/licenses/Google-Science-Skills-TERMS.md",
+        "software_license": "Apache-2.0",
+        "documentation_license": "CC-BY-4.0",
+        "observed_git_ref": "33557e0f1faf0f281d255940de58935c61b2143b",
+        "upstream_entrypoint_sha256": "7f59ade54d832aa0f967c7f700a1b2e6b438be6e64d9fce5ae6fc43d322f1963",
+        "local_entrypoint_before_release_sha256": "6ff4f6ddf5a4505c01e9cfd708b6329bfa72f712232ca9bc7e6e6e0a9925b8b8",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "literature-search-biorxiv": {
+      "license": "Apache-2.0 AND CC-BY-4.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "Google LLC / Google DeepMind Science Skills",
+        "url": "https://github.com/google-deepmind/science-skills"
+      },
+      "source_revision": "v1.0.4",
+      "status": "active",
+      "evidence": {
+        "entrypoint_url": "https://github.com/google-deepmind/science-skills/blob/v1.0.4/skills/literature_search_biorxiv/SKILL.md",
+        "license_text": "third_party/licenses/Google-Science-Skills-LICENSE.txt",
+        "terms": "third_party/licenses/Google-Science-Skills-TERMS.md",
+        "software_license": "Apache-2.0",
+        "documentation_license": "CC-BY-4.0",
+        "observed_git_ref": "33557e0f1faf0f281d255940de58935c61b2143b",
+        "upstream_entrypoint_sha256": "eb25e67894896996df51d2f49196421c1a5731ba1d72dea2a309d06577f20e01",
+        "local_entrypoint_before_release_sha256": "05ec609b25929a927d207b286c443d1c2ac0c6419b6b84983908f93ba24f0a8e",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "literature-search-europepmc": {
+      "license": "Apache-2.0 AND CC-BY-4.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "Google LLC / Google DeepMind Science Skills",
+        "url": "https://github.com/google-deepmind/science-skills"
+      },
+      "source_revision": "v1.0.4",
+      "status": "active",
+      "evidence": {
+        "entrypoint_url": "https://github.com/google-deepmind/science-skills/blob/v1.0.4/skills/literature_search_europepmc/SKILL.md",
+        "license_text": "third_party/licenses/Google-Science-Skills-LICENSE.txt",
+        "terms": "third_party/licenses/Google-Science-Skills-TERMS.md",
+        "software_license": "Apache-2.0",
+        "documentation_license": "CC-BY-4.0",
+        "observed_git_ref": "33557e0f1faf0f281d255940de58935c61b2143b",
+        "upstream_entrypoint_sha256": "ba9fd9798e05312e2bb159c10747eceeb1bc157f82355e5fdd69e6d357d2e369",
+        "local_entrypoint_before_release_sha256": "7dcd377cb8d05265a16b4b3095ae3e101f9995df16adeec518f6b08b3d0fe8d6",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "literature-search-openalex": {
+      "license": "Apache-2.0 AND CC-BY-4.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "Google LLC / Google DeepMind Science Skills",
+        "url": "https://github.com/google-deepmind/science-skills"
+      },
+      "source_revision": "v1.0.4",
+      "status": "active",
+      "evidence": {
+        "entrypoint_url": "https://github.com/google-deepmind/science-skills/blob/v1.0.4/skills/literature_search_openalex/SKILL.md",
+        "license_text": "third_party/licenses/Google-Science-Skills-LICENSE.txt",
+        "terms": "third_party/licenses/Google-Science-Skills-TERMS.md",
+        "software_license": "Apache-2.0",
+        "documentation_license": "CC-BY-4.0",
+        "observed_git_ref": "33557e0f1faf0f281d255940de58935c61b2143b",
+        "upstream_entrypoint_sha256": "8e6b12d9830de7e99ba721ab51e7bdeec35ec9cff040761bd22996a1061c6ef3",
+        "local_entrypoint_before_release_sha256": "bd56e4f9257dbaf7a0e25dbbb8076ab6cf28c729b0ab16e0c1acf5d2edf59e25",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "living-review-monitor": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "machine-continuous-learner": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "manuscript-integrity-response-governor": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "meta-analise-medica": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "metodos-ml-clinico": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "nextflow": {
+      "license": "Apache-2.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/nextflow/SKILL.md",
+        "license_text": "third_party/licenses/K-Dense-current-MIT.txt",
+        "basis": "Bundled frontmatter and official upstream entrypoint; local adaptations retained",
+        "upstream_entrypoint_sha256": "daa37795b3fe13ebf1c980acafb8401c4d1d7749dae013acc948f76c50c7379c",
+        "local_entrypoint_before_release_sha256": "15285b1eff2dd2e5f97fe989e337a4eee6f0e31c5749221b7e6b29a63f910fe7",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "nextflow-pipeline-runner": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "ngs-analysis-router": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "ontology-term-resolution": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "status": "active",
+      "evidence": {
+        "entrypoint_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/ontology-term-resolution/SKILL.md",
+        "license_text": "third_party/licenses/K-Dense-current-MIT.txt",
+        "basis": "Bundled frontmatter and official upstream entrypoint; local adaptations retained",
+        "upstream_entrypoint_sha256": "db310515a230a47023169be207f654458789377c98b30fa593ee420738e4eefb",
+        "local_entrypoint_before_release_sha256": "0224c320e2d366a482cb01e064b6e2d44fc1dfd4c26448e4e846570fe4c72f13",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "open-targets-drug-targeting": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "openalex-literature-graph": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "opencitations-citation-audit": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "paper-lookup": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/paper-lookup/SKILL.md",
+        "license_text": "third_party/licenses/K-Dense-current-MIT.txt",
+        "basis": "Bundled frontmatter and official upstream entrypoint; local adaptations retained",
+        "upstream_entrypoint_sha256": "fac99456ad404ff9a0d3043709b956b5d6383838ae8e8394f274a5693d8bd294",
+        "local_entrypoint_before_release_sha256": "8c17bfaff61ab9195947d0b559846c6941626ca3116f83e2f2b8d4de97b3e7ad",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "paper-to-poster": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "pilot",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "paper-to-talk": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "pilot",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "pathway-enrichment": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pathway-enrichment/SKILL.md",
+        "license_text": "third_party/licenses/K-Dense-current-MIT.txt",
+        "basis": "Bundled frontmatter and official upstream entrypoint; local adaptations retained",
+        "upstream_entrypoint_sha256": "82783d8ba63b6b03646492ee75afcdf591903a213decf7e7c9d844eb517acd78",
+        "local_entrypoint_before_release_sha256": "e4ed016ec0161ed25b106fe8949bfb61c8bdfb897deb40a38ef5476b30623982",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "peer-review": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "status": "active",
+      "evidence": {
+        "manifest": "skills/registry.sources/kdense-curated-a1043ef.json",
+        "license_text": "third_party/licenses/K-Dense-MIT.txt",
+        "basis": "Pinned curated source manifest and per-skill license metadata"
+      }
+    },
+    "pkpd-modeling": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "status": "active",
+      "evidence": {
+        "entrypoint_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pkpd-modeling/SKILL.md",
+        "license_text": "third_party/licenses/K-Dense-current-MIT.txt",
+        "basis": "Bundled frontmatter and official upstream entrypoint; local adaptations retained",
+        "upstream_entrypoint_sha256": "fc58aed600d0fe9de911176cb0f2a43e8df6bbae8c2260be6f8abade133a2837",
+        "local_entrypoint_before_release_sha256": "425bae7441a4d505e79f2da3558559579016bc52cc37eca20cf5cd2d822b876b",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "playwright-layout-qa": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "pilot",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "pptx-export-bridge": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "pilot",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "project-entry-navigator": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "protocol-registration-governor": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "ptbr-article-writing": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "publicacao-medica-organizada": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "pubmed-database": {
+      "license": "Apache-2.0 AND CC-BY-4.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "Google LLC / Google DeepMind Science Skills",
+        "url": "https://github.com/google-deepmind/science-skills"
+      },
+      "source_revision": "v1.0.4",
+      "status": "active",
+      "evidence": {
+        "entrypoint_url": "https://github.com/google-deepmind/science-skills/blob/v1.0.4/skills/pubmed_database/SKILL.md",
+        "license_text": "third_party/licenses/Google-Science-Skills-LICENSE.txt",
+        "terms": "third_party/licenses/Google-Science-Skills-TERMS.md",
+        "software_license": "Apache-2.0",
+        "documentation_license": "CC-BY-4.0",
+        "observed_git_ref": "33557e0f1faf0f281d255940de58935c61b2143b",
+        "upstream_entrypoint_sha256": "9f03c6d6357dff6683a76a2ab71a7dfc28d4ffcdfcb30d419d9915d12de15c7a",
+        "local_entrypoint_before_release_sha256": "aca81dcefdaf31cbc686542c2a7e7ad8674e7b319e1ddfed7edffd0dc0e5d7ab",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "pytorch-lightning": {
+      "license": "Apache-2.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
+      "status": "pilot",
+      "evidence": {
+        "manifest": "skills/registry.sources/kdense-ml-visual-5f2bc03.json",
+        "license_text": "third_party/licenses/K-Dense-MIT.txt",
+        "basis": "Pinned curated source manifest and per-skill license metadata"
+      }
+    },
+    "query-string-governor": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "relsa-severity-assessment": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "status": "active",
+      "evidence": {
+        "entrypoint_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/relsa-severity-assessment/SKILL.md",
+        "license_text": "third_party/licenses/K-Dense-current-MIT.txt",
+        "basis": "Bundled frontmatter and official upstream entrypoint; local adaptations retained",
+        "upstream_entrypoint_sha256": "10ee1a904565f5e9c9d432b3af136db42927d0811f07f646355600fec6633f8a",
+        "local_entrypoint_before_release_sha256": "e7a62c6177008fa2b9caa75f61785124ff1cbfe95b686ca58d9b0a029ac61590",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "research-lookup": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "status": "active",
+      "evidence": {
+        "manifest": "skills/registry.sources/kdense-curated-a1043ef.json",
+        "license_text": "third_party/licenses/K-Dense-MIT.txt",
+        "basis": "Pinned curated source manifest and per-skill license metadata"
+      }
+    },
+    "retraction-integrity-checker": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "risk-of-bias-assistant": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "ro-crate-provenance-export": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "scienceskillscommon": {
+      "license": "Apache-2.0 AND CC-BY-4.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "Google LLC / Google DeepMind Science Skills",
+        "url": "https://github.com/google-deepmind/science-skills"
+      },
+      "source_revision": "v1.0.4",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/google-deepmind/science-skills/blob/v1.0.4/skills/scienceskillscommon/SKILL.md",
+        "license_text": "third_party/licenses/Google-Science-Skills-LICENSE.txt",
+        "terms": "third_party/licenses/Google-Science-Skills-TERMS.md",
+        "software_license": "Apache-2.0",
+        "documentation_license": "CC-BY-4.0",
+        "observed_git_ref": "33557e0f1faf0f281d255940de58935c61b2143b",
+        "upstream_entrypoint_sha256": "8043181b37633b6ac1b126db2dbba0c669d952a967680d956175d4cbe9829afe",
+        "local_entrypoint_before_release_sha256": "8043181b37633b6ac1b126db2dbba0c669d952a967680d956175d4cbe9829afe",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "scientific-critical-thinking": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "status": "active",
+      "evidence": {
+        "manifest": "skills/registry.sources/kdense-curated-foundations-a1043ef.json",
+        "license_text": "third_party/licenses/K-Dense-MIT.txt",
+        "basis": "Pinned curated source manifest and per-skill license metadata"
+      }
+    },
+    "scientific-novelty-checker": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "scientific-red-team-reviewer": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "scientific-visualization": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
+      "status": "pilot",
+      "evidence": {
+        "manifest": "skills/registry.sources/kdense-ml-visual-5f2bc03.json",
+        "license_text": "third_party/licenses/K-Dense-MIT.txt",
+        "basis": "Pinned curated source manifest and per-skill license metadata"
+      }
+    },
+    "scientific-workflow-orchestrator": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "scientific-writing": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "status": "active",
+      "evidence": {
+        "manifest": "skills/registry.sources/kdense-curated-foundations-a1043ef.json",
+        "license_text": "third_party/licenses/K-Dense-MIT.txt",
+        "basis": "Pinned curated source manifest and per-skill license metadata"
+      }
+    },
+    "scikit-learn": {
+      "license": "BSD-3-Clause",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
+      "status": "pilot",
+      "evidence": {
+        "manifest": "skills/registry.sources/kdense-ml-visual-5f2bc03.json",
+        "license_text": "third_party/licenses/K-Dense-MIT.txt",
+        "basis": "Pinned curated source manifest and per-skill license metadata"
+      }
+    },
+    "semantic-scholar-citation-graph": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "skill-upgrade-governor": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "snakemake-pipeline-runner": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "speaker-notes-timing": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "pilot",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "stage-audit-governor": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "statistical-analysis": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "status": "active",
+      "evidence": {
+        "manifest": "skills/registry.sources/kdense-curated-a1043ef.json",
+        "license_text": "third_party/licenses/K-Dense-MIT.txt",
+        "basis": "Pinned curated source manifest and per-skill license metadata"
+      }
+    },
+    "statistical-power": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/statistical-power/SKILL.md",
+        "license_text": "third_party/licenses/K-Dense-current-MIT.txt",
+        "basis": "Bundled frontmatter and official upstream entrypoint; local adaptations retained",
+        "upstream_entrypoint_sha256": "a969660eafdc3504ac36e49bd7ded00e18b00fe5cef5699940d5d8281e24dd3d",
+        "local_entrypoint_before_release_sha256": "063a18fe1101e8fadd889fdc8f816a3200de636f3a111d63a4607d7129ce6c1e",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "submission-ops-playwright": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "pilot",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "tooluniverse-clinical-data-integration": {
+      "license": "Apache-2.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "ToolUniverse authors and contributors",
+        "url": "https://github.com/mims-harvard/ToolUniverse"
+      },
+      "source_revision": "v1.3.1",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/mims-harvard/ToolUniverse/blob/v1.3.1/skills/tooluniverse-clinical-data-integration/SKILL.md",
+        "license_text": "third_party/licenses/ToolUniverse-LICENSE.txt",
+        "observed_git_ref": "9b7ff91ddb45b567cac2fa8ea31b82851e877617",
+        "upstream_entrypoint_sha256": "f884d55c4e4a03786091c59893efd8e300e175bcd706a9ae8cd7dd3f723aaeb5",
+        "local_entrypoint_before_release_sha256": "8504f4720a6647267851de14339d20cbe67b67d83dfde08e6f988d1479b538fd",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "tooluniverse-clinical-guidelines": {
+      "license": "Apache-2.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "ToolUniverse authors and contributors",
+        "url": "https://github.com/mims-harvard/ToolUniverse"
+      },
+      "source_revision": "v1.3.1",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/mims-harvard/ToolUniverse/blob/v1.3.1/skills/tooluniverse-clinical-guidelines/SKILL.md",
+        "license_text": "third_party/licenses/ToolUniverse-LICENSE.txt",
+        "observed_git_ref": "9b7ff91ddb45b567cac2fa8ea31b82851e877617",
+        "upstream_entrypoint_sha256": "6c7a6aaffe6227b2084ca6af8ef5af598bed3f084627977c03ee0ec3f1ff9cf1",
+        "local_entrypoint_before_release_sha256": "151e08f8930c284cbf2c504751f53081b786b524758668a401a4413ff0e9398e",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "tooluniverse-clinical-trial-design": {
+      "license": "Apache-2.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "ToolUniverse authors and contributors",
+        "url": "https://github.com/mims-harvard/ToolUniverse"
+      },
+      "source_revision": "v1.3.1",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/mims-harvard/ToolUniverse/blob/v1.3.1/skills/tooluniverse-clinical-trial-design/SKILL.md",
+        "license_text": "third_party/licenses/ToolUniverse-LICENSE.txt",
+        "observed_git_ref": "9b7ff91ddb45b567cac2fa8ea31b82851e877617",
+        "upstream_entrypoint_sha256": "a3f5c0752d2473bf3f5b75b2c8a1ef446ddeac78dc6feed8ff9b739c1d81c01a",
+        "local_entrypoint_before_release_sha256": "484a257d8cbb229c0d39cfd88e14c28d78219f9685e81114dfd2bfa520077322",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "tooluniverse-data-integration-analysis": {
+      "license": "Apache-2.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "ToolUniverse authors and contributors",
+        "url": "https://github.com/mims-harvard/ToolUniverse"
+      },
+      "source_revision": "v1.3.1",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/mims-harvard/ToolUniverse/blob/v1.3.1/skills/tooluniverse-data-integration-analysis/SKILL.md",
+        "license_text": "third_party/licenses/ToolUniverse-LICENSE.txt",
+        "observed_git_ref": "9b7ff91ddb45b567cac2fa8ea31b82851e877617",
+        "upstream_entrypoint_sha256": "e266056bbe28d8e3c0078f9a4b76f47074acda5335a5c5d78e34b8f868e425fd",
+        "local_entrypoint_before_release_sha256": "81c37e2d7480b4416d1c5132f61dd5a4afcd40c35dd7e495b01ffd54da6599c2",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "tooluniverse-dataset-discovery": {
+      "license": "Apache-2.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "ToolUniverse authors and contributors",
+        "url": "https://github.com/mims-harvard/ToolUniverse"
+      },
+      "source_revision": "v1.3.1",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/mims-harvard/ToolUniverse/blob/v1.3.1/skills/tooluniverse-dataset-discovery/SKILL.md",
+        "license_text": "third_party/licenses/ToolUniverse-LICENSE.txt",
+        "observed_git_ref": "9b7ff91ddb45b567cac2fa8ea31b82851e877617",
+        "upstream_entrypoint_sha256": "893a68e98bbf0d57630d656b9d6a723b73722396ad56ade8d9f288eaaed45ce1",
+        "local_entrypoint_before_release_sha256": "063af38a3646eafb5363c616f1d0ba17089b38ec7a615c1600a331f8330a5419",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "tooluniverse-diagnostic-test-evaluation": {
+      "license": "Apache-2.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "ToolUniverse authors and contributors",
+        "url": "https://github.com/mims-harvard/ToolUniverse"
+      },
+      "source_revision": "v1.3.1",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/mims-harvard/ToolUniverse/blob/v1.3.1/skills/tooluniverse-diagnostic-test-evaluation/SKILL.md",
+        "license_text": "third_party/licenses/ToolUniverse-LICENSE.txt",
+        "observed_git_ref": "9b7ff91ddb45b567cac2fa8ea31b82851e877617",
+        "upstream_entrypoint_sha256": "e26ee602e74a31dba070a2172e092682ee2444b2270f14f00260e1112e514dd6",
+        "local_entrypoint_before_release_sha256": "9b5785d3d73a796208649c1f5df48d71cbbc4bed5cfc5ab602b317078770baad",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "tooluniverse-drug-repurposing": {
+      "license": "Apache-2.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "ToolUniverse authors and contributors",
+        "url": "https://github.com/mims-harvard/ToolUniverse"
+      },
+      "source_revision": "v1.3.1",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/mims-harvard/ToolUniverse/blob/v1.3.1/skills/tooluniverse-drug-repurposing/SKILL.md",
+        "license_text": "third_party/licenses/ToolUniverse-LICENSE.txt",
+        "observed_git_ref": "9b7ff91ddb45b567cac2fa8ea31b82851e877617",
+        "upstream_entrypoint_sha256": "b399a42d329feeaa37b1c42b92bf783b6333e6fe4d9101de3a97242d2a2eb9df",
+        "local_entrypoint_before_release_sha256": "e2fcc689862fe29ec9d1ca7c850e38ef1830f0a9a89eda204867bf85b21e3a5a",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "tooluniverse-drug-target-validation": {
+      "license": "Apache-2.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "ToolUniverse authors and contributors",
+        "url": "https://github.com/mims-harvard/ToolUniverse"
+      },
+      "source_revision": "v1.3.1",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/mims-harvard/ToolUniverse/blob/v1.3.1/skills/tooluniverse-drug-target-validation/SKILL.md",
+        "license_text": "third_party/licenses/ToolUniverse-LICENSE.txt",
+        "observed_git_ref": "9b7ff91ddb45b567cac2fa8ea31b82851e877617",
+        "upstream_entrypoint_sha256": "ff83beacdfc57499aaadc332086178ebfbf0c7d06a2bedee4793789244f4da3a",
+        "local_entrypoint_before_release_sha256": "744dd35771119de6cfca58a86a2fc50e40e79a9c6440bb3a078d30c7e56b2074",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "tooluniverse-epidemiological-analysis": {
+      "license": "Apache-2.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "ToolUniverse authors and contributors",
+        "url": "https://github.com/mims-harvard/ToolUniverse"
+      },
+      "source_revision": "v1.3.1",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/mims-harvard/ToolUniverse/blob/v1.3.1/skills/tooluniverse-epidemiological-analysis/SKILL.md",
+        "license_text": "third_party/licenses/ToolUniverse-LICENSE.txt",
+        "observed_git_ref": "9b7ff91ddb45b567cac2fa8ea31b82851e877617",
+        "upstream_entrypoint_sha256": "edec91532f470dbe3185e256e034a47bed29183c5bded2b295a0b6ac25a10526",
+        "local_entrypoint_before_release_sha256": "f07974e6489a353848d44ac5e2db848cd99f547abaaf7444668788127e48b435",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "tooluniverse-literature-deep-research": {
+      "license": "Apache-2.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "ToolUniverse authors and contributors",
+        "url": "https://github.com/mims-harvard/ToolUniverse"
+      },
+      "source_revision": "v1.3.1",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/mims-harvard/ToolUniverse/blob/v1.3.1/skills/tooluniverse-literature-deep-research/SKILL.md",
+        "license_text": "third_party/licenses/ToolUniverse-LICENSE.txt",
+        "observed_git_ref": "9b7ff91ddb45b567cac2fa8ea31b82851e877617",
+        "upstream_entrypoint_sha256": "661205b1fd5eccce2a6421610aed76287a135f4b485fc92237f2d116b06a7e24",
+        "local_entrypoint_before_release_sha256": "612aeeb2f076b7dc185ac17187ae32b642f755dea5dd81cb5c70babfbc8e8379",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "tooluniverse-meta-analysis": {
+      "license": "Apache-2.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "ToolUniverse authors and contributors",
+        "url": "https://github.com/mims-harvard/ToolUniverse"
+      },
+      "source_revision": "v1.3.1",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/mims-harvard/ToolUniverse/blob/v1.3.1/skills/tooluniverse-meta-analysis/SKILL.md",
+        "license_text": "third_party/licenses/ToolUniverse-LICENSE.txt",
+        "observed_git_ref": "9b7ff91ddb45b567cac2fa8ea31b82851e877617",
+        "upstream_entrypoint_sha256": "6f8c042fed5d5f39985783e0020cef6aed109cf9861fa2daa048bab7ec5c6c97",
+        "local_entrypoint_before_release_sha256": "f24960728d0f431c1d0db94446f6e23cb1802b6b437ee75ee32770f1f29d1111",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "tooluniverse-pharmacovigilance": {
+      "license": "Apache-2.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "ToolUniverse authors and contributors",
+        "url": "https://github.com/mims-harvard/ToolUniverse"
+      },
+      "source_revision": "v1.3.1",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/mims-harvard/ToolUniverse/blob/v1.3.1/skills/tooluniverse-pharmacovigilance/SKILL.md",
+        "license_text": "third_party/licenses/ToolUniverse-LICENSE.txt",
+        "observed_git_ref": "9b7ff91ddb45b567cac2fa8ea31b82851e877617",
+        "upstream_entrypoint_sha256": "bfb61e56402eb8211ff237356915519db7a352a99b589092a7fb91d2f6f8faf5",
+        "local_entrypoint_before_release_sha256": "b18e6779004832f052b6c0828a73a174672330e7c65a42061dc0b63854cda069",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "tooluniverse-self-review": {
+      "license": "Apache-2.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "ToolUniverse authors and contributors",
+        "url": "https://github.com/mims-harvard/ToolUniverse"
+      },
+      "source_revision": "v1.3.1",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/mims-harvard/ToolUniverse/blob/v1.3.1/skills/tooluniverse-self-review/SKILL.md",
+        "license_text": "third_party/licenses/ToolUniverse-LICENSE.txt",
+        "observed_git_ref": "9b7ff91ddb45b567cac2fa8ea31b82851e877617",
+        "upstream_entrypoint_sha256": "a226243eb29804964a548da03be1572464b584f3d25d4f5d11acf13192852591",
+        "local_entrypoint_before_release_sha256": "ef9734d35d8bab01efd6bd05d404a431be4e12861409337dfa0d71752ee3b623",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "tooluniverse-variant-interpretation": {
+      "license": "Apache-2.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "ToolUniverse authors and contributors",
+        "url": "https://github.com/mims-harvard/ToolUniverse"
+      },
+      "source_revision": "v1.3.1",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/mims-harvard/ToolUniverse/blob/v1.3.1/skills/tooluniverse-variant-interpretation/SKILL.md",
+        "license_text": "third_party/licenses/ToolUniverse-LICENSE.txt",
+        "observed_git_ref": "9b7ff91ddb45b567cac2fa8ea31b82851e877617",
+        "upstream_entrypoint_sha256": "1fe21857532984fccbec8c0c4aca73778d8c904f1d6f5fcf46d44518de5fbdaa",
+        "local_entrypoint_before_release_sha256": "de15c98fba43f79bcc4e885ed6b56edad55e228fca93b1767428e5d8d7f9dd51",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "topic-ideation-tournament": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "uncertainty-and-units": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "status": "active",
+      "evidence": {
+        "entrypoint_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/uncertainty-and-units/SKILL.md",
+        "license_text": "third_party/licenses/K-Dense-current-MIT.txt",
+        "basis": "Bundled frontmatter and official upstream entrypoint; local adaptations retained",
+        "upstream_entrypoint_sha256": "caaafa079a4eaac6012717bcf705dec0417b5434f5dbd1af934a3a36ad375722",
+        "local_entrypoint_before_release_sha256": "91aa52df73253a95af30ae5da036f5196c97fad75f95105ddcbf4c74802604ff",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "uv": {
+      "license": "Apache-2.0 AND CC-BY-4.0",
+      "classification": "third-party",
+      "origin": {
+        "provider": "Google LLC / Google DeepMind Science Skills",
+        "url": "https://github.com/google-deepmind/science-skills"
+      },
+      "source_revision": "v1.0.4",
+      "status": "pilot",
+      "evidence": {
+        "entrypoint_url": "https://github.com/google-deepmind/science-skills/blob/v1.0.4/skills/uv/SKILL.md",
+        "license_text": "third_party/licenses/Google-Science-Skills-LICENSE.txt",
+        "terms": "third_party/licenses/Google-Science-Skills-TERMS.md",
+        "software_license": "Apache-2.0",
+        "documentation_license": "CC-BY-4.0",
+        "observed_git_ref": "33557e0f1faf0f281d255940de58935c61b2143b",
+        "upstream_entrypoint_sha256": "0c8cfa3e8aadfea0088405e6da35769a8811ce6063529ca9bb170a96300e7e0f",
+        "local_entrypoint_before_release_sha256": "0c8cfa3e8aadfea0088405e6da35769a8811ce6063529ca9bb170a96300e7e0f",
+        "local_copy": "adapted; upstream entrypoint verified, whole tree identity is not asserted"
+      }
+    },
+    "venue-templates": {
+      "license": "MIT",
+      "classification": "third-party",
+      "origin": {
+        "provider": "K-Dense Inc. and credited upstream skill authors",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      "source_revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "status": "active",
+      "evidence": {
+        "manifest": "skills/registry.sources/kdense-curated-a1043ef.json",
+        "license_text": "third_party/licenses/K-Dense-MIT.txt",
+        "basis": "Pinned curated source manifest and per-skill license metadata"
+      }
+    },
+    "visual-backend-router": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "pilot",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "workspace-graph-navigator": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    },
+    "zotero-reference-manager": {
+      "license": "Apache-2.0",
+      "classification": "first-party",
+      "origin": {
+        "provider": "ScientificApex contributors",
+        "url": "https://github.com/pngjaico/ScientificApex-Compartilhavel"
+      },
+      "source_revision": "first-party-release-2026-11-06",
+      "status": "active",
+      "evidence": {
+        "basis": "Owner-authorized release of original local workflow and integration material",
+        "source": "LICENSE_SCOPE.md"
+      }
+    }
+  },
+  "embedded_sources": [
+    {
+      "path": "modelos/meta_analise_em_r/renv/activate.R",
+      "origin": "https://github.com/rstudio/renv",
+      "revision": "v1.3.1",
+      "license": "MIT",
+      "license_text": "third_party/licenses/renv-LICENSE.txt"
+    }
+  ]
+}

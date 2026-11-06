@@ -1,4 +1,5 @@
 ---
+license: Apache-2.0
 name: retraction-integrity-checker
 description: Use when checking references, DOI metadata, Crossref/Crossmark signals, retractions, expressions of concern, errata, corrigenda, integrity warnings, or citation safety before Evidence Lock or submission.
 ---
