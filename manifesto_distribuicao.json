@@ -25,6 +25,10 @@
   "preservation": "Source workspace unchanged; distribution is independent",
   "files": [
     {
+      "path": ".gitattributes",
+      "sha256": "1f8c318361d861156b839e417ce721148a002443073ab6cd60303aac7b9d7873"
+    },
+    {
       "path": ".gitignore",
       "sha256": "93fd9994775e89309a8a27603535e2c749a3098b0669bbbd828db9ace15e6e50"
     },
@@ -289,8 +293,16 @@
       "sha256": "dd6d350e37496e580aa0d6a08cbedf40b956a6faa7b79097b8a5f5654504bd04"
     },
     {
+      "path": "docs/ingles/relatorio_validacao.md",
+      "sha256": "9f076012851df6e7bc232cb2fdfb3749f1eb5e5669b8d37bb7a61518c0bd7c97"
+    },
+    {
       "path": "docs/portugues/guia_de_uso.md",
-      "sha256": "bb793213a33a65b49ba83008681699cf3c4875fdf5ce7543d0973beaa13966a3"
+      "sha256": "1d99bcaab8ef0ac9d2a2d0bdf421356fe5b6d6a82fc4c20b3d9fb48dedacebc2"
+    },
+    {
+      "path": "docs/portugues/relatorio_validacao.md",
+      "sha256": "69767360e7d94c427d099e6f858d2fadb273bab4bd69bc6f3e2f2dbe4ba67eb5"
     },
     {
       "path": "GEMINI.md",
@@ -299,6 +311,10 @@
     {
       "path": "instalar.ps1",
       "sha256": "9ce388270d20a96b9d645d09ca314e806cd23c935c848ec6592711b5a6a404e9"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
     },
     {
       "path": "modelos/aprendizado_de_maquina_clinico/ambientes/aprendizado_maquina/pyproject.toml",
@@ -837,8 +853,24 @@
       "sha256": "5cf3ce186ecac8ddbd8c0c2d7ba869e823e9bf88810277bdd6a28f7b1843c6fb"
     },
     {
+      "path": "scripts/estado_dos_projetos.py",
+      "sha256": "dbb2ddbede1c778df97ca661cde1400ee5165f32137dab15022cd7ac0453027d"
+    },
+    {
+      "path": "scripts/generate_skill_docs.py",
+      "sha256": "4f4e3f5099c8ad2acaf9a5e74d3ad0520b471e30d24687fe48c0e2406efff56f"
+    },
+    {
+      "path": "scripts/generate_skill_registry.py",
+      "sha256": "e646e227aec7324ad845364ee43a0c2488c90cc5a5491a1d556e69b18c74b1ad"
+    },
+    {
       "path": "scripts/generate_workspace_graph.py",
       "sha256": "e1a222f2467d68ebc00aefdd4eeadf97d78947be445f8c48643576e82fdc560f"
+    },
+    {
+      "path": "scripts/generate_workspace_inventory.py",
+      "sha256": "0b2da798be3388e3fd7220236547a6bdd4eca9a26fd8b87dfad5df7ea913a27e"
     },
     {
       "path": "skills/academic-office-deliverables/SKILL.md",
@@ -2221,6 +2253,10 @@
       "sha256": "240ff881b547a3877fabda4b8ac04c666e16b974fa8c7b7015f1bd292b8d5ba1"
     },
     {
+      "path": "skills/journal-selection-tournament/SKILL.md",
+      "sha256": "4be01376012c3c629c51a13de4b47dd9ae10d84dc3ba099c6f3b7bf77aeb06e4"
+    },
+    {
       "path": "skills/life-science-router/SKILL.md",
       "sha256": "cd720dc30461b45ed140194c6d4b464510c8d19086b10db02d244f91a741fbb7"
     },
@@ -2930,7 +2966,7 @@
     },
     {
       "path": "skills/registry.json",
-      "sha256": "06a2c5b094b71ea77231a213312fdf09cd79b18b9839e7eba163a62a1a4df3e0"
+      "sha256": "806907c2ee5b5937f2afdce8ba379c962c35c9e61dbd918ea7edf1cf27e15cb9"
     },
     {
       "path": "skills/registry.sources/kdense-curated-831d49.json",
@@ -3957,8 +3993,24 @@
       "sha256": "bab651d919dcf7b9ab8bf856b213d1b4135345e3616648db93be188f4915c003"
     },
     {
+      "path": "tools/playwright/package-lock.json",
+      "sha256": "9e413beb1e66393b75003079d0c404e7e75a22c1e96ce0414764ef24f042a2c1"
+    },
+    {
+      "path": "tools/playwright/package.json",
+      "sha256": "84c9d5873a343996b8dfc702932159e56f93d2332fc0bf631148f483eb6df089"
+    },
+    {
       "path": "uv.lock",
       "sha256": "d6f1fdeb663ac3c5a550bd6dbfc3952438f64945ee71eed0e8af86cc72de8aea"
     }
-  ]
+  ],
+  "validation": {
+    "core_tests_passed": 80,
+    "strict_machine_audit": "pass",
+    "skill_provenance_audit": "pass",
+    "clean_local_clone_install": "pass",
+    "external_integrations": "not-tested",
+    "personal_research_projects_included": 0
+  }
 }

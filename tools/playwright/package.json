@@ -1,0 +1,17 @@
+{
+  "name": "article-machine-playwright-runtime",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Locked browser runtime for Article Machine deliverable QA.",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "audit:high": "npm audit --audit-level=high",
+    "version:check": "playwright --version"
+  },
+  "devDependencies": {
+    "playwright": "1.61.1"
+  }
+}

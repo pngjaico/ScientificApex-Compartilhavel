@@ -41,7 +41,10 @@ e exportação. Use `--help` em cada subcomando. Nenhum dado real vem neste clon
 - ML: os pyproject.toml e uv.lock em modelos/aprendizado_de_maquina_clinico
   definem ambientes próprios. Instale apenas o ambiente necessário com
   `uv sync --directory modelos/aprendizado_de_maquina_clinico`.
-- Browser/Quarto/Zotero: instale e valide separadamente quando necessários.
+- Browser: instale Node 24 e use `npm ci --prefix tools/playwright --ignore-scripts`,
+  seguido de `npm exec --prefix tools/playwright -- playwright install chromium`.
+  O package-lock incluído fixa o runtime. Instale Quarto e Zotero separadamente
+  quando necessários. Não há sessão autenticada ou perfil de navegador incluído.
 - APIs e bases restritas: forneça suas próprias credenciais e autorizações;
   não coloque segredos no Git nem envie dados humanos sem autorização.
 - Skills: `skills/registry.json` registra origem/licença/proveniência. Skills que
