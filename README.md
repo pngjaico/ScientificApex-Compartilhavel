@@ -9,7 +9,13 @@ de origem. Os modelos são exemplos vazios ou demonstrações, não estudos apro
 
 1. Instale Git e uv. Consulte as instruções oficiais: https://git-scm.com/install/windows
    e https://docs.astral.sh/uv/getting-started/installation/ .
-2. Clone este repositório em uma pasta sua e abra essa pasta no Antigravity.
+2. Clone este repositório em uma pasta sua e abra essa pasta no Antigravity:
+
+```powershell
+git clone https://github.com/pngjaico/ScientificApex-Compartilhavel.git
+cd ScientificApex-Compartilhavel
+```
+
 3. No terminal PowerShell da pasta clonada, execute:
 
 ```powershell
@@ -43,4 +49,5 @@ Nenhum PASS operacional aprova um estudo ou garante aceitação editorial.
 As licenças e origens de componentes terceiros constam de `skills/registry.json`
 e dos avisos incluídos. Não se concede licença nova a material de terceiros.
 
+Verificação executada e limites: [relatório](docs/portugues/relatorio_validacao.md).
 English instructions: [usage guide](docs/ingles/guia_de_uso.md).
