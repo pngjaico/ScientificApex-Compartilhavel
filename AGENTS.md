@@ -43,3 +43,12 @@ On Unix-like systems:
 Use focused tests for code changes and report the exact command and result. Do not modify generated files, project data, or unrelated areas to make a check pass. Do not stage or commit changes unless the user explicitly asks.
 
 For the complete installation, optional-stack, and contribution guidance, see the [Portuguese guide](docs/portugues/guia_de_uso.md), [English guide](docs/ingles/guia_de_uso.md), and [contribution guide](CONTRIBUTING.md).
+
+---
+
+## Referência Cloud & Google Drive (Atualizado 2026-11-08)
+
+- **Guia Completo de Agentes na Nuvem:** Consulte [`.agents/CLOUD_GUIDE.md`](.agents/CLOUD_GUIDE.md).
+- **Google Drive do Projeto (`Projetos/ScientificApex-Compartilhavel/`):** https://drive.google.com/drive/folders/1u0oiPf1uVC10uBP7sCIhi-66q3lIWK_S (`docs`, `dados`, `assets`, `backups`)
+- **Google Drive Restrito (`Projetos/_Restrito/ScientificApex-Compartilhavel/`):** https://drive.google.com/drive/folders/1OpCGq67uYpJbxjiaILsZ9b27CVysWtQ7
+- **Branches no Repositório:** `main`
